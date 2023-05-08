@@ -9,7 +9,7 @@ This thesis is built in TeXStudio using TeXLive LaTeX compiler. Most of the deve
 
 ## Opening and editing figures
 
-The figures are all made in [Inkscape](https://inkscape.org/). To open and edit any of these, it is recommended to use Inkscape as well, which is Free and Open Source and available on all major operatin systems. Currently, most figures are made such that they compile nicely with a consistent formatting when saved as .pdf_tex files in Inkscape. Proper editions for all figures in svg format, as well as rasterized png versions, will be added on a later date.
+The figures are all made in [Inkscape](https://inkscape.org/). To open and edit any of these, it is recommended to use Inkscape as well, which is Free and Open Source and available on all major operating systems. Currently, most figures are made such that they compile nicely with a consistent formatting when saved as .pdf_tex files in Inkscape, meaning any of the text in the figure source files are not suitable for most use cases. Proper editions for all figures in svg format, as well as rasterized png versions, will be added on a later date.
 
 The vast majority of the graphs in this work are made using [Graphs](https://github.com/Sjoerd1993/Graphs) before being edited in Inkscape, Graphs can be downloaded on [Flathub](https://flathub.org/apps/se.sjoerd.Graphs) for most Linux distributions.
 
