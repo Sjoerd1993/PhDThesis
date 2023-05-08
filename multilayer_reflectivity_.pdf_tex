@@ -1,0 +1,86 @@
+%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'multilayer_reflectivity_.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{657.49267578bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.58771472)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.16873567,0.56235942){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\textrm{q}_c$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{multilayer_reflectivity_.pdf}}%
+    \put(0.01581332,0.32753206){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Intensity (arb. u)\end{tabular}}}}}%
+    \put(0.08184173,0.49883964){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{-1}$\end{tabular}}}}%
+    \put(0.08184173,0.56719033){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{0}$\end{tabular}}}}%
+    \put(0.08184173,0.43131336){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{-2}$\end{tabular}}}}%
+    \put(0.08184173,0.36378708){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{-3}$\end{tabular}}}}%
+    \put(0.08184173,0.2962555){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{-4}$\end{tabular}}}}%
+    \put(0.08184173,0.22872916){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{-5}$\end{tabular}}}}%
+    \put(0.08184173,0.16120295){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{-6}$\end{tabular}}}}%
+    \put(0.08184173,0.09367133){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{-7}$\end{tabular}}}}%
+    \put(0.58410111,0.0018349){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Scattering vector q$_z$ (Å$^{-1}$)\end{tabular}}}}%
+    \put(0.09363652,0.03639547){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.0$\end{tabular}}}}%
+    \put(0.20514992,0.03639547){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.05$\end{tabular}}}}%
+    \put(0.31631368,0.03639547){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.10$\end{tabular}}}}%
+    \put(0.42759779,0.03639547){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.15$\end{tabular}}}}%
+    \put(0.53859225,0.03639547){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.20$\end{tabular}}}}%
+    \put(0.65003973,0.03639547){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.25$\end{tabular}}}}%
+    \put(0.76120352,0.03639547){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.30$\end{tabular}}}}%
+    \put(0.8724876,0.03639547){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.35$\end{tabular}}}}%
+    \put(0.98354797,0.03639547){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.40$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{multilayer_reflectivity_.pdf}}%
+    \put(0.24976259,0.44147375){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\Delta$q$_z$ = $\frac{2\pi}{\textrm{N}\Lambda}$\end{tabular}}}}%
+    \put(0.79669487,0.43754714){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\Delta$q$_z$ = $\frac{2\pi}{\Lambda}$\end{tabular}}}}%
+    \put(0.2571905,0.47270205){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Kiessig fringes\end{tabular}}}}%
+    \put(0.79472887,0.4705241){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Bragg peaks\end{tabular}}}}%
+    \put(0.37036647,0.5041295){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}m = 1\end{tabular}}}}%
+    \put(0.65154818,0.3717161){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}m = 2\end{tabular}}}}%
+    \put(0.93030932,0.37231687){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}m = 3\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

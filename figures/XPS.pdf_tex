@@ -1,0 +1,128 @@
+%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'XPS.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{310.98939514bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.3862024)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{XPS.pdf}}%
+    \put(0.10644052,0.04133246){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}286\end{tabular}}}}%
+    \put(0.01011552,0.04133246){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}288\end{tabular}}}}%
+    \put(0.39541307,0.04133246){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}280\end{tabular}}}}%
+    \put(0.20276549,0.04133246){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}284\end{tabular}}}}%
+    \put(0.29908809,0.04133246){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}282\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{XPS.pdf}}%
+    \put(0.01803806,0.14761036){\rotatebox{89.97249803}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Intensity (arb. u)\end{tabular}}}}}%
+    \put(0.55464493,0.1494097){\rotatebox{89.97249803}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Intensity (arb. u)\end{tabular}}}}}%
+    \put(0.6432922,0.04339803){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}286\end{tabular}}}}%
+    \put(0.5469672,0.04339803){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}288\end{tabular}}}}%
+    \put(0.93226714,0.04339803){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}280\end{tabular}}}}%
+    \put(0.73961721,0.04339803){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}284\end{tabular}}}}%
+    \put(0.83594214,0.04339803){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}282\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{XPS.pdf}}%
+    \put(0.80405803,0.36016374){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C-Ni\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{XPS.pdf}}%
+    \put(0.86166837,0.36016374){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C-Ti\end{tabular}}}}%
+    \put(0.74976555,0.36016374){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C-B\end{tabular}}}}%
+    \put(0.64916598,0.36016374){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C-C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{XPS.pdf}}%
+    \put(0.88856467,0.28044156){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Depth (Å)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{XPS.pdf}}%
+    \put(0.94096664,0.25169725){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{XPS.pdf}}%
+    \put(0.94096664,0.23129944){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 19\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{XPS.pdf}}%
+    \put(0.94096664,0.21090164){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 29\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{XPS.pdf}}%
+    \put(0.94096664,0.19050143){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 39\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{XPS.pdf}}%
+    \put(0.94096664,0.17010362){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 49\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{XPS.pdf}}%
+    \put(0.94096664,0.14970582){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 59\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{XPS.pdf}}%
+    \put(0.94096664,0.12930804){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 68\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{XPS.pdf}}%
+    \put(0.94096664,0.10890781){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 78\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{XPS.pdf}}%
+    \put(0.94096664,0.08851){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 88\end{tabular}}}}%
+    \put(0.32649922,0.36016374){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C-Ti\end{tabular}}}}%
+    \put(0.21536902,0.36016374){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C-B\end{tabular}}}}%
+    \put(0.11146755,0.36016374){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C-C\end{tabular}}}}%
+    \put(0.34856315,0.28044229){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Depth (Å)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{XPS.pdf}}%
+    \put(0.399255,0.25169798){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 13\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{XPS.pdf}}%
+    \put(0.399255,0.23129777){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 26\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{XPS.pdf}}%
+    \put(0.399255,0.21089996){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 39\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{XPS.pdf}}%
+    \put(0.399255,0.19049975){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 52\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{XPS.pdf}}%
+    \put(0.399255,0.17010195){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 65\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{XPS.pdf}}%
+    \put(0.399255,0.14970632){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 78\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{XPS.pdf}}%
+    \put(0.399255,0.12930635){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 90\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{XPS.pdf}}%
+    \put(0.399255,0.1089083){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 103\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{XPS.pdf}}%
+    \put(0.399255,0.08850833){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 116\end{tabular}}}}%
+    \put(0.26575079,0.36016336){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C-Ni\end{tabular}}}}%
+    \put(0.03894964,0.36016374){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C1s\end{tabular}}}}%
+    \put(0.57750196,0.36100497){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C1s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{XPS.pdf}}%
+    \put(0.04379986,0.08880898){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\natBC = 0 W\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{XPS.pdf}}%
+    \put(0.57906647,0.08885958){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\natBC = 70 W\end{tabular}}}}%
+    \put(0.24909057,0.0065762){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Binding energy E(eV)\end{tabular}}}}%
+    \put(0.7964006,0.01010441){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Binding energy E(eV)\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,121 @@
+\chapter{Reflectivity simulations}\label{reflectivitysimulations}
+In order to obtain structural parameters for the samples, the experimental reflectivity curves need to be fitted to mathematical simulations for each sample. There are several possible mathematical descriptions that can be used, within this work two different descriptions have been used to simulate scattering experiments. Specular reflectivity is used described using the Paratt recursion formula, while the off-specular simulation is described using the Born-approximation. Both of these formalisms are described in this chapter. Fitting of the specular parameters using Parrat recursion is done with the GenX software \cite{genx} \cite{genx_new}. Off-specular simulations in this work, which use the Distorted Wave Born Approximation, are done using the BornAgain software \cite{BornAgain}.
+
+\section{Parratt recursion}
+The specular reflectivity of the samples is simulated using the Paratt recursion formalism. This description recursively accounts for the reflection from each subsequent interface in order to simulate the total intensity at detector. For a multilayer with a certain amount of layers, the reflectivity for the $j$'th layer in the sample can be calculated using \cite{parratt_recursion}: 
+\begin{equation}
+	\chi_j = \frac{R_j}{T_j}  = \exp(-2ik_{z,j}z_j)\frac{r_{j,j+1} + \chi_{j+1} \exp(2ik_{z,j}z_j)}{1 + r_{j,j+1} + \chi_{j+1} \exp(2ik_{z,j+1}z_j)}
+\end{equation}
+$R_j$ and $T_j$ in this equation describe the reflected and transmitted amplitude for layer $j$. The fraction of these, $\chi_j$ therefore describes the normalized amplitude from each layer. The factor $r_{j,j+1}$ is the Fresnel coefficient for the interface, and can be written as:
+\begin{equation}
+	r_{j,j+1} =  \frac{k_{z,j} - k_{z,j+1}}{k_{z,j} + k_{z,j+1}}.
+\end{equation}
+It follows from this description that this formalism is recursive, the reflectivity of layer j+1 is required to calculate the reflectivity of the j'th layer. Assuming the substrate is thick enough, there will be no reflection from the bottom and we can therefore use this position as the bottom boundary where $\chi_{N+1} = R_{N+1} = 0$. The incidence wave is normalized to unity, which gives us $T_1$ = 1. Using these known conditions as a starting point, the total reflectivity for the entire multilayer can be calculated recursively. This formalism is commonly used to simulate the specular reflection for neutrons and X-rays in reflectivity simulation software.
+\section{The Born approximation}\label{bornapproximation}
+The Born approximation (BA) was originally proposed as early as 1926 by Max Born \cite{born_approximation}. To derive the Born Approximation, we may first start with the general time-independent Schrödinger equation:
+\begin{equation}
+	\qty(-\frac{\hbar^2}{2m} \nabla^2 + V(\vb{r}))\Psi(\vb{r}) = E \Psi(\vb{r}) .
+\end{equation}
+We can re-write this as:
+\begin{equation}\label{helmholtz}
+	\qty(\nabla^2 + k^2)\Psi(\vb{r}) = \frac{2m}{\hbar^2} V(\vb{r})\Psi(\vb{r}) .
+\end{equation}
+Where $k$ is defined as usual,
+\begin{equation}
+	k^2 = \frac{2mE}{\hbar^2}.
+\end{equation}
+If we could find a function $G(\vb{r})$ that solves equation \ref{helmholtz} with a point source, we obtain the expression:
+\begin{equation}
+	\qty(\nabla^2 + \vb{k}^2)G( \vb{r} -  \vb{r}') = \delta( \vb{r} -  \vb{r}').
+\end{equation}
+Which is also known as Helmholt'z function \cite{Griffiths_QM} which we can express the wave function $\Psi$ as an integral:
+\begin{equation}\label{general_wave}
+	\Psi(\vb{r}) = \frac{2m}{\hbar^2}\int G( \vb{r} -  \vb{r}')V(\vb{r})\Psi(\vb{r})\dd^3\vb{r}'.
+\end{equation}
+The factor G in this equation is known as Green’s function. We can show that this indeed satisfies Schrödinger equation in equation \ref{helmholtz}:
+\begin{alignat}{2}\label{born_se}
+	\qty(\nabla^2 + k^2)\Psi(\vb{r})  = && \frac{2m}{\hbar^2}\int \qty[\qty(\nabla^2 + k^2)G( \vb{r} -  \vb{r}')]V(\vb{r'})\dd^3\vb{r}', \\ 
+  = && \frac{2m}{\hbar^2} \int \delta^3(\vb{r} - \vb{r}')V(\vb{r}')\dd^3\vb{r}'  =  \frac{2m}{\hbar^2}V(\vb{r}).
+\end{alignat}
+The Green's function for the Helmholtz equation takes the form of \cite{Griffiths_QM}
+\begin{equation}
+	G(\vb{r}) = -\frac{e^{ikr}}{4\pi r},
+\end{equation}
+wich we can use in equation \ref{born_se} in order to get the general integral form of the Schrödingers equation \cite{Griffiths_QM},
+\begin{equation}
+	\label{bornscatteredwave}
+	\Psi(\vb{r}) = \Psi_0(\vb{r}) - \frac{m}{2 \pi \hbar^2} \int \frac{e^{i\vb{k}| \vb{r} -  \vb{r}'|}}{\qty| \vb{r} -  \vb{r}'|}V(\vb{r}')\Psi(\vb{r}')\dd^3 \vb{r}'.
+\end{equation}
+We can simplify this for the case where the potential is more localized and $\abs{\vb{r}} \gg \abs{\vb{r}}$. This allows us to make the approximation $\abs{\vb{r} - \vb{r'}} \approx \abs{\vb{r}}$ in the denominator. We cannot make the same approximation in the exponent, where we need to keep this next term, this may be unintuitive at first sight but makes mathematical sense if we perform a Taylor series on both components \cite{Griffiths_QM}. Mathematically, $\vb{r} \cdot \vb{r'}$ describes the projection of of $\vb{r'}$ onto $\vb{r}$, from simple geometry in Figure \ref{vector_math} it follows that we can further rewrite the term in the exponent of equation \ref{bornscatteredwave} as
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{vector_math.pdf_tex}
+	\caption{The dot-product $\vb{r} \cdot \vb{r}'$ represents the projection of $\vb{r}'$ onto $\vb{r}$. Using geometry we can show how $\vb{r} \cdot \vb{r}' = \abs{\vb{r}} - \abs{\vb{r} - \vb{r}'}$.}
+	\label{vector_math}
+\end{figure}
+\begin{equation}
+	k \abs{\vb{r} - \vb{r}'} = kr - k \vb{r}\cdot\vb{r}' = kr - \vb{k}_f \cdot \vb{r}'.
+\end{equation}
+Furthermore, we can fill in $\Psi_0$, which can be written as a planar wave \cite{born_detailed}
+\begin{equation}\label{planar_wave},
+	\Psi_0(\vb{r})  = e^{i\vb{k}\cdot \vb{r}}.
+\end{equation}
+From which we can rewrite equation \ref{bornscatteredwave} as
+\begin{equation}\label{born_equation_almost}
+	\Psi(\vb{r}) = e^{i\vb{k}\cdot \vb{r}} -  \frac{m}{2 \pi \hbar^2} \frac{e^{ikr}}{r} \int e^{-i\vb{k}_f\cdot \vb{r'}}V(\vb{r}')\Psi(\vb{r}')\dd^3 \vb{r}'.
+\end{equation}
+This can be solved using a so-called Born series \cite{born_detailed}, where we can find the first-order Born Approximation by putting the solution $\Psi$ of a planar wave from equation \ref{planar_wave} in to equation \ref{born_equation_almost}:
+\begin{equation}\label{born_equation_first_order}
+	\Psi_1(\vb{r}) = e^{i\vb{k}\cdot \vb{r}} -  \frac{m}{2 \pi \hbar^2} \frac{e^{ikr}}{r} \int e^{-i\vb{k}_f\cdot \vb{r'}}V(\vb{r}')e^{i\vb{k}\cdot\vb{r}-\vb{k}_f\cdot \vb{r}}\dd^3 \vb{r}'.
+\end{equation}
+This equation corresponds to the first-order Born approximation. The second order can then be found by inserting this first order solution into equation \ref{bornscatteredwave}. By continuing this way, any order can be obtained, but for most cases only the first order approximation is actually used. The Born approximation is most useful in order to calculate the scattering amplitude, which can be defined using the asymptotic wave function \cite{Griffiths_QM}:
+\begin{equation}
+	\Psi(\vb{r}) = e^{i\vb{k}\cdot \vb{r}} + f(\theta,\phi) \frac{e^{ikr}}{r}.
+\end{equation}
+where $f(\theta,\phi)$ is  the total scattering amplitude. In the Born approximation, we can see using equation \ref{born_equation_first_order} that this equals:
+\begin{equation}\label{scattering_amplitude}
+	 f(\theta,\phi) = -  \frac{m}{2 \pi \hbar^2} \int e^{-i\vb{k}_f\cdot \vb{r'}}V(\vb{r}')e^{i\vb{k}\cdot\vb{r}-\vb{k}_f\cdot \vb{r}}\dd^3 \vb{r}'
+\end{equation}
+From which we can see how the integral in equation corresponds to the Fourier transform of the potential. The scattering amplitude determines the probability of scattering in a given direction $\theta$, and is therefore directly related to the differential scattering cross-section which is equal to the absolute square of the scattering amplitude \cite{Griffiths_QM}. A common use of the Born approximation is therefore also to obtain the form of the potential after finding the differential cross section experimentally \cite{born_detailed}.
+\subsection{The Distorted Wave Born Approximation}\label{DWBA_section}
+\begin{figure}[b]
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{dwba_terms.pdf_tex}
+	\caption{A representation of different terms that are taken into account for the DWBA. The first term is identical to the conventional BA, while the other three terms describe scattering events from the scattering entities themselves.}
+	\label{dwba_terms}
+\end{figure}
+At large scattering intensities, the regular Born approximation no longer holds. In such cases, the Distorted Wave Born Approximation is used, which is the underlying basis for simulations performed with GISAXS and GISANS measurements in this work. The foundational principles of the DWBA is covered in this subsection. At high intensities, scattering entities themselves can introduce perturbations into the field and the earlier approximation with a planar wave can no longer be applied, instead the wave function needs to be described as a distorted wave, a superposition of a downwards and upwards traveling planar wave. The described wave function has a distorted form that can be described as downward and upward travelling waves for both the scattered and incident waves \cite{BornAgainManual}:
+\begin{equation}
+	\psi_w(\vb{r}) = \psi_w^-(\vb{r}) + \psi_w^+(\vb{r}), w = i, f.
+\end{equation}
+Where $\psi_w^-$ describes the downwards wave while $\psi_w^+$ describes the upwards wave. The relevant scattering elements can then be described using Dirac notation as follows \cite{BornAgainManual}:
+\begin{equation}\label{distortedbornexpansion}
+	\mel{\psi_i}{\delta v}{\psi_f} = \mel*{\psi_i^-}{\delta v}{\psi_f^+} + \mel*{\psi_i^-}{\delta v}{\psi_f^-} + \mel*{\psi_i^+}{\delta v}{\psi_f^+} + \mel*{\psi_i^+}{\delta v}{\psi_f^-}.
+\end{equation} 
+Where $\delta v$ describes a perturbation on the scattering potential that the incident wave experiences. If we expand the left-hand side in the integral notation we get:
+\begin{equation}
+	\mel{\psi_i}{\delta v}{\psi_f} = \int e^{i\vb{k}_i\vb{r}}\delta v e^{i\vb{k}_f\vb{r}}\dd^3 r = \int \delta v e^{i\vb{q}\vb{r}}\dd^3 r.
+\end{equation}
+Which gives us the Fourier transform of the perturbed potential $\delta v$, which is what is being measured at the detector. Note how the first term on the right-hand side in equation \ref{distortedbornexpansion} simply describes the interaction with the downwards and the upwards wave, which is the usual term as used by the conventional BA. The additional terms are added upon this in the DWBA, and these describe the additional scattering effects for intense scattering. These terms are all illustrated in Figure \ref{dwba_terms}.
+
+\section{Sample description in the simulations}
+The samples need to be described in a physical model in order to fit the experimental data to the described formalism. In order to do this in a meaningful way, some approximations need to be made. It is easy to describe a sample in as much detail as possible leaving a lot of possible parameters to fit to, but this leaves the possibility of overfitting, losing a physical meaning behind the result. It is therefore often better to make a robust and simple model, than to make a complicated model that fits better to the data. Mathematician George Box famously wrote that  ‘all models are wrong, but some models are useful’ \cite{george_box}. The goal of the model description is not to find a model that gives a perfect fit to our data, but instead to find a model that gives useful information.  In this work this means a model that reliably gives physically correct information about the structural parameters of the sample. All samples that are covered in this thesis are described using the same physical model. A stack of an N amount of bilayers consisting of Ni and Ti are deposited on top op a Si substrate. A thin layer of SiO$_\textrm{2}$ is assumed to be present between the Si substrate and the multilayer stack. Finally, a small oxide layer is assumed to be present on the top layer. A sketch describing this is shown in Figure \ref{modeldescription}. While the initial interface width of the Ni and Ti layers are considered independent from each other, the accumulation of the interface width is assumed to be equal. The total interface width for a Ni and Ti layer in the stack, is therefore determined by:
+\begin{eqnarray}
+	\sigma_{\textrm{Ti}} = A \cdot j + \sigma_{\textrm{Ti,i}}, \\
+	\sigma_{\textrm{Ni}} = A \cdot j + \sigma_{\textrm{Ni,i}}.
+\end{eqnarray}
+Where A is the accumulated interface width per bilayer, i indicates the position of the bilayer, and $\sigma_{\textrm{Ni,i}}$ and $\sigma_{\textrm{Ti,i}}$ describe the initial interface width of the Ni- and Ti layers respectively. For real samples, it is also common for the layer thickness to increase over time. This can be caused by slow down in the computer software that runs the deposition system, but also deteriorating targets during sample growth slightly affects the growth rate even within a single deposition. It is for this reason that the thickness of the layers is also allowed to increase linearly increase in the growth direction, and the thickness can therefore be described by:
+\begin{eqnarray}
+	d_{\textrm{Ti}} = B \cdot j + d_{\textrm{Ti,i}}, \\
+	d_{\textrm{Ni}} = B \cdot j + d_{\textrm{Ni,i}}.
+\end{eqnarray}
+Where B is the increase in layer thickness per bilayer, i indicates the position of the bilayer, and $d_{\textrm{Ni,i}}$ and $d_{\textrm{Ti,i}}$ describe the initial layer thickness of the Ni- and Ti layers respectively
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{multilayer_model.pdf_tex}
+	\caption{An illustration of the sample as described in the simulated model, not to scale. Each bilayer is given an index, dubbed $j$. For illustrative purposes, only a limited amount of bilayers are drawn.}
+	\label{modeldescription}
+\end{figure}

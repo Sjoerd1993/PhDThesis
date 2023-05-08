@@ -1,0 +1,184 @@
+\chapter{Multilayer and supermirror optics}\label{multilayeroptics}
+\section{Specular reflectivity from different interfaces}
+In order to understand how the reflectivity in multilayers work, we will start with the simplest case and work up from there. We will start with reflectivity from a single substrate, which we will first expand by adding a single layer on top, and then a periodic set of layers. Finally we will expand the concept to understand how a supermirror works. In this section we will limit ourselves to specular reflectivity, meaning the incidence angle is kept equal to the reflected angle. Since the scattering vector in this geometry points normal to the surface. such specular reflectivity measurements strictly provide strucutral information about the growth direction of the sample such as interface width and periodicity \cite{specular_reflectivity_stierle}.
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{fresnel_reflection_calc.pdf_tex}
+	\caption{A simulation of the neutron reflectivity performance for an infinitely thick substrate of Si, the critical angle is indicated by $\textrm{q}_c$.}
+	\label{simulated_substrate}
+\end{figure}
+\subsection{Reflection from a substrate}
+Reflectivity on a single substrate describes the simplest form of Fresnel reflectivity, which is covered in subsection \ref{fresneltheory}. The measured intensity can then be expressed using the fraction of reflected intensity as given in equation \ref{intensityfresnel}, and multiplying it with the incident intensity $I_0$:
+\begin{equation}\label{totalintensitysubstrate}
+	I = I_0  \qty [\frac{q- \sqrt{\textrm{q}^2 - \textrm{q}_c^2}}{q+ \sqrt{\textrm{q}^2 - \textrm{q}_c^2}}]^2 
+\end{equation}
+A simulated intensity profile resulting from this expression is shown in Figure \ref{simulated_substrate}, where an incident neutron beam reflects upon a silicon substrate. 
+\subsection{Reflection from a thin layer}
+\begin{figure}[b]
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{singlelayersketch.pdf_tex}
+	\caption{An incoming neutron reflecting from a single thin film on a an infinitely thick substrate.}
+	\label{singlelayersketch}
+\end{figure}
+If we add a single layer to the substrate, additional reflections will appear due to the finite thickness of this layer. The resulting reflection can most clearly be understood by tracing an incoming beam, as shown in Figure \ref{singlelayersketch}.The incoming beam partly reflects at the surface, while another part gets transmitted through the top layer and reflected at the substrate interface. The phase difference between the two transmitted beams depends on the difference in optical path, and it follows from the figure that this can be described by:
+\begin{equation}
+	\Delta = (AB + BC) \textrm{n}  - AD.
+\end{equation}
+Where n is the refractive index of the layer. From the geometry in the figure, it also follows that the path difference can be described as:
+\begin{equation}
+	\Delta = 2d \textrm{n} \sin (\theta_t) \approx 2d \sqrt{\theta^2 - \theta_c^2}.
+\end{equation}
+From the left-hand side, we can see that this is analogue to the Bragg equation, where a maximum occurs whenever the phase difference is a multiple of the wavelength, or when $\Delta= m \lambda$. Filling this into the right-hand side, we can re-write this as \cite{birkholz}:
+\begin{equation}\label{reflectionsingle}
+	\theta_m^2 = \theta_c^2 + \qty(\frac{\lambda}{2d})^2m^2.
+\end{equation}
+Such a reflection is simulated in Figure \ref{simulated_singlelayer}. Where a neutron beam is reflected from a single layer of nickel with a thickness of 30 nm, on a substrate of Si. It follows from equation \ref{reflectionsingle}, that the spacing between these maxima that can be observed are inversely dependent on the thickness of the layer. The distance between these fringes is equidistant in reciprocal space, and can be expressed as:
+\begin{equation}
+	\Delta \textrm{q}_\textrm{z} = \frac{2\pi}{d},
+\end{equation}
+where d is equal to the layer thickness. A thick layer will therefore have a close spacing between these fringes, while a thinner layer will have these fringes further apart.
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{single_layer.pdf_tex}
+	\caption{A simulation of the neutron reflectivity performance for a single layer of nickel with a thickness of 30 nm on a Si substrate.}
+	\label{simulated_singlelayer}
+\end{figure}
+\clearpage´
+\subsection{Reflection from multilayers}\label{multilayer_scattering}
+We can expand this concept to multilayers as well, where multiple periods consisting of layers from different materials are repeated throughout the stack. Typically one period consists of a total of two layers, and is commonly refered to as bilayer. A schematic drawing of such a multilayer is seen in Figure \ref{multilayersketch}.
+\begin{figure}[b]
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{multilayersketch.pdf_tex}
+	\caption{A schematic overview showing reflection from a multilayer. In order to avoid clutter, only one reflected beam is drawn per bilayer. In reality, reflection occurs at every interface in the bilayer.}
+	\label{multilayersketch}
+\end{figure}
+As can be observed in the figure, the difference in optical path between the reflected beams depends on the total thickness of one bilayer. The total thickness of one bilayer is known as the period, and is denoted with $\Lambda$. The position of the fringes that arise from the periodicities can be described in a similar way as equation \ref{reflectionsingle}, but where we use the bilayer thickness instead of the individual layer thickness:
+\begin{equation}\label{reflectionmulti}
+	\theta_m^2 = \theta_c^2 + \qty(\frac{\lambda}{2\Lambda})^2m^2.
+\end{equation}
+The resulting intensity profile is shown at Figure \ref{simulatedmultilayer}. The figure shows three clear local maxima, which are known as Bragg peaks. Since these peaks arise due to the presence of a repeated periodic structure in the multilayer stack, a more irregular period in the multilayer stack will result in a broadening of the Bragg peaks \cite{shinjo_takada_1987}. This makes intuitive sense from the fact that the prescence of a slightly varying period will lead to slightly varying diffraction maxima. Apart from these Bragg peaks, we can also observe so-called Kiessig fringes between the peaks. These fringes arise from the total thickness of the multilayer. Assuming there is no damping due to roughness for example, we can observe $N - 2$ of these Kiessig fringes between the maxima from the layer periodicity in a multilayer with $N$ bilayers \cite{birkholz}. The intensity of the peaks depend on several factors, such the obtained optical contrast \cite{optical_contrast}, how abrupt the interfaces are \cite{interface_width_effects}, as well as the thickness ratio between the layers in a period \cite{thickness_ratio}. 
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{multilayer_reflectivity.pdf_tex}
+	\caption{A simulation of the neutron reflectivity performance for a Ni/Ti multilayer grown on Si consisting of 12 bilayers with a period of $\Lambda$ = 50 Å.}
+	\label{simulatedmultilayer}
+\end{figure}
+\subsection{Reflection from supermirrors}
+While the total reflectivity for a perfect multilayer can in principle be near unity for a high enough number of periods, this is only at a very narrow angular range at the first Bragg peak. To extend the reflectivity to a broader angular range, so-called neutron supermirrors are needed, which are used in neutron wave guides to transport neutrons from source to experiment. These mirrors consist of a a large amount of layers with a depth-graded layer thickness as illustrated in Figure \ref{supermirror_sketch}a. While there are exist multiple algorithms to calculate the layer thickness distribution of a supermirror \cite{hayter_mook, supermirror_algorithm1, supermirror_algorithm2, supermirror_algorithm3}, the simulation in Figure  \ref{supermirror_sketch}b, follows a power-law description that is essentially equivalent to the first depth-graded function for neutron supermirrors as introduced as theoretical formula in 1976 \cite{mezei1976novel}, with a corrigendum  and experimental demonstration published in 1977 \cite{original_supermirror}. For a supermirror with 5000 periods, where the layer thicknesses range from 400 Å to 20 Å, this results in a a layer thickness according to
+\begin{equation}\label{supermirror_used}
+	d_j = \frac{168.17}{(j-0.97)^{0.25}},
+\end{equation}
+where $j$ denotes the index of the multilayer period starting from $j = 1$ at the top of the multilayer. This equation is used to simulate the shown reflectivity curve as simulated using the IMD software \cite{IMD}. In this description, the layers within each period have an equal thickness to each other. In general however, for many of the existing algorithms the layer thickness ratio varies for each period, and the entire concept of a multilayer period is therefore not as meaningful. While equation \ref{supermirror_used} is not the most efficient algorithm to maximize reflectivity in neutron supermirrors, it serves as a relatively simple method to simulate a neutron supermirror for any given material system and compare the predicted performance between different material systems and structural properties. The most commonly used algorithm nowadays is the Hayter Mook algorithm \cite{supermirror_algorithm}, which is described in detail elsewhere \cite{hayter_mook}. Supermirrors are often characterized in terms of their $m$-value:
+\begin{equation}
+	m = \frac{\theta_{\textrm{mirror}}}{\theta_{\textrm{Ni,c}}}
+\end{equation}
+Where $\theta_{\textrm{mirror}}$ is the effective critical angle of the mirror and $\theta_{\textrm{Ni,c}}$ is the critical angle of an infinitely thick Ni substrate at the same wavelength. Ni/Ti based supermirrors are commonly used for neutron guides in order to transport neutrons from source to experiment and are therefore an important component within the neutron scattering field. In order to extend the reflectivity of supermirrors towards higher m-values, the total amount of required layers for an optimal Ni/Ti supermirror grows approximately according to \cite{boni_supermirrors}
+\begin{equation}
+	N \approx 4m^4,
+\end{equation}
+where N is the required amount of layers to grow a supermirror that reflects up to a value of $m$ times the critical angle of Ni. This has significant consequences for both the practical development and the economics of a supermirror \cite{supermirror_economics}, and the ideal supermirror in most applications is therefore not just a function of the best material system but also one of economics.
+\begin{figure}[hb]
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{supermirror.pdf_tex}
+	\caption{a) A schematic overview of a neutron supermirror with a depth-graded
+		thicknesses. In order to reduce clutter, only ten layers are drawn and only every other reflection is shown. b) Simulated reflectivity performance of a Ni/Ti neutron supermirror with 5000 layers. The relatively strong decline of reflectivity over higher q-values is partly caused by interface imperfections which will be discussed in section \ref{interface_imperfections}.}
+	\label{supermirror_sketch}
+\end{figure}
+\clearpage
+\section{Coherence length}
+The waves that are described in this work are assumed to be a perfect plane wave, this is however an idealization. In reality the wave is not perfectly monochromatic, meaning it carries different wavelengths. Over a certain horizontal distance the wave will therefore become out of phase, giving rise to a longitudinal coherence length. Simultaneously, the wave does not have a perfectly defined propagation direction which gives rise to a transverse coherence length. These two effects are shown in Figure \ref{coherencelength}. The magnitude of the coherence lengths restricts hows sensitive the beam is to different features in the sample. Features that are much smaller than the relevant coherence length will not be visible in the resulting diffraction signal. It can therefore be important to be aware of the magnitude of these coherence lengths. The off-specular measurements in this work probe the horizontal plane of the sample interfaces and are therefore sensitive to the horizontal coherence length of the incident beam.
+\begin{figure}[b]
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{coherencelength.pdf_tex}
+	\caption{a) The longitudinal coherence length. Phase information is lost as different wavelengths in the beam slowly drift out of phase. b) Transverse coherence length. Vertical phase information is lost due to deviations in the propagation direction.}
+	\label{coherencelength}
+\end{figure}
+Apart from the quality of the beam, the incidence angle is also plays an important role for the sensitivity for different features in the sample profile. An incident beam at a low angle will dominantly probe the horizontal in-plane direction, and will therefore be more sensitive to the longitudinal coherence length. Subsequently, an incident beam of a higher angle will be more sensitive to the transverse coherence length.
+\subsection{Longitudinal coherence length}
+As illustrated in Figure \ref{coherencelength}a, the beam will slowly become out of phase as it propagates due to the different wavelengths present in the beam. The total longitudinal coherence length is defined as the distance after which the wave is completely out of phase \cite{thesis_fredrik}. To calculate this, we can imagine that two waves with slightly different wavelenghts $\lambda$ and $\lambda - \Delta \lambda$ will slowly become out of phase as they propagate. After a distance of $L_L$, they are completely out of phase. After a distance of $2L_L$, the phase difference between the waves will correspond to exactly one period meaning they're back in phase again. This process is illustrated in Figure \ref{geometrycoherence}a. Leaving us with the following expression:
+\begin{equation}\label{longitudonalexpression}
+	2L_L = N\lambda = (N + 1)(\lambda - \Delta \lambda).
+\end{equation}
+Where we used the fact that the wave with wavelength $\lambda - \Delta$ will be exactly one period behind the wave with wavelength $\lambda$ once they're back in phase again. We can re-write equation \ref{longitudonalexpression}:
+\begin{equation}
+	N\lambda = N\lambda - N\Delta\lambda + \lambda - \Delta \lambda,
+\end{equation}
+subtracting $N\lambda$ from both sides:
+\begin{equation}
+	0 = -N\Delta \lambda + \lambda - \Delta \lambda,
+\end{equation}
+which we can rewrite as:
+\begin{equation}\label{longitudonalalmostfinal}
+	\frac{\lambda}{\Delta \lambda} = N + 1 \approx N,
+\end{equation}
+where we used the fact that it takes a large number of periods for a beam to get back into phase again. We can now combine equation \ref{longitudonalexpression} with equation \ref{longitudonalalmostfinal} to get to the equation for the longitudinal coherence length:
+\begin{equation}
+	L_L = \frac{\lambda^2}{2 \Delta \lambda}.
+\end{equation}
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{geometrycoherence.pdf_tex}
+	\caption{a) Two waves with slightly varying wavelengths will slowly get out of phase, after a distance $2L_L$ the waves are completely in phase again. b) Two waves with the same wavelength and a slightly different propagation direction are spatially separated by a distance D. Their phases will slowly shift during propagation. A full phase-shift of one wavelength is accomplished after a longitudinal distance of R. The transverse shift associated with this phase shift of 2$\lambda$ is equal to 2$L_T$.}
+	\label{geometrycoherence}
+\end{figure}
+\subsection{Transverse coherence length}
+In reality, a beam does not have a perfectly well-defined direction. Different parts of the beam therefore travel in a slightly different propagation direction, as is illustrated in Figure \ref{coherencelength} b). This gives rise to a transverse coherence length, which is defined as the lateral distance along a wavefront after which two waves with the same wavelength, originating from two separate points in space, are out of phase.  This is further illustrated in Figure \ref{geometrycoherence} b). The spatial separation in the origin, denoted in the figure by D, is often defined by a slit. As the beams propagate further, they will slowly shift out of phase. After a longitudinal distance R, the waves will be in phase again. For a angular divergence of $\Delta \theta$ we get:
+\begin{equation}\label{transverseslit}
+	\tan(\Delta \theta) = \frac{D}{R}.
+\end{equation}
+The associated transverse coherence length can then be expressed as:
+\begin{equation}\label{twicetransverse}
+	\tan(\Delta \theta)  = \frac{\lambda}{2L_t} .
+\end{equation} 
+Combining equation \ref{transverseslit} and \ref{twicetransverse}
+gives us the transverse coherence length:
+\begin{equation}
+	L_t = \frac{\lambda R}{2D}.
+\end{equation}
+From which it becomes clear that the transverse coherence length is largely dependent on a the slit size that is being used. 
+
+\section{Interface imperfections}\label{interface_imperfections}
+So far, we have assumed reflection from ideal interfaces. In reality however, interfaces are not perfectly flat or abrupt but actually have a certain length in the growth-direction. This thickness is called the interface width and is denoted by $\sigma$. This interface width arises from two different physical factors; the abruptness of the interface and the interfacial roughness. These two factors are generally independent factors, a perfectly flat sample can still contain intermixing while a rough sample can still be perfectly abrupt on a local level. The total interface width can therefore be considered as the sum of these effects, and is expressed as:
+\begin{equation}
+	\sigma^2 = \sigma_ d^2 + \sigma_r^2.
+\end{equation}
+Where $\sigma_d$ describes the interface width due to the intermixing and interdiffusion and $\sigma_r$ describes the interface width due to the roughness. Note how the magnitude of these factors varies on a local level, and the interface width is therefore defined as a square root averaged value over the probed interface. If we consider the effects of intermixing and interface roughness on the SLD profile perpendicular to the interface, we can see that both types of interface width lead to a more gradual transition from the SLD of one material to the other as illustrated in Figure \ref{interfacewidthgradient}. In the perpendicular direction, which is what is probed in specular reflectivity measurements, these two components are therefore indistinguishable from each other. In both cases, a less abrupt transition in SLD leads to a reduction of intensity in the specular reflectivity. In order to distinguish these two types of roughness, the off-specular signal is needed as well, which will be covered in section \ref{off_specular_section}.  
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{interfacewidthgradient.pdf_tex}
+	\caption{While intermixing and surface roughness are distinct phenomena, they are indistinguishable in the SLD profile normal to the interface.}
+	\label{interfacewidthgradient}
+\end{figure}
+A typical distribution of the interface profile in the normal direction is given by the error function \cite{nielsen_xray}:
+\begin{equation}\label{errorfunction}
+	g(z) = \textrm{erf}\qty(\frac{z}{\sqrt{2}\sigma}).
+\end{equation}
+The derivative of the error function shows how the profile depends on the probed z-direction, this turns out to be a Gaussian distribution \cite{thesis_fredrik}:
+\begin{equation}\label{gaussiandistribution}
+	f(z) = \frac{\dd g}{\dd z} = \frac{1}{\sqrt{2 \pi \sigma^2}} \exp[-\frac{1}{2} \qty(\frac{z}{\sigma})^2].
+\end{equation}
+This distribution is also illustrated in Figure \ref{SLD_gaussian}, from which we can see that the change in SLD as a function of z is a Gaussian, and the interface width can be obtained from the full-width at half-maximum (FWHM) of this profile. The attenuation factor in the diffraction pattern follows from the Fourier transform of this profile, which is another Gaussian function. So the attenuation factor associated with our Fresnel equations can be described as
+\begin{equation}
+	\tilde{f}(z) = \exp(-\frac{s^2 \sigma^2}{2}) = \exp[\frac{1}{2} \qty(\frac{4\pi \sigma \sin \theta}{\lambda})^2].
+\end{equation}
+This factor is  known as the Debye-Waller factor \cite{debye, waller} and is the most commonly used approximation to simulate imperfect interfaces \cite{debyewaller,debye_waller1,debye_waller2,debye_waller3,debye_waller4}. If we combine this factor with the Fresnel equations, we find that the reflectivity of a multilayer can be described as:
+\begin{equation}
+	R = R_0 \exp\qty[-\qty(2 \pi m \frac{\sigma}{\Lambda})^2].
+\end{equation}
+Note that the reflectivity of a sample depends exponentially on the square of the interface width. So even a modest improvement of the interface width has a large impact on the total reflectivity. The influence of the multilayer period can be explained by the fact that a multilayer with a smaller period has a larger fraction of the layer consisting of interfaces. The smaller the period, the more important the quality of the interface therefore becomes for a good reflectivity performance.
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{SLD_gaussian.pdf_tex}
+	\caption{The variation of SLD as a function of z shows a Gaussian profile, the interface width can be obtained from the FWHM of this profile.}
+	\label{SLD_gaussian}
+\end{figure}

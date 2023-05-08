@@ -1,0 +1,94 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'correlation_function.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{419.92159626bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.35102166)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{correlation_function.pdf}}%
+    \put(0.1144769,0.30452167){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a_1$\end{tabular}}}}%
+    \put(0.06324772,0.32413232){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a_1\scalebox{.7}{$-$}r$\end{tabular}}}}%
+    \put(0.16590106,0.32470143){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a_1$\scalebox{.7}{+}$r$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{correlation_function.pdf}}%
+    \put(0.08920987,0.28548203){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}r\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{correlation_function.pdf}}%
+    \put(0.14276713,0.28548203){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}r\end{tabular}}}}%
+    \put(0.31848765,0.30452167){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a_2$\end{tabular}}}}%
+    \put(0.26725803,0.32413232){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a_2\scalebox{.7}{$-$}r$\end{tabular}}}}%
+    \put(0.36991184,0.32470143){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a_2$\scalebox{.7}{+}$r$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{correlation_function.pdf}}%
+    \put(0.29322092,0.28548203){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}r\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{correlation_function.pdf}}%
+    \put(0.34677826,0.28548203){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}r\end{tabular}}}}%
+    \put(0.52386522,0.30452167){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a_3$\end{tabular}}}}%
+    \put(0.4726381,0.32413222){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a_3\scalebox{0.7}{$-$}r$\end{tabular}}}}%
+    \put(0.57528947,0.32470143){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a_3$\scalebox{.7}{+}$r$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{correlation_function.pdf}}%
+    \put(0.49859683,0.28548195){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}r\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{correlation_function.pdf}}%
+    \put(0.55215417,0.28548195){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}r\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{correlation_function.pdf}}%
+    \put(0.72939453,0.04139144){\color[rgb]{0.00392157,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_{\parallel}$\end{tabular}}}}%
+    \put(0.83827481,0.03969176){\color[rgb]{0.00392157,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}r\end{tabular}}}}%
+    \put(0.65410951,0.3201291){\color[rgb]{0.00392157,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.64467661,0.2036834){\color[rgb]{0.00392157,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}R (r)\end{tabular}}}}}%
+    \put(0.65410951,0.06224628){\color[rgb]{0.00392157,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{correlation_function.pdf}}%
+    \put(0.65271497,0.15116584){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\textrm{e}^{-1}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{correlation_function.pdf}}%
+    \put(-0.00196574,0.29002399){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}h(x)\end{tabular}}}}}%
+    \put(-0.00238757,0.22382764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.56974452,0.04312417){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}x\end{tabular}}}}%
+    \put(-0.00146513,0.00425423){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a) Constructing the correlation function\end{tabular}}}}%
+    \put(0.64349825,0.00425423){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b) Autocorrelation function\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{correlation_function.pdf}}%
+  \end{picture}%
+\endgroup%

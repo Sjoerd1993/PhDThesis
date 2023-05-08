@@ -1,0 +1,129 @@
+%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'petra_results.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{240.94488189bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.35067058)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{petra_results.pdf}}%
+    \put(0.09232032,0.03000057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.26667866,0.03000057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.44103689,0.03000057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.6155942,0.03000057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0.7899525,0.03000057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8\end{tabular}}}}%
+    \put(0.95218337,0.03000057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{petra_results.pdf}}%
+    \put(0.02331847,0.22559576){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Reflectance (arb. u.)\end{tabular}}}}}%
+    \put(-0.00091081,0.00033253){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{petra_results.pdf}}%
+    \put(0.49351621,0.40976606){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Reflectivity (arb. u)\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{petra_results.pdf}}%
+    \put(0.09430835,0.71655477){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.25276173,0.71655477){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.41141395,0.71655477){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8\end{tabular}}}}%
+    \put(0.55992673,0.71655477){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12\end{tabular}}}}%
+    \put(0.71857878,0.71655477){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}16\end{tabular}}}}%
+    \put(0.87703234,0.71655477){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{petra_results.pdf}}%
+    \put(0.0233234,0.89691116){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Reflectance (arb. u.)\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{petra_results.pdf}}%
+    \put(-0.00231443,0.67691835){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{petra_results.pdf}}%
+    \put(0.49459879,1.09156411){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Reflectivity (arb. u.)\end{tabular}}}}}%
+    \put(0.76936784,0.98938795){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\Delta \omega$ ($\degree$)\end{tabular}}}}%
+    \put(0.0965037,1.17981246){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{0}$\end{tabular}}}}%
+    \put(0.0965037,1.10619014){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-1}$\end{tabular}}}}%
+    \put(0.0965037,1.03860103){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-2}$\end{tabular}}}}%
+    \put(0.0965037,0.95879295){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-3}$\end{tabular}}}}%
+    \put(0.0965037,0.88250587){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-4}$\end{tabular}}}}%
+    \put(0.0965037,0.80973978){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-5}$\end{tabular}}}}%
+    \put(0.09055274,0.51333739){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{0}$\end{tabular}}}}%
+    \put(0.09055274,0.45139829){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-1}$\end{tabular}}}}%
+    \put(0.09055274,0.38380901){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-2}$\end{tabular}}}}%
+    \put(0.09055274,0.31568553){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-3}$\end{tabular}}}}%
+    \put(0.09055274,0.25108078){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-4}$\end{tabular}}}}%
+    \put(0.09055274,0.18415647){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-5}$\end{tabular}}}}%
+    \put(0.09055274,0.11308793){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-6}$\end{tabular}}}}%
+    \put(0.55555701,0.59522178){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-1}$\end{tabular}}}}%
+    \put(0.55555701,0.51745206){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-3}$\end{tabular}}}}%
+    \put(0.55555701,0.43384092){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-5}$\end{tabular}}}}%
+    \put(0.55555701,0.35607105){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-7}$\end{tabular}}}}%
+    \put(0.55790463,1.27050142){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-1}$\end{tabular}}}}%
+    \put(0.55790463,1.21025652){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-2}$\end{tabular}}}}%
+    \put(0.55790463,1.1500118){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-3}$\end{tabular}}}}%
+    \put(0.55790463,1.09560835){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-4}$\end{tabular}}}}%
+    \put(0.54279705,0.00210002){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Scattering angle 2$\theta$ ($\degree$)\end{tabular}}}}%
+    \put(0.56122401,0.68740969){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Scattering angle 2$\theta$ ($\degree$)\end{tabular}}}}%
+    \put(0.76472088,0.30914817){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\Delta \omega$ ($\degree$)\end{tabular}}}}%
+    \put(0.77033834,0.33864956){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.86074692,0.33864956){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.66678979,0.33864956){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-0.5\end{tabular}}}}%
+    \put(0.57207645,0.33864956){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-1.0\end{tabular}}}}%
+    \put(0.94900766,0.33864956){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.76730477,1.01385616){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.85771335,1.01385616){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.66375617,1.01385616){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-0.5\end{tabular}}}}%
+    \put(0.56904283,1.01385616){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-1.0\end{tabular}}}}%
+    \put(0.94597409,1.01385616){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.5612645,0.64305659){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}X-ray reflectivity measurements\end{tabular}}}}%
+    \put(0.53099887,1.3275211){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Neutron reflectivity measurements\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{petra_results.pdf}}%
+    \put(0.18846795,1.28032865){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} Ni/Ti +  \BC\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{petra_results.pdf}}%
+    \put(0.18846795,1.24181488){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} Ni/Ti\end{tabular}}}}%
+    \put(0.12690112,0.87878646){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Lambda$ = 48 Å\\N = 100\\U = 0V/-30V\\25.5 at.\% $^{11}$B + C\\\\\end{tabular}}}}%
+    \put(0.12328771,0.20010703){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Lambda$ = 48 Å\\N = 100\\U = 0V/-30V\\25.5 at.\% $^{11}$B + C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{petra_results.pdf}}%
+    \put(0.19123391,0.59321639){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} Ni/Ti +  \BC\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{petra_results.pdf}}%
+    \put(0.19123391,0.55470263){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} Ni/Ti\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

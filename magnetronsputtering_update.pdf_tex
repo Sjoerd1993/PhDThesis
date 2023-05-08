@@ -1,0 +1,87 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'magnetronsputtering_update.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{928.17923959bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.55425554)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{magnetronsputtering_update.pdf}}%
+    \put(0.4346713,0.07594113){\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Substrate \\rotator\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{magnetronsputtering_update.pdf}}%
+    \put(0.13295818,0.23213257){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ar\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{magnetronsputtering_update.pdf}}%
+    \put(0.79644626,0.25752968){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Shutter\end{tabular}}}}%
+    \put(0.79683448,0.31832422){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Target\end{tabular}}}}%
+    \put(0.79699549,0.34563691){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Insulator\end{tabular}}}}%
+    \put(0.79681556,0.40636515){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Magnets\end{tabular}}}}%
+    \put(0.79691025,0.37479135){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Anode shield\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{magnetronsputtering_update.pdf}}%
+    \put(0.79644626,0.53734996){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Coolant in\end{tabular}}}}%
+    \put(0.79644626,0.47264967){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Coolant out\end{tabular}}}}%
+    \put(0.79689129,0.50677528){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Electrical power\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{magnetronsputtering_update.pdf}}%
+    \put(0.59146153,0.08222564){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Magnetic coil\end{tabular}}}}%
+    \put(0.34051517,0.28421871){\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Secondary\\electrons\end{tabular}}}}%
+    \put(0.36439461,0.22971687){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Target atoms\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{magnetronsputtering_update.pdf}}%
+    \put(0.79685345,0.28690192){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Plasma\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{magnetronsputtering_update.pdf}}%
+    \put(-0.00053974,0.22284594){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Inlet\end{tabular}}}}%
+    \put(0.71192781,0.32675844){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Outlet\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{magnetronsputtering_update.pdf}}%
+    \put(0.81232683,0.04726935){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Electric field\end{tabular}}}}%
+    \put(0.81225106,0.01489592){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Magnetic field\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{magnetronsputtering_update.pdf}}%
+    \put(0.42018164,0.49728863){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mu$-metal\\shield\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{magnetronsputtering_update.pdf}}%
+    \put(0.38929043,0.1325673){\color[rgb]{0,0.02352941,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Substrate\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

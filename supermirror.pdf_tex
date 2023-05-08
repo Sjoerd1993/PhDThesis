@@ -1,0 +1,90 @@
+%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'supermirror.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{806.36700439bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.08886648)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{supermirror.pdf}}%
+    \put(0.04720399,0.29287882){\color[rgb]{0.00392157,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Reflectance R (arb. u)\end{tabular}}}}}%
+    \put(0.79045513,0.10478908){\color[rgb]{0.00392157,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}N = 5000\end{tabular}}}}%
+    \put(0.00749301,0.07036685){\color[rgb]{0.00392157,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}b)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{supermirror.pdf}}%
+    \put(0.28175126,0.47835442){\color[rgb]{0.00392157,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}q$_{c,\textrm{Ni}} \approx 0.2 Å^{-1}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{supermirror.pdf}}%
+    \put(0.18535757,0.08713594){\color[rgb]{0.00392157,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}m=1\end{tabular}}}}%
+    \put(0.25835661,0.08713594){\color[rgb]{0.00392157,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}m=2\end{tabular}}}}%
+    \put(0.34080162,0.08751744){\color[rgb]{0.00392157,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}m=3\end{tabular}}}}%
+    \put(0.4157573,0.08713594){\color[rgb]{0.00392157,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}m=4\end{tabular}}}}%
+    \put(0.49097513,0.08751744){\color[rgb]{0.00392157,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}m=5\end{tabular}}}}%
+    \put(0.57137968,0.08751744){\color[rgb]{0.00392157,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}m=6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{supermirror.pdf}}%
+    \put(0.45815231,0.6448893){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Substrate\end{tabular}}}}%
+    \put(0.89705748,0.92598446){\color[rgb]{0.00392157,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}d$_\textrm{max}$ = 40 nm\end{tabular}}}}%
+    \put(0.89362081,0.6925762){\color[rgb]{0.00392157,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}d$_\textrm{min}$ = 2 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{supermirror.pdf}}%
+    \put(0.09842437,0.47723861){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.09844246,0.398069){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.8\end{tabular}}}}%
+    \put(0.09844246,0.31466386){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.6\end{tabular}}}}%
+    \put(0.09818031,0.23374075){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.4\end{tabular}}}}%
+    \put(0.0985871,0.15047986){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0.09842437,0.06914325){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
+    \put(0.09792265,0.04245274){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.00\end{tabular}}}}%
+    \put(0.28023854,0.04245274){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.05\end{tabular}}}}%
+    \put(0.45283337,0.04245274){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.10\end{tabular}}}}%
+    \put(0.62805336,0.04245274){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.15\end{tabular}}}}%
+    \put(0.80688265,0.04245274){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.20\end{tabular}}}}%
+    \put(0.00677773,0.62959401){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}a)\end{tabular}}}}%
+    \put(0.49523795,0.00022609){\color[rgb]{0.00392157,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Scattering vector q$_z$ (Å$^{-1}$)\end{tabular}}}}%
+    \put(0.10864847,1.05692011){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Incident neutrons\end{tabular}}}}%
+    \put(0.87779031,1.05443958){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Reflected neutrons\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

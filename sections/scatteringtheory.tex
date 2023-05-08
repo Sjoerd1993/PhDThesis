@@ -1,0 +1,430 @@
+\chapter{Scattering theory}\label{scatteringtheory}
+\section{Neutron scattering}\label{neutronscattering}
+For a proper understanding of neutron scattering, it is important to consider that the Schrödinger wave equation applies to both waves and particles. Intuitively, we usually think of neutrons as real particles with a very small, but finite radius. But just like other elementary particles, neutrons can be described perfectly well as a wave where the wavelength can be any arbitrary real size. When we realize how a neutron is also a perfectly valid wave, it follows that the same principles of diffraction apply for neutrons as they do for X-rays. The underlying concepts that are described in this chapter are therefore applicable for both neutrons and X-rays. In order to fully understand what happens when a neutron beam scatters from an interface, we consider an incoming neutron beam towards a surface with a certain scattering potential V$_0$, as illustrated in figure \ref{fresnelreflection}. The neutron wave can be described by Schrödingers equation as usual:
+\begin{equation}
+	\qty(-\frac{\hbar^2}{2m} \nabla^2 + V(r))\Psi(r) = E \Psi(r). 
+\end{equation}
+The kinetic energy of the neutron is denoted by E, while V describes the potential to which the neutron is subject to. The form of this potential is not trivial, but a simplified description of the interaction with a single nucleus can be derived using the Fermi pseudopotential \cite{nuclearpotential}
+\begin{equation}\label{fermi_potential}
+	V(\vb{r}) = \frac{2 \pi \hbar^2}{m} b \delta(\vb{r}).
+\end{equation}
+Where $\hbar$ is the Planck constant divided by 2$\pi$, m is the mass of the neutron, $\delta$ is the Dirac delta function and $b$ denotes the scattering length of the nucleus. The scattering length can be seen a measure of how strongly a neutron interacts with the nucleus. In real experiments however, the scattering potential of the material itself is more interesting than that of a single nucleus. The potential of a material can be found by averaging over a volume, giving rise to a scattering length density (SLD):
+\begin{equation}\label{potential}
+	V_0 = \frac{2 \pi \hbar^2}{m} \textrm{(SLD)}.
+\end{equation}
+In the same way the scattering length gives us how strong a neutron interacts with a single nucleus, the SLD can be seen as a measure of the scattering power for a material. This quantity will be elaborated upon in subsection \ref{SLD}.
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{fresnelreflection.pdf_tex}
+	\caption{The neutron beam is subject to a potential barrier upon reflection at an interface. Part of the beam will be transmitted, while another part of the beam will be reflected.}
+	\label{fresnelreflection}
+\end{figure}
+For pedagogical reasons we assume that the scattering interface is perfectly flat and abrupt. When we probe the sample in the z-direction there will therefore be a potential barrier in the form of a step-function as shown in Figure \ref{fresnelreflection}. For a perfectly flat interface, this potential difference is purely restricted to the perpendicular direction, while the potential gradient in the lateral direction is zero. From this, we can see that it is the normal component of the neutron's kinetic energy that determines the reflection from the barrier, reducing the problem to a one-dimensional quantum mechanics case of a particle hitting a potential barrier. The wave number $\textrm{k}_{i\perp}$ that follows for this normal component of the incident wave can be expressed as usual:
+\begin{equation}\label{perpendicular_ki}
+	\textrm{k}_{i \perp} = \frac{\sqrt{2mE_{i \perp}}}{\hbar} = \textrm{k}_{i} \sin \theta.
+\end{equation}
+Rewriting for the kinetic energy gives us:
+\begin{equation}\label{kineticenergy}
+	E_{i\perp} = \frac{\qty (\textrm{k}_i \hbar \sin\theta_i)^2}{2 m}.
+\end{equation}
+If the perpendicular component of the kinetic energy is lower than the potential barrier, $E_{i\perp}$ < $V_0$, the neutron wave will not have enough kinetic energy to overcome the potential barrier and will be reflected. In this case total reflection will occur. The critical angle is then defined as the angle where the kinetic energy of the neutron is just equal to this potential barrier, meaning  $E_{i\perp} = V_0$. Using equations  \ref{potential} and \ref{kineticenergy}, we can find an expression for the critical angle as
+\begin{equation}\label{critical_angle_expression}
+	\sin\theta_c = \sqrt{\frac{4\pi}{k_i^2} \qty(\textrm{SLD})} = \sqrt{\frac{\lambda^2}{\pi}(\textrm{SLD})}.
+\end{equation}
+Where we used the general definition of the wave number k $= \frac{2\pi}{\lambda}$ to get to the right-hand expression. We can express the critical angle in terms of the scattering vector $\vb{q}$, which is defined as the difference between the scattered wave vector $\vb{k}^\prime$  and the incident wave vector  $\vb{k}_i$ \cite{kittel}:
+\begin{equation}\label{qvector}
+	\vb{q} =  \vb{k}^\prime - \vb{k}_i.
+\end{equation}
+In the case of total reflection, the magnitude of the scattered wave vector $\vb{k}^\prime$ is equal to the reflected wave vector  $\vb{k}_r$. The wave number q can be obtained from the magnitude of the scattering vector, q = $\abs{\vb{q}}$. Using simple geometric arguments, we can then tell from Figure \ref{fresnelreflection} that:
+\begin{equation}\label{q_ktheta}
+	q= 2 \abs{\vb{k_{i\perp}}} = 2\textrm{k}_{i} \sin\theta_i,
+\end{equation}
+which combined with the general definition of the wave number k $= \frac{2\pi}{\lambda}$ gives us the typical definition of the wave number q:
+\begin{equation}\label{qvector}
+	q= \frac{4\pi}{\lambda} \sin\theta. 
+\end{equation}
+The critical scattering vector can then finally be found by putting equation \ref{critical_angle_expression} into the found expression for q:
+\begin{equation}
+	q_c = \sqrt{16 \pi \textrm{(SLD)}} \label{criticalangle}.
+\end{equation}
+This interaction is generally considered elastic, meaning the reflection happens without energy losses. For elastic scattering, the normal part of the beam will be fully reflected with the same angle as the incident beam, just as one would expect from a perfect mirror. This part of the reflection where the incidence angle $\theta_i$ and the reflected angle $\theta_r$ are equal to each other is referred to as specular reflection.
+If the perpendicular component of the kinetic energy is larger than the potential energy, $E_{i\perp}$ > $V_0$, the neutron wave will have enough energy to overcome the potential barrier and part of the wave will therefore be transmitted through the interface. The transmitted beam will have its energy reduced by the potential barrier, giving us the transmitted kinetic energy $E_{t\perp} = E_{i\perp} - V_0$. So using this energy with the potential given in equation \ref{potential} we get:
+
+\begin{eqnarray}\label{transmitted_wave_number}
+	&&\textrm{k}^2_{t\perp} = \frac{2m(E_{i\perp}-V_0)}{\hbar^2} = \frac{2mE_{i\perp}}{\hbar^2}-4\pi \textrm{(SLD)}, \\ 
+	&&\textrm{k}^2_{t\perp} = \textrm{k}^2_{i\perp} - 4\pi \textrm{(SLD)}. \label{transmittedwavevector}
+\end{eqnarray}
+It follows from this relation the potential barrier needs to be as large as possible in order to maximize reflection, since a lower potential barrier will transmit a larger portion of the neutron wave. Equation \ref{transmittedwavevector} also allows us to define the refractive index \cite{refractive_index}:
+\begin{eqnarray}
+	&&n^2 = \frac{\textrm{k}^2_{t}}{\textrm{k}^2_{i}} = \frac{\textrm{k}^2_{t \parallel} + (\textrm{k}^2_{i\perp} - 4\pi \textrm{(SLD)})}{\textrm{k}^2_{i}} = \frac{\textrm{k}^2_{i \parallel} + (\textrm{k}^2_{i\perp} - 4\pi \textrm{(SLD)})}{\textrm{k}^2_{i}}.
+\end{eqnarray}
+Where we used $\textrm{k}_{i \parallel}$ = $\textrm{k}_{t \parallel}$, as there's no potential barrier in the parallel direction and this part of the neutron wave is therefore unchanged at reflection. We can rewrite equation \ref{transmittedwavevector} to give us:
+\begin{equation}\label{refractive_index_squared}
+	n^2 = 1 - \frac{4\pi \textrm{(SLD)}}{\textrm{k}^2_{i}} = 1 - \frac{\lambda^2}{\pi} \textrm{(SLD)}.
+\end{equation}
+For neutrons, $n \approx 1$, and the refractive index can therefore be approximated using a Taylor approximation as:
+\begin{equation}\label{refractiveindexapprox}
+	n = \sqrt{1 - \frac{\lambda^2}{\pi} \textrm{(SLD)}} \approx  1 -\frac{\lambda^2}{2\pi} \textrm{(SLD)}.
+\end{equation}
+The scattering length density is a complex number where the imaginary part described absorption. From which it follows that just like for X-ray optics the refractive index for neutrons is a complex number where the imaginary part takes absorption into account.
+\subsection{Fresnel reflection}\label{fresneltheory}
+In order to obtain an expression for the reflectance of the reflected wave, we start with an incoming neutron beam traveling in vacuum with wave vector $\vb{k}_\textrm{i}$ and amplitude A$_\textrm{i}$ that interacts with an interface as depicted in Figure \ref{fresnelreflection}. This gives rise to a reflected and transmitted wave with wave vectors $\vb{k}_\textrm{r}$ and $\vb{k}_\textrm{t}$ with the amplitudes A$_\textrm{r}$ and A$_\textrm{t}$ for the reflected and transmitted wave respectively. In equation form, these three waves can then be described as:
+\begin{eqnarray}\label{waves_equation}
+	&&\Psi_{\textrm{i}} = \textrm{A}_{\textrm{i}} \cdot e^{i\vb{k}_\textrm{i} \cdot \vb{r}}, \\
+	&&\Psi_{\textrm{r}} = \textrm{A}_{\textrm{r}} \cdot e^{i \vb{k}_\textrm{r}\cdot \vb{r}}, \\	
+	&&\Psi_{\textrm{t}}= \textrm{A}_{\textrm{t}}  \cdot e^{i \vb{k}_\textrm{t}\cdot \vb{r}}.
+\end{eqnarray}
+
+From the boundary condition at the interface we know that the wave function must be continuous at the interface where z = 0, so the waves at both sides of the interface must be equal giving us:
+
+\begin{equation}\label{boundarycondition}
+	\Psi_{\textrm{i}} + \Psi_{\textrm{r}} = \Psi_{\textrm{t}}
+\end{equation} at the interface. If we now purely consider the vertical component of the wave vector, which is part of the wave that is in the z-direction, we can fill in the condition at z = 0 to give us:
+
+\begin{equation}\label{firstboundary}
+	\textrm{A}_{\textrm{i}} + \textrm{A}_{\textrm{r}} = \textrm{A}_{\textrm{t}}.
+\end{equation}	
+The boundary condition also imposes that the derivatives of the wave function must be continuous at the interface, by applying the derivative on equation \ref{boundarycondition} at z = 0, we get:
+\begin{equation}
+	\textrm{A}_{\textrm{i}}\vb{k}_\textrm{i} + \textrm{A}_{\textrm{r}}\vb{k}_\textrm{r} = \textrm{A}_{\textrm{t}}\vb{k}_\textrm{t}.
+\end{equation}
+For specular reflection, $\theta_i$ = $\theta_r$, and for elastic scattering the phase of the wave vector is conserved. The wave number of the incident beam and of the reflected beam is therefore equal giving us  n$_1$k =$\abs{\vb{k}_\textrm{i}}$ = $\abs{\vb{k}_\textrm{r}}$ in material 1. Likewise, the transmitted wave vector in material 2 can be described as n$_2$k =$\abs{\vb{k}_\textrm{t}}$. This then gives us for the component perpendicular to the surface:
+
+\begin{equation}\label{sincondition}
+	(\textrm{A}_{\textrm{i}} - \textrm{A}_{\textrm{r}})(\textrm{n}_1\textrm{k})\sin{\theta_i} = \textrm{A}_{\textrm{t}}(\textrm{n}_2\textrm{k})\sin{\theta_t}.
+\end{equation}
+Parallel to the surface, we get a similar expression:
+\begin{equation}\label{parallel_surface}
+	\textrm{A}_{\textrm{i}} \textrm{n}_1 k \cos\theta_i + 	\textrm{A}_{\textrm{r}} \textrm{n}_1 k \cos\theta_i = 	\textrm{A}_{\textrm{t}} \textrm{n}_2 k \cos\theta_t
+\end{equation}
+From equation \ref{firstboundary} and equation \ref{parallel_surface} we obtain Snell's law:
+\begin{equation}\label{snells_law}
+	\textrm{n}_1 \cos\theta_i = \textrm{n}_2 \cos\theta_t
+\end{equation}
+Combining equation \ref{firstboundary} with equation \ref{sincondition}, we get:
+\begin{equation}\label{fresnel_ai_ar}
+	\frac{\textrm{A}_{\textrm{i}}-\textrm{A}_{\textrm{r}}}{\textrm{A}_{\textrm{i}}+\textrm{A}_{\textrm{r}}} = \frac{\textrm{n}_2}{\textrm{n}_1} \frac{\sin{\theta_t}}{\sin{\theta_i}}
+\end{equation}
+From here, we can now write the Fresnel equation for reflectivity as:
+\begin{equation}\label{fresnelreflectivity}
+	\textrm{r} = \frac{\textrm{A}_{\textrm{r}}}{\textrm{A}_{\textrm{i}}} = \frac{\textrm{n}_1\sin{\theta_i} - \textrm{n}_2 \sin{\theta_t}}{\textrm{n}_1\sin{\theta_i} + \textrm{n}_2 \sin{\theta_t}} 
+\end{equation}
+Note that the result in equation \ref{fresnelreflectivity} doesn't show cosines as is typically used in optics formalisms. The reason behind this is that in scattering experiments, the incident angle $\theta$ is measured from the surface itself rather than from the surface normal. The fraction r represents the amplitude of the reflected wave function. However, for scattering experiments it usually makes more sense to write this in terms of the wave vector instead of the angular variables. Using the geometry found earlier, we got $q= \textrm{2k} \sin{\theta}$, from which we can convert equation \ref{fresnelreflectivity} into q-space as:
+\begin{equation}\label{fresnel_qspace}
+	r = \frac{\textrm{n}_1q- \textrm{n}_2q^{\prime}}{\textrm{n}_1q+ \textrm{n}_2q{\prime}}.
+\end{equation}
+For reflection from a single substrate, $\textrm{n}_1$ is in vacuum giving us $\textrm{n}_1 = 1$, combined with the fact that n $\approx$ 1 for neutron scattering, we can approximate this to come to the typical expression for the Fresnel reflection as used in neutron scattering:
+\begin{equation}\label{fresnel_qspace_no_n}
+	r = \frac{q- q^{\prime}}{q+q{\prime}}.
+\end{equation}
+Note that the intensity, which is what is actually being measured during a scattering experiment, is given by $\abs{r}^2$. Using equations \ref{perpendicular_ki} and \ref{transmittedwavevector} in combination with equation \ref{criticalangle}, we can derive the transmitted wave vector in terms of $q$ and $q_c$:
+\begin{equation}
+	\textrm{k}^2_{t\perp} = \textrm{k}^2_{i\perp} - 4\pi \textrm{(SLD)}
+\end{equation}
+\begin{equation}
+	(k_t \sin\theta_t)^2 = (k_i \sin\theta_i)^2 - \frac{1}{4}q_c^2
+\end{equation}
+From which we can use equation \ref{q_ktheta} to get the following expression for the transmitted wave vector
+\begin{equation}\label{transmitted_wave}
+	q^{\prime} = \sqrt{q^2 - q_c^2},
+\end{equation}
+which is indeed what we would expect from literature \cite{qc_expression}. This allows us to re-write equation \ref{fresnel_qspace} in terms of $q$ and $q_c$:
+\begin{equation}\label{intensityfresnel}
+	I = \abs{r^2} = \qty [\frac{\textrm{n}_1 q- \textrm{n}_2\sqrt{ q^2 -  q_c^2}}{ \textrm{n}_1q+ \textrm{n}_2\sqrt{q^2 - q_c^2}}]^2 \approx  \qty [\frac{q- \sqrt{q^2 - q_c^2}}{q+ \sqrt{q^2 - q_c^2}}]^2 .
+\end{equation}
+Where we used the same approximation as before to set both refractive indices to 1. At high q values, when $q$ $\gg$ $q_c$, we can perform a Taylor expansion on equation \ref{intensityfresnel} around $q_c \approx 0$. The roots in the nominator and denominator both expand to
+\begin{equation}
+	\sqrt{q^2 - q_c^2} \approx q - \frac{q_c^2}{2q},
+\end{equation}
+giving us the following expression when we plug this back into equation \ref{intensityfresnel}:
+\begin{equation}
+	I \approx \qty[\frac{\frac{q_c^2}{2q}}{2q - \frac{q_c^2}{2q}}]^2 = \qty[\frac{q_c^2}{4q(q-\frac{q_c^2}{4q})}]^2.
+\end{equation}
+Now we consider $q \gg q_c$, in that case, we can easily rewrite our expression as
+\begin{equation}
+	I = \frac{q_c^4}{16q^4}.
+\end{equation}
+From which we can fill in equation \ref{criticalangle} for $q_c$ to give us our final expression for the intensity when $q \gg q_c$:
+\begin{equation}
+	I = \frac{16 \pi^2}{q^4} \textrm{(SLD)}^2,
+\end{equation}
+which is consistent with the typical literature expression for this decay \cite{ILLq4}. This power law is often referred to as Fresnel decay \cite{fresnel_decay} and shows that the intensity for a single layer falls off with $q^4$ when we are far enough from the critical angle, even for perfectly smooth interfaces. For practical experiments it is common to use the incident angle $\theta_i$ instead of $q$-space. To get to the intensity in terms of the incidence angle  $\theta_i$ one can simply use equation \ref{qvector} to convert the coordinates in \ref{intensityfresnel} to angular space, and a very similar expression is obtained:
+\begin{equation}\label{intensityfresnel_angular}
+	I = \abs{r^2} = \qty [\frac{\sin^{2}\theta_i - \sqrt{\sin^{2}\theta_i - \sin^{2}\theta_c}}{\sin^{2}\theta_i + \sqrt{\sin^{2}\theta_i - \sin^{2}\theta_c}}]^2.
+\end{equation}
+At angles where $\theta_i \gg \theta_c$, this then reduces to 
+\begin{equation}
+	I = \frac{\lambda^4}{16\pi^2} \frac{1}{\sin^{4}\theta_i}  \textrm{(SLD)}^2.
+\end{equation}
+In this work we will be mostly using coordinates in q-space however, as this is much more convenient when describing scattering phenomena which will be further explained in subsection \ref{neutron_scattering_reciprocal}.
+\clearpage
+\section{Scattering principles}
+The foundations of neutron scattering follows the same principles as classic scattering. In this section we will take a further look at the scattering physics itself, and what parameters describe how strongly a neutron interacts with a nucleus.
+\subsection{Neutron scattering length}
+While X-ray scattering comes from interaction with the electron cloud, neutron scattering can occur in two ways; nuclear scattering and magnetic scattering.  Nuclear scattering occurs due to the interaction between the neutron and the nucleus, which comes from the nuclear force which is the same force that is responsible for holding neutrons and protons together in the nucleus \cite{magnetic_scattering_lee}. Just like an electron, a neutron is a spin-$\frac{1}{2}$ particle that carries a magnetic dipole moment \cite{magneticscattering}. They can therefore interact unpaired electrons that are present in magnetic materials. It is this interaction that is the main  contributor to magnetic scattering \cite{magnetic_scattering_lee}, which can be used to study the magnetic structure in materials. In this work we will focus on nuclear scattering.\\
+\begin{figure}[b]
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{classic_scattering.pdf_tex}
+	\caption{A neutron $n$ approaches a scattering site $s$, the distance $b_i$ is called the impact parameter and describes the minimum distance between the neutron and the scattering site if there were no force acting on the neutron.}
+	\label{classic_scattering}
+\end{figure}
+To derive the relevant scattering parameters, we start with the classical scattering theory, where we imagine a neutron approaching a scattering site $s$ as depicted in Figure \ref{classic_scattering}
+In the case of a scattering event, we can imagine a neutron $n$ approaching a scattering site $s$ with a potential U as depicted in Figure \ref{classic_scattering}.  When the neutron approaches the scattering site, it gets scattered away in an angle $\theta$, the closest distance between the neutron and the scattering site if it would continue without scattering is called the impact parameter \cite{thornton} and is denoted here by $b_i$. The classical problem of scattering is to calculate the scattering angle $\theta$ given the impact parameter $b_i$. The wave function that solves the scattering problem can be described by a combination of the incident wave $\psi_i$ and the scattered wave $\psi_s$:
+\begin{equation}\label{schrodinger_general}
+	\psi(\vb{r}) = \psi_i + \psi_s.
+\end{equation}
+In this case, the incident wave is a planar wave traveling in the z-direction, and the scattered wave depends on the scattering amplitude \cite{thomas_ederth}, and the total wave function can therefore be described as:
+\begin{equation}\label{schrodinger_general}
+	\psi(\vb{r}) = A\qty(e^{ikz} + \frac{e^{i\vb{k}\cdot\vb{r}}}{r}f(\vb{k})).
+\end{equation}
+The factor f($\vb{k}$) is the scattering amplitude and is directly proportional to the interaction potential U, this is later used in subsection \ref{bornapproximation}, the scattering amplitude can be expressed as:
+\begin{equation}
+	f(\vb{k}) = - \frac{m}{2\pi\hbar^2}\int e^{-i \vb{k} \vb{r}'}U(r')\psi(\vb{r}')\dd \vb{r}'
+\end{equation}
+For thermal neutrons, the scattering amplitude can be approximated as an expansion in powers of $k$ \cite{cross_section_detailed}:
+\begin{equation}\label{scat_amplitude_expansion}
+	f(k) = -b + ikb^2 + O(k^2).
+\end{equation}
+Where $b$ is the neutron scattering length. From which we can see that the neutron scattering length is closely related to the scattering amplitude, and tells us how strongly the neutron interacts with the nucleus. For thermal neutrons, $b \gg \abs{kb^2}$, and we can further approximate the scattering amplitude to 
+\begin{equation}
+	f(k) = -b.
+\end{equation}
+In general, the scattering length is a complex number:
+\begin{equation}\label{scattering_length_complex}
+	b = b' + ib",
+\end{equation}
+where the imaginary part relates to the neutron absorption. 
+\clearpage
+\subsection{The scattering cross section}
+\begin{figure}[b]
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{scattering_cross_section.pdf_tex}
+	\caption{Neutrons that are incident within the area d$\sigma$ will scatter into the solid angle d$\Omega$.}
+	\label{scattering_cross_section_illustration}
+\end{figure}
+From figure \ref{classic_scattering}, it is easy to see how a smaller impact parameter will result in a closer proximity to the nucleus. As the nuclear force acts stronger on closer distances, the smaller the impact parameter, the closer the neutron comes to the scattering site, and therefore the greater the scattering angle will be. In a more general sense, neutrons that are incident within an area d$\sigma$, will scatter into a corresponding solid angle d$\Omega$ as illustrated in Figure \ref{scattering_cross_section_illustration}. The larger the area d$\sigma$ is, the larger the solid angle d$\Omega$ will become. How much the solid angle will change with a different d$\sigma$ depends on the scattering entity, the proportionality factor between d$\sigma$ and d$\Omega$ is called the differential scattering cross section and is defined from \cite{Griffiths_QM}
+\begin{equation}\label{scattering_cross_section}
+	\dd\sigma= \frac{\dd\sigma}{\dd\Omega} \dd\Omega.
+\end{equation}
+It should be noted that the differential scattering cross-section is a rather unfortunate name as it is neither a differential, nor is it a cross section \cite{Griffiths_QM}. Equation \ref{scattering_cross_section} is therefore not a tautology as it may seem at first sight. When we try to solve equation \ref{schrodinger_general}, the problem is mainly to determine the scattering amplitude f($\theta$). As the scattering amplitude gives us the probability of scattering in a given direction $\theta$ \cite{Griffiths_QM}, it is closely related to the differential scattering cross-section. The probability that incident neutrons, traveling at speed $v$, will pass through the area d$\omega$, can be found by integrating the probability function over the volume d$V$ of an incident beam through that area, as illustrated in Figure \ref{volume_dsigma}:
+\begin{equation}\label{probability_dsigma}
+	\dd P = \abs{\psi_i}^2 \dd V = \abs{Ae^{ikz}}^2 \dd V = \abs{A}^2 (v\dd t) \dd \sigma.
+\end{equation}
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{volume_dsigma.pdf_tex}
+	\caption{The volume dV describes the volume of a beam passing through the area d$\sigma$ at a velocity $v$ for a total time of d$t$.}
+	\label{volume_dsigma}
+\end{figure}
+Since these neutrons per definition also scatter into solid angle d$\Omega$, this has to be equal to the probability that the particle scatters into d$\Omega$:
+\begin{equation}\label{probability_dOmega}
+	\dd P = \abs{\psi_s}^2 \dd V = \abs{Af(\theta) \frac{e^{ikr}}{r}}^2 \dd V = \frac{\abs{A}^2\abs{f}^2}{r^2}(v\dd t) r^2 \dd \Omega. 
+\end{equation}
+From which we can combine equations \ref{probability_dsigma} and \ref{probability_dOmega} to get to:
+\begin{equation}
+	\dd \sigma = \abs{f}^2 \dd\Omega,
+\end{equation}
+and therefore:
+\begin{equation}\label{cross_section_scat_amplitude}
+	\frac{\dd\sigma}{\dd\Omega} = \abs{f(\theta)}^2.
+\end{equation}
+From which we can see that the differential scattering cross-section is the absolute square of the scattering amplitude. From the expression of the scattering amplitude f($\theta)$ in equation  \ref{scat_amplitude_expansion}, neglecting higher order terms of k we can see how equation \ref{cross_section_scat_amplitude} is equivalent to \cite{cross_section_detailed}:
+\begin{equation}\label{scat_cross_section_b}
+	\frac{\dd \sigma}{\dd \Omega} = \abs{b}^2 (1-2kb")
+\end{equation}
+Where $b"$ is the magnitude of the imaginary component of the scattering length. If we integrate equation \ref{scat_cross_section_b} over all direction, we obtain the total scattering cross section:
+\begin{equation}
+	\sigma_s = 4\pi \abs{b}^2\qty(1-2kb").
+\end{equation}
+Where we can use the fact that the term $kb" \approx 0$, to approximate the total scattering scross section as:
+\begin{equation}
+	\sigma_s = 4\pi\abs{b}^2
+\end{equation}
+From which we can draw a geometric comparison, where the scattering cross section forms a circle with a radius $b$. The larger the scattering length, the larger the circle and the higher the probability of a scattering event \cite{scattering_length_radius}. Indeed, one interpretation of the scattering cross-section is the effective interaction area for the neutron \cite{rutherford}, in a sense it therefore describes the effective size of the nucleus for the neutron. As the scattering length itself is an imaginary number, the imaginary part of the scattering length also gives rise to a scattering cross section that describes the absorption. The total scattering cross section then becomes:
+\begin{equation}\label{total_scat_cross_section}
+	\sigma_{tot} = \sigma_s + \sigma_a
+\end{equation}
+Where $\sigma_a$ describes the absorption cross-section, and can be described as \cite{sears_cross_sections}:
+\begin{equation}\label{absorption_cross_section}
+	\sigma_a = \qty(\frac{4\pi}{k_0}) b".
+\end{equation}
+For thermal neutrons, where there typically is not resonance, the scattering length $b$ is independent of $k_0$ \cite{cross_section_detailed}, and $\sigma_s$ is therefore constant for the neutron wavelength. As we can see from equation \ref{absorption_cross_section}, the absorption cross-section is inversely proportional to $k_0$, and therefore also to the neutron velocity \cite{classic_fermi}. Equation \ref{absorption_cross_section} is therefore often refered to as the 1/$v$ law \cite{sears1982fundamental}. 
+\subsection{Origin of neutron scattering lengths}\label{neutronscatteringlengths}
+The neutron scattering length is often considered to vary randomly for each isotope, and tabulated values that are used for the scattering length are typically obtained from empirical measurements. It is however possible to make a rough estimation of the neutron scattering length in order to get a general feeling where this supposed randomness comes from. In such an approximation, we can consider a neutron with an energy $\textrm{E}_\textrm{i}$ being scattered from an attractive square well potential at $-\textrm{V}_\textrm{0}$  \cite{hammouda}. The well has a width of 2R, and a potential of $\textrm{V}_\textrm{0} \gg \textrm{E}_\textrm{i}$. Starting from the Schrödinger equation:
+\begin{equation}
+	\qty(-\frac{\hbar^2}{2m} \nabla^2 + \textrm{V}(r))\Psi(r) = \textrm{E} \Psi(r). 
+\end{equation}
+Outside of the square well, the potential V(r) = 0, and therefore the solution to the equation becomes:
+\begin{equation}\label{outsideexact}
+	\Psi_{\textrm{s,out}} = \frac{\sin{k r}}{kr} - b \frac{e^{ikr}}{r},
+\end{equation}
+where $k = \sqrt{2m\textrm{E}_\textrm{i}} / \hbar$. Inside the square well, the potential is equal to $V_0$ and the solution becomes:
+\begin{equation}
+	\Psi_{\textrm{s,in}} = A\frac{\sin{qr}}{qr},
+\end{equation}
+where the wave number q is described as $q = \sqrt{2m(\textrm{E}_\textrm{i} + \textrm{V}_\textrm{0})} / \hbar$. Note that the factor $k r \ll 1$ due to the very small neutron mass and we can therefore approximate equation \ref{outsideexact} as:
+\begin{equation}
+	\Psi_{\textrm{s,out}} \approx 1 - \frac{b}{r}.
+\end{equation}
+Since the wave function has to be completely continious over all space, we can use the boundary condition $\vert r \vert = R$ to get:
+\begin{equation}
+	\Psi_{\textrm{s,out}} = \Psi_{\textrm{s,in}} ,
+\end{equation}
+at the boundary, which leads to:
+\begin{equation}
+	1 - \frac{b}{R} = A\frac{\sin{qR}}{qR},
+\end{equation}
+which can be rewritten to:
+\begin{equation}\label{originSLDeq1}
+	R - b = A\frac{\sin{qR}}{q}.
+\end{equation}
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{neutronscatteringlength.pdf_tex}
+	\caption{The ratio b/R varies very sharply as a function of qR, meaning the scattering length b can move to a seemingly random value for each added nucleus.}
+	\label{neutronscatteringlength}
+\end{figure}
+Even at the derivative, these functions need to be continuous, which gives us:
+\begin{equation}
+	\frac{d\Psi_{\textrm{s,out}}}{dr} (r = R) = \frac{d\Psi_{\textrm{s,in}}}{dr} (r = R) 
+\end{equation}	
+\begin{equation}
+	\frac{d}{dr}(r - b) = \frac{d}{dr}\qty(A\frac{\sin{qr}}{q})
+\end{equation}
+\begin{equation}
+	1 = A \cos qR
+\end{equation}	
+\begin{equation}
+	A = \frac{1}{\cos{qR}}\label{originSLDeq2}
+\end{equation}
+Combining equation \ref{originSLDeq1} and \ref{originSLDeq2} gives us:
+\begin{equation}
+	R - b = \frac{1}{\cos qR} \frac{\sin qR}{q} =  \frac{\tan qR}{q}.
+\end{equation}
+Finally, we can express the ratio b/R as a function of qR:
+\begin{equation}\label{fraction_R}
+	\frac{b}{R} = 1 - \frac{\tan(qR)}{qR}.
+\end{equation}
+Or directly in terms of the scattering length  \cite{hammouda}:
+\begin{equation}\label{scattering_length_expression}
+	b = R(1 - \frac{\tan(qR)}{qR}).
+\end{equation}
+While it's not exact enough for actual experiments to approximate the scattering potential as a simple square well, it does become clear from equation \ref{scattering_length_expression} that the scattering length can very very quickly depending on the isotope. Figure \ref{neutronscatteringlength} shows equation \ref{fraction_R} in a graph. It can be clearly observed how b/R varies extremely sharply as a function of qR, showing how the scattering length can jump to a complete different value for each added nucleus to an atom. This is illustrated further by the highlight of hydrogen-1 (H) and deuterium (D) which are both isotopes of the same element. Despite belonging to the same element, they do exhibit a large contrast in scattering length despite belonging to the same element. It can also be seen that the scattering length can be negative for certain isotopes, this correspondents to a negative phase shift upon scattering.  Note that this description is merely an approximation, apart from the mathematical simplifications we have ignored both absorption and the magnetic component of the neutron scattering length. For most materials, the imaginary part of the scattering length, which describes absorption, is very low. In many experiments this can be a reason to opt for neutrons over X-rays as this allows the penetration of much thicker samples. The magnetic component of the scattering length can be used with polarised neutron reflectivity in order to investigate magnetic properties of a material.
+\subsection{Scattering length density}\label{SLD}
+While the total scattering power of a single nucleus can be well described in terms of scattering length, in order to get a good measure of the total scattering power of a material we also need to take the physical density into account. If the nuclei are more tightly packed, there will be more nuclei per unit volume to scatter from, which inevitably leads to stronger scattering. The total scattering power of a material is therefore described in terms of scattering length density (SLD), which can be calculated by summing the scattering lengths of each element in the material and dividing this by the volume of the unit cell \cite{neutronbookmatrac}:
+\begin{equation}\label{SLDBasic}
+	\textrm{(SLD)} = \frac{\sum_{j = 1}^{N} b_j}{V_m}.
+\end{equation}
+Where $b_j$ is the scattering length of each element and $V_m$ is the volume of the unit cell. Note how this does not need to be an actual unit cell as seen in crystallography, it is indeed a representative volume of the material which in principle can be completely amorphous. As an amorphous material does not have a well-defined crystal to define a volume, it can be calculated using the bulk density of the unit cell and the molecular weight: 
+\begin{equation}\label{volumeunitcell}
+	V_m = \frac{M}{\rho N_a}.
+\end{equation}
+Where $\rho$ is the density of the material, $N_a$ is the Avogadro constant. The scattering density of a composite material can then be calculated by putting equation \ref{volumeunitcell} into equation \ref{SLDBasic}:
+\begin{equation}
+	\textrm{(SLD)} = \frac{\rho N_a \sum_{j = 1}^{N}{c_j b_j}}{\sum_{j = 1}^{N} c_j M_j}.
+\end{equation}
+The scattering density relates directly to the refractive index of neutrons as provided in equation \ref{refractiveindexapprox}, rewritten here for clarity:
+\begin{equation}
+	n = 1 - \frac{\lambda^2}{2\pi} \cdot \textrm{(SLD)}.
+\end{equation}
+Because of this linear relationship between SLD and refractive index, the SLD is often considered to be a direct analog to the refractive index as often used in optics and X-ray scattering. One noteworthy difference is that for thermal neutrons, we are far from resonance in the scattering process and the SLD is therefore considered constant over wavelength. 
+\section{Choice of materials}
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{SLD.pdf_tex}
+	\caption{A selection of materials with their scattering lengths are plotted for low imaginary values, a system with Ni/Ti offers a large contrast in the real component of the SLD with low values for the imaginary component of the SLD. The SLD values shown in this figure are calculated using the natural composition for each element, the values will be different for pure isotopes.}
+	\label{SLDchoice}
+\end{figure}
+The materials of choice in a neutron multilayer depend largely on the SLD. In order to maximize reflection for a sample with a given amount of interfaces, the imaginary component of the SLD, which describes absorption, needs to be as low as possible while the contrast in the real component of the SLD need to be as large as possible between the layers. To illustrate, the real and imaginary components of a set of materials are plotted in Figure \ref{SLDchoice}, where only a select number of materials with a low imaginary component are shown. These obtained values are for the natural composition of each element, and are therefore a mix of different isotopes. To maximize reflection, a combination of materials needs to be chosen with a large difference in the real part of the SLD. A combination of Ti and Be seems reasonable at first glance, however there are more considerations that need to be taken into account when choosing different materials. Be for example is not a practical material to work with in the laboratory as it's highly toxic, and also the cost of materials should be taken into account. For instance, a metal consisting purely of the isotopes $\textrm{ }^{\textrm{58}}$Ni and $\textrm{ }^{\textrm{62}}$Ni would give a scattering length density of -7.9$\cdot$10$^{-\textrm{6}}$ Å$^{-\textrm{2}}$ and 13.2$\cdot$10$^{-\textrm{6}}$ Å$^{-\textrm{2}}$ respectively \cite{periodictable}, giving a significantly better contrast than natural Ni and Ti. However, the sheer costs of such isotope enriched metals makes it a very impractical choice. Therefore a combination of Ni and Ti, as highlighted in the figure, is usually the material system of choice. Note that some materials with intermediate values are omitted in order to increase readability.
+\clearpage
+\section{Neutron scattering in reciprocal space}\label{neutron_scattering_reciprocal}
+It can be extremely convenient in neutron scattering to describe phenomena in reciprocal space instead of real space. This convenience arises from the fact that the diffraction pattern is directly related to the reciprocal space of the SLD-profile of the material, so by becoming familiar with this description, one can tell a lot about the structural properties of a given multilayer simply from a glance at the obtained diffraction pattern \cite{shinjo_takada_1987}. The reciprocal space corresponds to the Fourier transform of real space, and is often also called q-space or Fourier space. 
+\subsection{Reciprocal space}
+\begin{figure}[b]
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{ewaldsphere.pdf_tex}
+	\caption{a) An incoming neutron wave with incident and reflected wave vector $\vb{k}_i$ and $\vb{k}_f$ scatters upon a multilayer. The scattering vector $\vb{q}$ is obtained by $\vb{q} = \vb{k}_f - \vb{k}_i$ and is in the $\vb{q}_z$ direction for specular scattering. b) The Ewald sphere construction can be used to illustrate for which incidence angles a diffraction peak can be found.}
+	\label{scatteringqspace}
+\end{figure}
+To understand the diffraction pattern in reciprocal space we can imagine an incoming neutron wave that scatters upon an interface as shown in Figure \ref{scatteringqspace} a). The incident and scattered wave vector are denoted by $\vb{k}_i$ and $\vb{k}_f$ respectively. The scattering vector is the described by the vector $\vb{q}$ and can be expressed as $\vb{q} = \vb{k}_f - \vb{k}_i$ \cite{kittel}. From geometry, we can see that:
+\begin{equation}
+	\sin{\frac{2\theta}{2}} = \frac{0.5\abs{\vb{q}}}{\abs{\vb{k}_i}} = \frac{q_z}{2\textrm{k}_i}.
+\end{equation}
+Where we can use $\textrm{k}_i = 2 \pi / \lambda$ to show:
+\begin{equation}
+	q_z = \frac{4\pi}{\lambda} \sin \theta.
+\end{equation}
+Which is the equation that is generally used to convert from q-space to $\theta$. The points in q-space where diffraction peaks are found can be illustrated using an Ewald sphere construction, as shown in Figure \ref{scatteringqspace} b). The incoming wave vector $\vb{k}_i$ is drawn with its tip drawn at the scattering site. A sphere is drawn around this vector, if the circumference of the sphere intersects with the interface in reciprocal space, a diffraction peak will occur at this distance in q-space. The dashed lines in Figure \ref{scatteringqspace} indicate the reciprocal representation of the multilayer structure, it should be noted that the reciprocal spacing is not drawn to scale with respect to the real multilayer spacing in the sketch. In this sketch, it can be seen that at the drawn incidence angle at $2\theta$, the Ewald sphere intersects with an interface along $q_z$, and a diffraction peak will therefore occur at this incidence angle. The figure also shows that this diffraction peak corresponds to the third peak in q-space, and that the diffraction peaks are equidistant to each other with a distance of $2\pi$/d, where d is the thickness of the layer. For a typical neutron experiment at a continuous neutron source, the incidence angle $\theta$ is varied during a measurement to scan along q$_z$, for a pulsed neutron source such as planned at ESS, it's common to measure different wavelengths at a constant incidence angle $\theta$, and scanning along q$_z$ that way.
+\clearpage
+\subsection{Fourier expansion of an ideal multilayer}
+\begin{figure}[b]
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{square_wave.pdf_tex}
+	\caption{The SLD profile of a perfect multilayer along the z-direction is a square wave. The y-axis shows the auxiliary SLD coordinates normalized to the SLD of material $a$, the x-axis shows the depth normalized to the period of the multilayer $\Lambda$.}
+	\label{square_wave}
+\end{figure}
+As explained in subchapter \ref{neutronscattering}, the intensity profile that is obtained by experiment is directly dependent on the SLD-profile in the probed direction. For a perfect multilayer with abrupt interfaces, the SLD-profile in the depth direction will have the form of a square wave. The obtained intensity profile can be determined from a Fourier expansion of this profile. The SLD-profile can be written as an infinite series of sines and cosines \cite{kittel}:
+\begin{equation}\label{fourier_expansion_general}
+	g(z) = a_0 + \sum_{n=1}^{ \infty } \qty [ a_n \cos(\frac{2\pi}{\Lambda}nz) + b_n \sin(\frac{2\pi}{\Lambda}nz)].
+\end{equation}
+In this example, we take the SLD profile for a multilayer with two distinct layers a and b with a thickness $d_a$ and $d_b$, and an SLD value of $A_a$ and $A_b$ for layer $a$ and $b$ respectively. We can express the thickness of each multilayer in terms of the multilayer period by introducing the thickness ratio $\Gamma$:
+\begin{equation}
+	\Gamma = \frac{d_a}{d_a+d_b}
+\end{equation}
+In order to simplify the mathematics, we choose a coordinate system such that $z$ = 0 lies in the center of the SLD profile of material $a$, and shift our y-axis such that our new auxiliary SLD of material $b$ is equal to 0. The auxiliary SLD of material $a$ therefore is converted to $A_a^\prime$ = $A_a + A_b$. Leaving us with an even square wave function as depicted in Figure \ref{square_wave}. The first term $a_0$ represents the average value of the wave function, which can simply be found using top SLD value $A_a^\prime$ and the thickness ratio $\Gamma$:
+\begin{equation}
+	a_0 = A_a^\prime\Gamma
+\end{equation}
+The terms for $b_n$ can be found by integrating over our signal:
+\begin{equation}
+	b_n = \frac{1}{0.5\Lambda}\int_{-\Lambda/2}^{\Lambda/2} A_a^\prime \sin(\frac{2\pi}{\Lambda}nz) \dd z
+\end{equation}
+Since our signal is zero in either direction after a distance of $\Lambda \Gamma$, we can set our limits as follows:
+
+\begin{align}
+	b_n &=  \frac{2}{\Lambda}\int_{-\Lambda\Gamma/2}^{\Lambda\Gamma/2} A_a^\prime\sin(\frac{2\pi}{\Lambda}nz) \dd z, \\
+	&= \frac{2}{\Lambda}\int_{-\Lambda\Gamma/2}^{0} A_a^\prime\sin(\frac{2\pi}{\Lambda}nz) \dd z + \frac{2}{\Lambda}\int_{0}^{\Lambda\Gamma}  A_a^\prime\sin(\frac{2\pi}{\Lambda}\textrm{n}z) \dd z,  \\
+	&= - \frac{2A_a^\prime}{\pi n} \sin^2(\Gamma \pi \textrm{n}) +  \frac{2A_a^\prime}{\pi \textrm{n}} \sin^2(\Gamma \pi n) = 0.
+\end{align}
+Which is what we would expect from an even function. The terms for $a_n$ can be found in a similar way:
+\begin{align}
+	a_n &=  \frac{2}{\Lambda}\int_{-\Lambda\Gamma/2}^{\Lambda\Gamma/2} A_a^\prime\cos(\frac{2\pi}{\Lambda}\textrm{n}z) \dd z, \\
+	&= \frac{2}{\Lambda}\int_{-\Lambda\Gamma/2}^{0} A_a^\prime\cos(\frac{2\pi}{\Lambda}\textrm{n}z) \dd z + \frac{2}{\Lambda}\int_{0}^{\Lambda\Gamma}  A_a^\prime\cos(\frac{2\pi}{\Lambda}nz) \dd z,  \\
+	&= \frac{A_a^\prime}{\pi \textrm{n}} \sin(\Gamma \pi \textrm{n}) +  \frac{A_a^\prime}{\pi \textrm{n}} \sin(\Gamma \pi \textrm{n}), \\
+	&=  \frac{2A_a^\prime}{\pi \textrm{n}} \sin(\Gamma \pi \textrm{n}).
+\end{align}
+This leaves us with our final Fourier series for a square wave:
+\begin{equation}\label{fouriersum}
+	g(z) = A_a^\prime\Gamma + \sum_{\textrm{n}=1}^{ \infty }  	\frac{2A_a^\prime}{\pi \textrm{n}} \sin(\Gamma \pi \textrm{n}) \cos(\frac{2\pi}{\Lambda}nz).
+\end{equation}
+From which we can see that the amplitude of each component scales with the factor $\sin(\Gamma \pi \textrm{n})$, which means that we can find the thickness ratio where the n'th diffraction peak is equal by zero as:
+\begin{equation}
+	\Gamma_\textrm{n} = \frac{\textrm{m}}{\textrm{n}}, \quad \textrm{m} \in \mathbb{Z}.
+\end{equation}
+Meaning the n'th Bragg peak will disappear when the thickness ratio $\Gamma$ is equal to a multiple of 1/n. This dependence of the intensity of each diffraction peak is also illustrated in Figure \ref{gamma_intensity} In this derivation we have shifted our coordinate system somewhat to make the mathematics more convenient, however it is relatively easy to switch back to a real coordinate system. For an infinitely long square wave the choice of coordinates along the x-axis is arbitrary, but to obtain an expression where the depth of z = 0 equals to the start of one period, one can simply shift the x-coordinates back by half of this layer thickness. The auxiliary SLD coordinates can be shifted back to the real physical values by applying the same shift again on the y-axis. When we apply these offsets and fill in the parameters of equation \ref{fouriersum} for a Ni/Ti multilayer with a period of $\Lambda$ = 48 Å, thickness ratio $\Gamma$ = 0.4, and SLD values equal to 9.4 and -1.9 Å$^{-2}$ for Ni and Ti respectively, this then results in the following sum:
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{gamma_intensity.pdf_tex}
+	\caption{The intensity of each diffraction peak is strongly dependent on the thickness ratio $\Gamma$ of the multilayer. The relative amplitude of the first three diffraction peaks is shown as a function of $\Gamma$, from this figure it can be observed how higher order diffraction peaks in particular vary strongly with varying thickness ratios.}
+	\label{gamma_intensity}
+\end{figure}
+\begin{equation}\label{fouriersum}
+	g(z) = -1.9 + 11.33\cdot0.4 + \sum_{\textrm{n}=1}^{ \infty }  	\frac{11.33}{\pi \textrm{n}} \sin(0.4 \pi \textrm{n}) \cos(\frac{2\pi}{48}n(z - 0.4 \cdot 24)).
+\end{equation}
+Where the offset of -1.9 results from our shift in y-coordinates that we applied to set the lower SLD value equal to zero, and the shift of 0.4 $\cdot$ 24 originates from our choice of x-coordinates that was applied in order to obtain an even function. The resulting first three Fourier components for this multilayer is illustrated in Figure \ref{fourier}. The square wave illustrates the actual SLD-profile, while the sinusoidal waves are the Fourier components as described in equation \ref{fouriersum}, in this illustration only the first three components are shown. The amplitudes of the peaks of the measured signal in a scattering experiment are directly proportional to the amplitudes of the Fourier components described here. This makes it clear how a higher contrast in scattering potential results in a stronger signal. A similar analysis is valid for interfaces with interface imperfections, where the transition from one layer to another is more gradual. While the resulting Fourier components will be different from equation \ref{fouriersum}, it can be seen from the described example in Figure \ref{fourier} that the first component of the Fourier series is very sensitive to the contrast in SLD between the layers, while the other components will be more sensitive to the interface width. 
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{FourierNiTi.pdf_tex}
+	\caption{The SLD profile of a multilayer can be described as an infinite series of a sine waves. The first three components of the Fourier series are shown in this figure, summing all Fourier components, including the average value $a_0$, will eventually result in the sketched square wave.}
+	\label{fourier}
+\end{figure}

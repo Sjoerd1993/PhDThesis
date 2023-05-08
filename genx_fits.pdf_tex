@@ -1,0 +1,100 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'genx_fits.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{175.94928892bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.45928056)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.08463922,0.05496382){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\\\end{tabular}}}}%
+    \put(0.26103799,0.05496382){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\\\end{tabular}}}}%
+    \put(0.42205634,0.05496382){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\\\end{tabular}}}}%
+    \put(0.59620479,0.05496382){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}15\\\end{tabular}}}}%
+    \put(0.76491108,0.05496382){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}20\\\end{tabular}}}}%
+    \put(0.94151458,0.05496382){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}25\\\end{tabular}}}}%
+    \put(0.48254839,1.43696163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{ }\end{tabular}}}}%
+    \put(0.02477633,1.01420816){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Intensity (arb. u)\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{genx_fits.pdf}}%
+    \put(0.47459148,0.69756319){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0.01312138,0.22636046){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Intensity (arb. u)\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{genx_fits.pdf}}%
+    \put(0.53560218,0.69018632){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Neutron reflectivity\end{tabular}}}}%
+    \put(0.02515117,0.5889912){\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}10$^{0}$\end{tabular}}}}%
+    \put(0.02515117,0.4124655){\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}10$^{-2}$\end{tabular}}}}%
+    \put(0.02515117,0.23802983){\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}10$^{-4}$\end{tabular}}}}%
+    \put(0.02515117,0.06938734){\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}10$^{-6}$\end{tabular}}}}%
+    \put(0.0867302,0.79697451){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\\\end{tabular}}}}%
+    \put(0.23918948,0.7967081){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\\\end{tabular}}}}%
+    \put(0.38533084,0.7967081){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\\\end{tabular}}}}%
+    \put(0.53096149,0.79697451){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\\\end{tabular}}}}%
+    \put(0.68110874,0.79697451){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8\\\end{tabular}}}}%
+    \put(0.81214288,0.79802107){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\\\end{tabular}}}}%
+    \put(0.97078197,0.79583301){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12\\\end{tabular}}}}%
+    \put(0.5655109,0.76413463){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Scattering angle 2$\theta$ ($\degree$)\end{tabular}}}}%
+    \put(0.56551084,0.03248786){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Scattering angle 2$\theta$ ($\degree$)\end{tabular}}}}%
+    \put(0.03681706,1.33581529){\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}10$^8$\end{tabular}}}}%
+    \put(0.03681706,1.15928958){\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}10$^6$\end{tabular}}}}%
+    \put(0.03681706,0.98485391){\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}10$^4$\end{tabular}}}}%
+    \put(0.03681706,0.80768617){\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}10$^2$\end{tabular}}}}%
+    \put(0.71967652,1.33948044){\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Ni/Ti + \BC\\P = 30 W\\U = 0V/-30V\\N = 100\\26.0 at. \% $^{11}$B+C\end{tabular}}}}%
+    \put(0.3089927,1.34775415){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}n = 1\end{tabular}}}}%
+    \put(0.37219988,1.24676148){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2\end{tabular}}}}%
+    \put(0.49211072,1.17300655){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3\end{tabular}}}}%
+    \put(0.62078213,1.12246827){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4\end{tabular}}}}%
+    \put(0.5182689,0.42975261){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2\end{tabular}}}}%
+    \put(0.72816778,0.33418999){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3\end{tabular}}}}%
+    \put(0.93474995,0.29447685){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4\end{tabular}}}}%
+    \put(0.76188039,0.99714203){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5\end{tabular}}}}%
+    \put(0.88495651,1.00560751){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6\end{tabular}}}}%
+    \put(0.34623915,0.58588596){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}n = 1\end{tabular}}}}%
+    \put(0.69518357,0.58839673){\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Ni/Ti + \BC\\P = 30 W\\U = 0V/-30V\\N = 100\\26.0 at. \% $^{11}$B+C\end{tabular}}}}%
+    \put(0.52777094,1.41665835){\color[rgb]{0.00784314,0.00784314,0.00784314}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}X-ray reflectivity\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

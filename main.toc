@@ -1,0 +1,94 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{i}{chapter*.3}%
+\contentsline {chapter}{Populärvetenskaplig sammanfattning}{iii}{chapter*.4}%
+\contentsline {chapter}{Acknowledgments}{v}{chapter*.5}%
+\contentsline {chapter}{List of included publications}{vii}{chapter*.6}%
+\contentsline {chapter}{Contents}{ix}{section*.9}%
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}European Spallation Source}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Neutron multilayers}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Research aims}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Outline of the thesis}{4}{section.1.5}%
+\contentsline {chapter}{\chapternumberline {2}Scattering theory}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Neutron scattering}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Fresnel reflection}{8}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Scattering principles}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Neutron scattering length}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}The scattering cross section}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Origin of neutron scattering lengths}{15}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Scattering length density}{17}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Choice of materials}{18}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Neutron scattering in reciprocal space}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Reciprocal space}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Fourier expansion of an ideal multilayer}{22}{subsection.2.4.2}%
+\contentsline {chapter}{\chapternumberline {3}Multilayer and supermirror optics}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Specular reflectivity from different interfaces}{27}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Reflection from a substrate}{27}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Reflection from a thin layer}{28}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Reflection from multilayers}{30}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Reflection from supermirrors}{31}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Coherence length}{34}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Longitudinal coherence length}{34}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Transverse coherence length}{35}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Interface imperfections}{36}{section.3.3}%
+\contentsline {chapter}{\chapternumberline {4}Off-specular scattering}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Off-specular geometry}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Characterizing interface morphology}{41}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Correlation functions}{41}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Interface morphology}{43}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Rocking scans}{48}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Grazing Incidence Small Angle Scattering}{49}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}GISAS geometry}{50}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}The GISAS scattering map}{50}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Obtaining structural parameters using GISAS}{52}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Scattering at grazing incidence}{56}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {5}Multilayer depositions}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Magnetron sputter deposition}{61}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Ion Assistance}{62}{section.5.2}%
+\contentsline {section}{\numberline {5.3}$^{11}$B$_4$C co-deposition}{64}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Growing high-performance neutron multilayers}{65}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Reducing interface width}{65}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Optimizing optical contrast}{66}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Deposition systems used in this work}{67}{section.5.5}%
+\contentsline {chapter}{\chapternumberline {6}Reflectometry}{69}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Neutron and X-ray reflectometry}{69}{section.6.1}%
+\contentsline {section}{\numberline {6.2}The overillumination effect}{70}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Neutron instrument}{73}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Alignment procedure}{73}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}X-ray instrument}{74}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Alignment procedure}{75}{subsection.6.4.1}%
+\contentsline {chapter}{\chapternumberline {7}Reflectivity simulations}{77}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Parratt recursion}{77}{section.7.1}%
+\contentsline {section}{\numberline {7.2}The Born approximation}{78}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}The Distorted Wave Born Approximation}{80}{subsection.7.2.1}%
+\contentsline {section}{\numberline {7.3}Sample description in the simulations}{81}{section.7.3}%
+\contentsline {chapter}{\chapternumberline {8}Multilayer characterization}{83}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Elastic Recoil Detection Analysis}{83}{section.8.1}%
+\contentsline {section}{\numberline {8.2}X-ray Photoelectron Spectroscopy}{84}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Transmission Electron Microscopy}{85}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Bright-field imaging}{85}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Dark-field imaging}{86}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}High Resolution Transmission Electron Microscopy}{86}{subsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.3.4}Selected Area Electron Diffraction}{87}{subsection.8.3.4}%
+\contentsline {chapter}{\chapternumberline {9}Summary of the results}{89}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Multilayers grown at PETRA III}{89}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Initial investigation with B$_\textrm {4}$C containing Ni/Ti multilayers}{89}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}The effects of $^{\textrm {11}}$B$_\textrm {4}$C co-deposition on reflectivity performance}{89}{subsection.9.1.2}%
+\contentsline {section}{\numberline {9.2}Samples grown at Linköping University}{92}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Reflectivity performance}{92}{subsection.9.2.1}%
+\contentsline {section}{\numberline {9.3}Interface morphology of $^{\textrm {11}}$B$_\textrm {4}$C containing multilayers}{94}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Thickness dependent material designs}{95}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Isotope modulated interference mirrors}{95}{section.9.5}%
+\contentsline {chapter}{\chapternumberline {10}Outlook}{97}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Ni/Ti based multilayers}{97}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Isotope modulated interference mirrors}{100}{section.10.2}%
+\contentsline {chapter}{\chapternumberline {11}Summary of the papers}{101}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Paper I}{101}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Paper II}{102}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Paper III}{102}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Paper IV}{103}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Paper V}{104}{section.11.5}%
+\contentsline {chapter}{Bibliography}{105}{section*.63}%
+\contentsline {chapter}{Publications}{115}{chapter*.64}%
+\contentsfinish 

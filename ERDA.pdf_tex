@@ -1,0 +1,85 @@
+%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ERDA.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{727.3349762bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.58357291)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{ERDA.pdf}}%
+    \put(0.02268556,0.23362697){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Energy (Ch)\end{tabular}}}}}%
+    \put(0.54268873,0.01099905){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Time Of Flight (Ch)\end{tabular}}}}%
+    \put(0.10677282,0.04352346){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1000\end{tabular}}}}%
+    \put(0.28164479,0.04352346){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1200\end{tabular}}}}%
+    \put(0.44524819,0.04352346){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1400\end{tabular}}}}%
+    \put(0.61886807,0.04376018){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1600\end{tabular}}}}%
+    \put(0.7870624,0.04376018){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1800\end{tabular}}}}%
+    \put(0.95525672,0.04376018){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2000\end{tabular}}}}%
+    \put(0.16734931,0.26595028){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}B$^{11}$\end{tabular}}}}%
+    \put(0.1642201,0.30366149){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}O\end{tabular}}}}%
+    \put(0.17890442,0.46412967){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}Ti\end{tabular}}}}%
+    \put(0.18919275,0.40813603){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}Ar\end{tabular}}}}%
+    \put(0.08438924,0.5070746){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1400\end{tabular}}}}%
+    \put(0.08438924,0.44204575){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1200\end{tabular}}}}%
+    \put(0.08438924,0.37974099){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1000\end{tabular}}}}%
+    \put(0.08438924,0.31845221){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}800\end{tabular}}}}%
+    \put(0.08438924,0.25422835){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}600\end{tabular}}}}%
+    \put(0.08438924,0.19408025){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}400\end{tabular}}}}%
+    \put(0.08438924,0.13042993){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}200\end{tabular}}}}%
+    \put(0.08438924,0.06059264){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{ERDA.pdf}}%
+    \put(0.12779176,0.23468921){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{ERDA.pdf}}%
+    \put(0.16327486,0.09940915){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}H\end{tabular}}}}%
+    \put(0.40138168,0.10142744){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Si\end{tabular}}}}%
+    \put(0.3751213,0.3931787){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}I\end{tabular}}}}%
+    \put(0.27621657,0.47342134){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ni\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

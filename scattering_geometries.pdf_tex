@@ -1,0 +1,100 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'scattering_geometries.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{846.13602285bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.76325867)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{scattering_geometries.pdf}}%
+    \put(0.94971464,0.82831424){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}y\end{tabular}}}}%
+    \put(0.49568588,1.14187265){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}z\end{tabular}}}}%
+    \put(0.14871227,0.63983408){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}x\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{scattering_geometries.pdf}}%
+    \put(0.23846768,0.74973325){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\textcolor{thesis_red}{\vb{k}_i}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{scattering_geometries.pdf}}%
+    \put(0.60926111,1.03812282){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\textcolor{thesis_red}{\vb{k}_f}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{scattering_geometries.pdf}}%
+    \put(0.96809176,1.42897407){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}y\end{tabular}}}}%
+    \put(0.52764984,1.74439155){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}z\end{tabular}}}}%
+    \put(0.15190542,1.24408857){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}x\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{scattering_geometries.pdf}}%
+    \put(0.03176135,1.18921509){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a) Specular: $\alpha_f$ = $\textcolor{thesis_red}{\alpha_i}$, $\phi_f$ = $\textcolor{thesis_red}{0}$\end{tabular}}}}%
+    \put(0.02770796,0.59000612){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b) Rocking: $\alpha_f \neq \textcolor{thesis_red}{\alpha_i}$ \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{scattering_geometries.pdf}}%
+    \put(0.0396923,1.65236745){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}q$_z$ = k$_0(\sin{\alpha_i} + \sin{\alpha_f})$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{scattering_geometries.pdf}}%
+    \put(0.93617084,0.24243299){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}y\end{tabular}}}}%
+    \put(0.4851381,0.55857168){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}z\end{tabular}}}}%
+    \put(0.1209015,0.0594457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}x\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{scattering_geometries.pdf}}%
+    \put(0.53822024,0.28483942){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\phi_f$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{scattering_geometries.pdf}}%
+    \put(0.20808365,0.16643073){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\textcolor{thesis_red}{\vb{k}_i}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{scattering_geometries.pdf}}%
+    \put(0.49304236,0.36260017){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\textcolor{thesis_red}{\vb{k}_f}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{scattering_geometries.pdf}}%
+    \put(0.5176147,0.32111489){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_f$\end{tabular}}}}%
+    \put(0.28954697,0.15473367){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_i$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{scattering_geometries.pdf}}%
+    \put(0.01780926,0.00907653){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}c) GISAS: $\alpha_f \neq \textcolor{red}{0}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{scattering_geometries.pdf}}%
+    \put(0.04166118,1.05106277){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}q$_x$ = k$_0(\cos{\alpha_f}\cos{\phi_f} - \cos{\alpha_i})$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{scattering_geometries.pdf}}%
+    \put(0.59009168,0.89173008){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_f$\end{tabular}}}}%
+    \put(0.31925416,1.34455838){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_i$\end{tabular}}}}%
+    \put(0.24970245,1.37032878){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\textcolor{thesis_red}{\vb{k}_i}$\end{tabular}}}}%
+    \put(0.6182291,1.49638906){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_f$\end{tabular}}}}%
+    \put(0.31993057,0.73803618){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_i$\end{tabular}}}}%
+    \put(0.04224025,0.46642167){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}q$_y$ = k$_0(\sin{\phi_f}\cos{\alpha_f})$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{scattering_geometries.pdf}}%
+    \put(0.61312419,1.57004033){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\textcolor{thesis_red}{\vb{k}_f}$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

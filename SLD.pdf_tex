@@ -1,0 +1,91 @@
+%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'SLD.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{691.41320801bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.64349054)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{SLD.pdf}}%
+    \put(0.14432463,0.04253859){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-2\end{tabular}}}}%
+    \put(0.29176993,0.04253859){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.42734644,0.04253859){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.56530596,0.04228957){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.70468778,0.04253859){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0.84199953,0.04253859){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8\end{tabular}}}}%
+    \put(0.97350922,0.04253859){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0.17030539,0.11562756){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}H\end{tabular}}}}%
+    \put(0.27296235,0.54078523){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}V\end{tabular}}}}%
+    \put(0.32615248,0.40284446){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Cs\end{tabular}}}}%
+    \put(0.43852511,0.1068725){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Si\end{tabular}}}}%
+    \put(0.45379451,0.12457604){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Sn\end{tabular}}}}%
+    \put(0.4971231,0.61669915){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Se\end{tabular}}}}%
+    \put(0.50412194,0.40425677){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Cr\end{tabular}}}}%
+    \put(0.50274074,0.34600474){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}As\end{tabular}}}}%
+    \put(0.55274164,0.18481901){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zn\end{tabular}}}}%
+    \put(0.59315977,0.28986527){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Mo\end{tabular}}}}%
+    \put(0.57579191,0.5395274){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}U\end{tabular}}}}%
+    \put(0.7542596,0.48540097){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Cu\end{tabular}}}}%
+    \put(0.75542089,0.10005981){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}C\end{tabular}}}}%
+    \put(0.95922921,0.09788627){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Be\end{tabular}}}}%
+    \put(0.84895596,0.36007144){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fe\end{tabular}}}}%
+    \put(0.93978435,0.59288664){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ni\end{tabular}}}}%
+    \put(0.35423817,0.00463744){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Real component of the SLD ($10^{-6}Å^{-2}$)\end{tabular}}}}%
+    \put(0.02150766,0.13029133){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Imaginary component of the SLD ($10^{-6}Å^{-2}$)\end{tabular}}}}}%
+    \put(0.16050844,0.51361677){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ti\end{tabular}}}}%
+    \put(0.03756772,0.61348515){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.0012\end{tabular}}}}%
+    \put(0.03756772,0.52659545){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.0010\end{tabular}}}}%
+    \put(0.03756772,0.43784873){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.0008\end{tabular}}}}%
+    \put(0.03756772,0.35094759){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.0006\end{tabular}}}}%
+    \put(0.03756772,0.26354337){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.0004\end{tabular}}}}%
+    \put(0.03756772,0.17666373){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.0002\end{tabular}}}}%
+    \put(0.03756772,0.08894993){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.0000\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,67 @@
+%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'dwba_terms.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{423.18319486bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.18413871)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{dwba_terms.pdf}}%
+    \put(0.11694443,0.15741834){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mel*{\psi_i^-}{\delta v}{\psi_f^+}$\end{tabular}}}}%
+    \put(0.34878534,0.15842237){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mel*{\psi_i^-}{\delta v}{\psi_f^-} $\end{tabular}}}}%
+    \put(0.60500782,0.15788707){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mel*{\psi_i^+}{\delta v}{\psi_f^+} $\end{tabular}}}}%
+    \put(0.83068059,0.15788707){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mel*{\psi_i^+}{\delta v}{\psi_f^-}$\end{tabular}}}}%
+    \put(0.83452622,0.00263993){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Term 4\end{tabular}}}}%
+    \put(0.61614331,0.00294454){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Term 3\end{tabular}}}}%
+    \put(0.35564256,0.00263993){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Term 2\end{tabular}}}}%
+    \put(0.12367358,0.00263993){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Term 1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{dwba_terms.pdf}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,128 @@
+\chapter{Multilayer and supermirror optics}\label{multilayeroptics}
+Maybe I will write a short introductory text to this chapter, and all chapters in the future. 
+
+\section{Fresnel reflection}\label{fresneltheory}
+In this cover I will cover some theory about Fresnel reflection, but I havne't written anything about this.
+
+\section{Reflectivity from different interfaces}
+To get to the reflectivity for multilayer instruments, it is best to start with the simplest case of reflectivity from a substrate. A description of the reflectivity curve from a substrate follows from the Fresnel coefficients, which are covered in subsection \ref{fresneltheory}. From these, one can get the ratio of reflected over the incident intensity:
+
+\begin{equation}
+	\textrm{I}_\textrm{R} = \textrm{I}_\textrm{0} \qty | \frac{\theta - \sqrt{\theta^2 - \theta_c - 2 i \beta}}{\theta + \sqrt{\theta^2 - \theta_c - 2 i \beta}} |
+\end{equation}
+\subsection{}
+
+\subsection{Single layer}
+Now if we add a single layer to the substrate, we will also have reflections from the finite thickness of this layer. The resulting reflection can most clearly be understood by tracing an incoming beam, as shown in figure \ref{singlelayersketch}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{singelayersketch.png}
+	\caption{An incoming neutron beam hits a single thin film from the substrate.}
+	\label{singlelayersketch}
+\end{figure}
+The incoming beam partly reflects at the surface, while another part gets transmitted through the top layer and reflected at the substrate interface. The phase difference between the two transmitted beams depend on the optical path, and it follows from the figure that this can be described by:
+\begin{equation}
+	\Delta = (AB + BC)n - AD
+\end{equation}
+Where n is the refractive index of the layer. From simple geometry in the figure, it also follows that the path difference can be described as:
+\begin{equation}
+	\Delta = 2d \sin (\theta_t) \ approx 2d \sqrt(\theta^2 - \theta_c^2)
+\end{equation}
+From the left-hand side, we can see that this is analogue to the Bragg equation, where a maximum occurs whenever the phase difference is a multiple of the wavelength, or when $\Delta= m \lambda$. Filling this into the right-hand side, we get with some re-writing:
+\begin{equation}\label{reflectionsingle}
+	\theta_m^2 = \theta_c^2 + \qty(\frac{\lambda}{2d})m^2
+\end{equation}
+Such a reflection is simulated in figure \ref{simulated_singlelayer}. Where a neutron-beam is reflected from a single layer of nickel with a thickness of 30 nm. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{simulated_singlelayer.png}
+	\caption{A simulation of the reflectance for a single layer of nickel with a thickness of 30 nm on a Si substrate and a Neutron wavelength of 5 Å.}
+	\label{simulated_singlelayer}
+\end{figure}
+It follows from equation \ref{reflectionsingle}, that the spacing between these maximi that can be observed are inversely dependent on the thickness of the layer. Meaning that a thicker layer leads to a closer spacing between the fringes while a very thin layer will see these fringes very far apart.
+
+\subsection{Multilayers}
+We can expand this concept as well to multilayers. The multilayers in this work consist of a certain number of so-called bilayers, which is a repeated set of two layers that get repeated throughout the stack. A schematic drawing of such a multilayer is seen in figure \ref{multilayersketch}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{multilayersketch.png}
+	\caption{A simulation of the reflectance for a single layer of nickel with a thickness of 30 nm on a Si substrate and a Neutron wavelength of 5 Å.}
+	\label{multilayersketch}
+\end{figure}
+As can be observed in figure, the difference in optical path between the reflected beams depends on the total thickness of one bilayer. The total thickness of one bilayer is known as the period, and is denoted with $\Lambda$ The position of the fringes that arise from the periodicities can be described in a similar way as equation \ref{reflectionsingle}, but where we use the bilayer thickness instead of the individual layer thickness:
+\begin{equation}\label{reflectionmulti}
+	\theta_m^2 = \theta_c^2 + \qty(\frac{\lambda}{2\Lambda})m^2
+\end{equation}
+Apart from these maxima, which are known as Bragg peaks, can we also describe so-called Kiessig fringes between the peaks. These fringes arise from the total thickness of the multilayer. Assuming there is no damping due to roughness for example, we can observe N-2 of these Kiessig fringes between the maxima from the layer periodicity. This is also shown in figure \ref{simulatedmultilayer}, where clear Kiessig are observed between the larger Bragg peaks. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{simulated_multilayer.png}
+	\caption{A simulation of the reflectance for a multilayer system consisting of 12 bilayers of Ni and Ti, with a total period of 50 nm.}
+	\label{simulatedmultilayer}
+\end{figure}
+
+\section{Interface imperfections}
+So far, we have assumed reflection from ideal interfaces. In reality however, interfaces are not perfectly flat or abrupt. Meaning the interfaces have a certain thickness in the normal direction, this thickness is called the interface width and is denoted by $\sigma$. In reality, the interface width arises from two different physical factors. The abruptness of the interface, which arise from factors such as interdiffusion and intermixing, and the interfacial roughness. These two physical factors behave independently, a perfectly flat sample can still contain intermixing while a rough sample still can be perfectly abrupt on a local level. The total interface width can therefore be considered as the sum of these effects, and can thus be expressed as:
+\begin{equation}
+	\sigma^2 = \sigma_ d^2 + \sigma_r^2
+\end{equation}
+Where $\sigma_d$ describes the interface width due to the intermixing and interdiffusion and $\sigma_r$ describes the interface width due to the roughness. Note how the exact deviation from a perfect interface varies on a local level, the interface width is therefore defined as a square root averaged value over the probed interface. 
+
+If we consider the SLD-profile of such imperfect interfaces, it follows that the effects of intermixing and interfacial roughness are indistinguishable from each other in the normal direction. Both factors lead to a more gradual transition of SLD from one interface to the other. This loss of an abrupt transition leads to a reduction of specular reflectivity. In the case of interfacial roughness, part of the incident beam will be scattered into non-specular directions while intermixing leads to an increase in transmission. These different causes of interface width can therefore be observed by doing non-specular scans, but in specular reflectivity these effects are indistinguishable from each other, as is illustrated in figure \ref{interfacewidthgradient}. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{interfacewidthgradient.png}
+	\caption{While intermixing and surface roughness are distinct phenomena, they are indistinguishable in the SLD profile normal to the interface.}
+	\label{interfacewidthgradient}
+\end{figure}
+A typical distribution of the interface profile in the normal direction is given by the error function:
+\begin{equation}
+	g(z) = \textrm{erf}\qty(\frac{z}{\sqrt{2}\sigma}).
+\end{equation}
+Taking the derivative of the error function we get a Gaussian distribution:
+\begin{equation}
+	f(z) = \frac{dg}{dz} = \frac{1}{\sqrt{2 \pi \sigma^2}} e ^{-\frac{1}{2} \qty(\frac{z}{\sigma})^2}
+\end{equation}
+If we take the Fourier transform of a Gaussian we get another Gaussian. So the attenuation factor associated with our Fresnel equations can be described as
+\begin{equation}
+	\tilde{f}(z) = e^{-\frac{s^2 \sigma^2}{2} \qty(\frac{4\pi \sigma \sin \theta}{\lambda})^2 }
+\end{equation}
+This factor is  known as the Debye-Waller factor and is commonly used to simulate imperfect interfaces. From this factor and combining it with Fresnel equations, we find that the reflectivity of a multilayer can be described as:
+\begin{equation}
+	R = R_0 e^{-\qty(2 \ pi m \frac{\sigma}{\Lambda})}
+\end{equation}
+Note that the reflectivity of a sample depends exponentially squared on the interface width. So even a modest improvement of the interface width has a large impact on the total reflectivity. The influence of the multilayer period can be explained by the fact that a multilayer with a smaller period has a larger fraction of the layer consisting of interfaces. The smaller the period, the more important the quality of the interface therefore becomes for a good reflectivity performance.
+
+\section{Off-specular scattering}
+So far we have only considered the specular part of the reflection, where the angle of incidence is equal to the angle of refraction. For an ideal interface, the scattering potential in the in-plane direction is always constant, meaning all scattering will be in the specular direction normal to the plane of incidence. In the case of surface roughness however, local differences occur in the chemical composition of sample in the in-plane direction. This means that the parallel components of the neutron beam experience a potential barrier, leading to partial reflection in the in-plane direction. This phenomenon, where scattering occurs outside of the specular direction is is named off-specular scattering. This is further illustrated in figure \ref{off-specularsketch}, where an incoming neutron beam reflects from the sample and reaches the detector, the specular signal can be found in the plane of incidence while the off-specular signal is perpendicular to the plane of incidence.
+Since off-specular scattering probes the in-plane direction of the interface, one can obtain a lot of information of the roughness profile of the interfaces. Interfacial roughness for example leads strong scattering potential barriers in the off-specular direction, and therefore increases the off-specular signal. Intermixing however leads to a much more gradual contrasts in the in-plane direction and contributes therefore much less to the off-specular signal. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{off-specular.png}
+	\caption{An incoming neutron beam reflects from the sample and reaches the detector, the specular signal can be found in the plane of incidence while the off-specular signal is perpendicular to the plane of incidence.}
+	\label{off-specularsketch}
+\end{figure}
+
+There are several parameters that influence the off-specular signal in a multilayer. The most important ones that we will describe here are the cross correlation length, the transverse correlation length and the Hurtz parameter.
+The cross correlation length of a multilayer describes how closely correlated the roughness profile is between the subsequent interfaces within the multilayer. This parameter is particularly interesting for this work, as correlated roughness means that deviations from an ideal layer at the interface  repeat themselves for subsequent layers, meaning that such deviations may increase with each newly deposited layer. This phenomenon, which is called accumulated roughness, is a particular challenge when depositing multilayers with many periods as is conventional with neutron supermirrors for example.
+
+Correlated roughness in a multilayer can be detected in the off-specular signal by looking at the so-called Bragg sheets. When the interface profile is completely uncorrelated, the off-specular signal scatters into different directions for each layer within the sample, meaning the off-specular signal will be spread out over the entire reciprocal plane. For completely correlated layers, the off-specular signal is scattered into the same direction for each layer. As the periodicity of this interface profile is the same as the multilayer period, this signal will be focused on in perpendicular sheets around the Bragg peaks of the specular signal. This is illustrated in figure \ref{correlated_vs_diffuse}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{correlated_vs_diffuse.png}
+	\caption{An incoming neutron beam reflects from the sample and reaches the detector, the specular signal can be found in the plane of incidence while the off-specular signal is perpendicular to the plane of incidence..}
+	\label{correlated_vs_diffuse}
+\end{figure}
+
+The latteral correlation length is sometimes described as the cut-off for the length scale where an interface begins to look smooth. The absolute magnitude of the interface width can very well be low, but the interface still looks very rough if the latteral correlation length is low enough. This is illustrated in figure \ref{correlationlength}, the latteral correlation length basically describes the typical distance between the peaks in this figure.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{correlationlength.png}
+	\caption{While these two multilayers have roughly the same interface width, the sample on the right-hand side looks much more smooth due to the higher latteral correlation length. The latteral correlation length describes the cut-off length scale where an interface begins to look smooth.}
+	\label{correlationlength}
+\end{figure}
+Finally the Hurtz parameter describes the jaggyness of the interfaces in the sample. A sample with a Hurtz parameter of 1.0 looks relatively smooth where the interfaces gets more jaggy the closer the Hurtz parameters gets to zero. This factor shows mainly in the shape of the off-specular signal. A more ideal sample with low jaggyness shows a more Gaussian distribution in the off-specular reflectivity, where this shape becomes very Lorentzian for very jagged samples.

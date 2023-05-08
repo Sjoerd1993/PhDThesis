@@ -1,0 +1,115 @@
+% https://github.com/martinhelso/phduio-monograph
+% Add [final] to remove marginal notes:
+\documentclass[colophon, english]{phduio}
+\usepackage{physics}
+\usepackage{phdstyle}   % Custom style
+\usepackage{kantlipsum} % Dummy text
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{tabularx}
+\usepackage{soul}
+\usepackage{graphicx}
+\usepackage{afterpage}
+\newcommand{\smallplus}{\raisebox{.4\height}{\scalebox{.6}{+}}}
+\newcommand{\smallminus}{\raisebox{.4\height}{\scalebox{.8}{-}}}
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
+\usepackage{svg}
+\usepackage{float} % to easily modify floats
+\usepackage{gensymb}
+\usepackage{pdfpages}
+\usepackage{csquotes}
+\let\newfloat\undefined
+
+\usepackage{everyhook} % nice \every... patching
+\usepackage{etoolbox}
+\usepackage{sansmath}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{thesis_red}{RGB}{191, 25, 38}
+\AtBeginEnvironment{figure}{\sansmath}
+\usepackage[font={small}, font=sf,labelfont=bf]{caption}
+\setfloatadjustment{figure}{\sffamily \footnotesize}
+
+\usepackage[paperwidth=165mm, paperheight=240mm, inner=20mm, outer=24mm, top=25mm, bottom = 25mm]{geometry}
+\def\BCs {$^{\textrm{11}}$B$_\textrm{4}$C}
+\def\10BC {$^{\textrm{10}}$B$_\textrm{4}$C }
+\def\BC {$^{\textrm{11}}$B$_\textrm{4}$C }
+\def\natBC {B$_\textrm{4}$C }
+\usepackage{mlmodern}
+\usepackage{siunitx}
+%\usepackage{titlesec, blindtext, color}
+%\definecolor{gray75}{gray}{0.75}
+%\newcommand{\hsp}{\hspace{20pt}}
+%\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+\author{Sjoerd Stendahl}
+\title{Multilayer neutron optics based on isotope-enriched \BC}
+\subtitle{}
+\department{Thin Film Physics}
+\faculty{IFM}
+\affiliation
+{
+	%Optional Second Affiliation
+	%\and
+	%Optional Further Specification
+}
+
+\begin{document}
+    \includepdf[
+pages=1-4,
+fitpaper=True
+]{FULLTEXT01.pdf}
+	\thispagestyle{empty}
+	\chapter*{}
+	\thispagestyle{empty}
+	\epigraph{There is a crack in everything, that's how the light gets in.}{Leonard Cohen}
+	\clearpage
+	\thispagestyle{empty}
+	\subsection*{About the cover}
+	The cover shows a stylized version of a GISAXS measurement of one of the multilayers investigated in this work as measured at the synchrotron at PETRA III in Hamburg, Germany. While GISAXS does not involve neutron scattering, these experiments have probably been my favourite during the PhD and I've learned a lot along the way. For these experiments I've written my own data reduction software to do the analysis, which is publicly available on Github and Flathub \cite{giscan}. This has also made me get involved in the development of more applications in the free and open-source ecosystem which has been a fun hobby to explore. This has been a very interesting puzzle in a relatively niche field with few references available, exploring these lesser known details almost felt more like a hobby than as part of my job at times. 
+	\\
+	\\
+	These GISAXS measurements provide a lot of valuable information about the nature of the interfaces in multilayers. The cover itself shows an intensity map of the scattered GISAXS signal in reciprocal space, where the $q_z$ direction runs along the vertical direction of this book while the $q_y$ direction is oriented along the horizontal direction. In general, the vertical $q_z$ direction of the scattered signal contains information about the growth-direction of the sample. How wide the Bragg sheet (the bright area over my name) is in the vertical direction for instance, tells us how correlated the interface profiles are of a multilayer. By studying this width at different positions in the $q_z$ direction, we can tell which length-scales are replicated throughout the multilayer stack. By studying the intensity along $q_y$, we can get information about the in-plane direction of the multilayer, such the morphological nature of the interfaces.\\
+	\\
+	The measurement that is shown on this cover has been manipulated in the GNU Image Manipulation Program (GIMP) for aesthetic reasons, and it should not be considered representative of an actual measurement. Nevertheless, several real physical features can still be observed on the cover. The $q_z$ = 0 Å direction runs along the back of the cover. If we follow this signal over the back, a strong increase in signal can be observed, roughly where the word \BC is located, this is the Yoneda peak and typically shows up when the incidence angle is equal to the critical angle. A second order of this Yoneda peak can be found around the word \enquote{on}, this second order is a less documented phenomenon and is likely the result of waveguiding effects. At the same height as my name on the front cover, a Bragg-like sheet can be observed, this is the result of correlated interface profiles throughout the sample. Finally the second order Bragg sheet can be found near the top of the cover, however this peak is mostly artificially generated by hand. A more detailed explanation of GISAXS measurements is covered in section \ref{GISANS_section} of this thesis.
+	\frontmatter        % Folios in Roman numerals, unnumbered chapters.
+	\include{sections/abstract}
+	\include{sections/sammanfattning}
+	\include{sections/preface}
+	\include{sections/includedpapers}    
+	\cleardoublepage
+	
+	
+	\tableofcontents    % Or \tableofcontents*
+	%\cleartorecto
+	%\listoffigures      % Or \listoffigures*
+	%\cleartorecto
+	%\listoftables       % Or \listoftables*
+	
+	\mainmatter         % Folios in Arabic numerals, numbered chapters.
+	\include{sections/introduction}
+	\include{sections/scatteringtheory}
+	\include{sections/multilayeroptics}
+	\include{sections/offspecular}    
+	\include{sections/multilayerdepositions}
+	\include{sections/instrumentalaspects}
+	\include{sections/reflectivitysimulations}
+	\include{sections/Multilayercharacterization}
+	\include{sections/SummaryResults}
+	\include{sections/Outlook}
+	\include{sections/SummaryPapers}
+	
+	%\include{sections/chapter4}
+	%    \appendix           % "Chapter" is renamed "Appendix"
+	%    \appendixpage       % Similar to \part*{Appendices}, but appears in TOC
+	%   \include{sections/appendixA}
+	%  \include{sections/appendixB}
+	
+	\backmatter         % Folios in Arabic numerals, unnumbered chapters.
+	\printbibliography
+	\include{sections/publications}    	
+	\include{sections/Papers}
+    \includepdf[pages=134, fitpaper=true]{FULLTEXT01.pdf}
+\end{document}

@@ -1,0 +1,83 @@
+%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'correlated_vs_diffuse.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{762.1411325bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.65167761)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{correlated_vs_diffuse.pdf}}%
+    \put(0.80083026,0.08760672){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\frac{2\pi}{\Lambda}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{correlated_vs_diffuse.pdf}}%
+    \put(0.86125193,0.36017007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$q_x$\end{tabular}}}}%
+    \put(0.71238362,0.60713785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$q_z$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{correlated_vs_diffuse.pdf}}%
+    \put(0.53045936,0.63480723){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bragg sheets\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{correlated_vs_diffuse.pdf}}%
+    \put(0.86617236,0.00688849){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$q_x$\end{tabular}}}}%
+    \put(0.71893533,0.2502756){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$q_z$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{correlated_vs_diffuse.pdf}}%
+    \put(0.53059001,0.28895995){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Diffuse scattering\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{correlated_vs_diffuse.pdf}}%
+    \put(0.04137203,0.6350253){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Correlated roughness\end{tabular}}}}%
+    \put(0.04063233,0.28898861){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Uncorrelated roughness\end{tabular}}}}%
+    \put(-0.00115706,0.3848185){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a)\end{tabular}}}}%
+    \put(0.00096383,0.03511152){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}c)\end{tabular}}}}%
+    \put(0.49759309,0.384771){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b)\end{tabular}}}}%
+    \put(0.49713237,0.03540732){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}d)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{correlated_vs_diffuse.pdf}}%
+    \put(0.45996257,0.46112151){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Lambda$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{correlated_vs_diffuse.pdf}}%
+    \put(0.79367175,0.44024932){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\frac{2\pi}{\Lambda}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{correlated_vs_diffuse.pdf}}%
+    \put(0.45825307,0.1119879){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Lambda$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{correlated_vs_diffuse.pdf}}%
+  \end{picture}%
+\endgroup%

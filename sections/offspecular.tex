@@ -1,0 +1,264 @@
+\chapter{Off-specular scattering}\label{off_specular_section}
+\section{Off-specular geometry}\label{offspec_geometry}
+In the scattering geometry so far, we have only considered specular scattering where the angle of incidence is equal to the scattering angle. As discussed in subsection \ref{interface_imperfections} however, imperfections at the interface can give rise to scattering outside of this specular direction. In order to characterize those imperfections, a different geometry is required. The different geometries that are used for scattering experiments in this work are depicted in Figure \ref{scattering_geometries}. Apart from the specular geometry, shown in Figure \ref{scattering_geometries} a), covered so far, two additional geometries have been used in this work for off-specular measurements. The most commonly used technique to measure off-specular scattering is the rocking scan as depicted in Figure \ref{scattering_geometries} b), is regurarly changed used interchangeably with the general term off-specular scattering or diffuse scattering. In order to avoid confusion with the broader term for off-specular scattering as a whole, we will refer to these kind of measurements as rocking scans. In this rocking geometry the sample itself is tilted along the x-axis to measure forward scattering in the q$_x$ direction.  Another powerful technique that can be used to characterize the off-specular signal is grazing incidence small-angle scattering (GISAS) as shown in Figure \ref{scattering_geometries}c, where a 2D area detector is used to measure the off-specular scattering at a fixed incidence angle. The probed scattering vector for each measurement can be obtained from equation \ref{qvector}, repeated here for clarity:
+\begin{equation}\label{qvector_repeat}
+	\vb{q} =  \vb{k}^\prime - \vb{k}_i.
+\end{equation}
+Applying this equation on the scattering vectors shown in Figure \ref{scattering_geometries}, we can see how the specular scattering only probes the q$_z$ direction and rocking curves only probe along the $q_x$ direction. In principle, it is possible to measure all q$_x$, q$_y$ and $q_z$ using GISANS geometry, but for reasons that become clear in subsection \ref{GISANS_section}, effectively a map of only q$_z$ versus q$_y$ is acquired. Both rocking scans and GISANS are covered in more detail in the rest of this section.
+\begin{figure}
+	\vspace{-2mm}
+	\centering
+	\def\svgwidth{0.8\textwidth}
+	\input{scattering_geometries.pdf_tex}
+	\caption{The three different scattering geometries that are used in this work. a) shows specular reflectivity, which probes q$_z$, b) shows a rocking scan which probes q$_x$ and c) shows the GISAS geometry where a 2D map of q$_z$ and q$_y$ is obtained.}
+	\label{scattering_geometries}
+\end{figure}
+\newpage
+\section{Characterizing interface morphology}
+The interface description so far seem to give a relatively complete description of a multilayer. We have discussed perfect interfaces, intermixing, and different kinds of roughness. These descriptions may be physically meaningful to some degree, but they do not accurately describe what we generally consider to be roughness at an interface. As an example, Figure \ref{same_roughness} shows two different multilayers. Intuitively we would say the right-hand multilayer is rougher. Yet, if we use the interface width as described earlier in subsection \ref{interface_imperfections}, we need to conclude that both multilayers are equally rough, as the right-hand multilayer is simply obtained by scaling the left-hand multilayer horizontally meaning their average interface width is identical. There are clearly parameters missing to accurately describe different types of roughness. These descriptions and their relevant parameters are described in this section.
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{same_roughness.pdf_tex}
+	\caption{a) A multilayer with a long lateral correlation length. b) A multilayer with a short lateral correlation length. Both multilayers have the exact same interface width $\sigma$, showing additional information is needed to accurately describe the roughness of a multilayer.}
+	\label{same_roughness}
+\end{figure}
+\subsection{Correlation functions}
+In order to properly understand the descriptions that are used in off-specular scattering measurements, it is important to establish a deeper understanding of what we actually measure in these kind of measurements. Central to such descriptions are the autocorrelation functions which are the Fourier transform of the measured intensity at a scattering experiment. To intuitively understand these functions, it is easiest to start with a height-height correlation function. To determine the height-height correlation function, we start by picking a point on the interface which we call point $a$. The distance in the growth-direction from the mean position of the interface is called its height, which is denoted by $z(a)$. Now we look how the height of the interface differs at a distance $r$ from this point, and we repeat this process at a large amount of points as illustrated in Figure \ref{correlation_function} a) for three different positions on the interface. The resulting squared difference in average for a large number of points s is called $H(r)$, which can mathematically be expressed as
+\begin{equation}
+	H(r) = \frac{1}{N}\sum_{i=1}^{N} \qty[z(a_i) - z(b_i)]^2.
+\end{equation}
+\begin{figure}[hb]
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{correlation_function.pdf_tex}
+	\caption{a) The height-height correlation function can be constructed by looking how the height of an interface differs on average between two different points with a distance $r$. b) The autocorrelation function tells us how correlated a layer is between two points at a given distance $r$. The distance where the correlation has fallen of to a factor of e$^{-1}$ is called the lateral correlation length.}
+	\label{correlation_function}
+\end{figure}
+Where $z(a)$ is the height of the interface at an arbitrarily chosen point at the interface, and $z(b)$ is the height of the interface at a distance $r$ from point $a$. For very small values of $r$, the height of the interface hasn't been able to change a lot and the height difference $H(r)$ will therefore be close to zero. For increasing values of $r$, the average height difference will start to increase until it reaches a plateau around a value of $H(r) = 2\sigma^2$ where a higher distance $r$ will no longer lead to a statistically larger difference in height between the interfaces. At this point, $H(r)$ becomes a constant function and, there is no statistical relation anymore between the height of an interface at an arbitrarily chosen point $a$ and at $a+r$, and the interface is said to be uncorrelated at this length-scale of $r$. Finally, if there is a periodic bump at the interface as illustrated in Figure \ref{interface_types} b), the average height difference at this value of $r$ will have a local maximum. If one stands on the top of such bump, the height difference to the next bump will be zero. Such a periodic behavior in the interface profile will therefore be visible in the height-height correlation function in the form of a local minimum. Closely related to the height-height correlation function is the autocorrelation function. Where the height-height correlation function describes how the average height between two points varies on the interface for a given distance $r$, the autocorrelation function describes how the closely correlated the height of two points are for a given distance $r$. It follows from this, that the autocorrelation function is an inversion of the height-height correlation function, where a small difference in average height corresponds to a strong correlation in the autocorrelation function. When the length-scale $r$ is very small, the autocorrelation function will therefore be at a maximum value. Likewise, for large  values of $r$, where these points at the interfaces are no longer correlated, the autocorrelation function will fall to zero. Periodic features in the interface, will show a stronger correlation at a distance that corresponds to the distance between these features and will therefore be visible as a local maximum in the autocorrelation function. 
+The autocorrelation function therefore tells us how quickly the interface varies over the lateral distance $r$.  This gives us a tool to distinguish the multilayers in Figure \ref{same_roughness}. If the autocorrelation function falls off quickly, it means the height of the interface deviates more quickly in the in-plane direction, and the sample will therefore appear more rough. The typical quantitative measure that is used to determine this, is the lateral correlation length which is denoted by $\xi_{\parallel}$. The lateral correlation length is sometimes interpreted as the cut-off for the length scale where an interface begins to look smooth and is equal to the distance $r$ where the autocorrelation function has dropped to a value of e$^{-1}$, as further illustrated in Figure \ref{correlation_function} b). 
+\subsection{Interface morphology}\label{interface_features}
+In previous subsection we discussed how the autocorrelation function works, and how it can be used to tell something quantitavely about a sample's interface morphology. In this subsection, we will complete this picture by showing how the interfaces themselves shape the autocorrelation functions analytically. \\
+Most commonly, interfaces are described as being self-affine as illustrated in Figure \ref{interface_types} a). This means that they have a fractal-like structure where the shape of the interface will be similar on different scaling levels. Because of this unique scaling behaviour, the obtained lateral correlation length itself will also depend on the chosen scaling level. Conversely, simply looking at the interface profile itself does not provide any information about the scaling that was chosen. From this, it follows that the lateral correlation length of such a self-affine interface is not really an absolute characteristic length scale of an interface, but rather a relative length scale. The most commonly used autocorrelation function for interface roughness follows an exponentially declining function given by \cite{thesis_ILL}: 
+\begin{equation}\label{self_affine_corr}
+	C(\vb{r}) = \sigma^2 \exp[-\qty(\frac{r}{\xi_{\parallel}})^{2h}].
+\end{equation}
+Where the Hurst parameter $h$ is introduced. The physical interpretation of the Hurst parameter is that this describes the jaggedness of the interfaces that are present in the sample, as illustrated in figure \ref{interface_roughnesses}f. A sample with a Hurst parameter of 1.0 looks relatively smooth, while a low Hurst parameter corresponds to very jagged interfaces. It should be noted that this autocorrelation function tends to a constant value when the Hurst parameter approaches zero and therefore is not a perfect description for truly self-affine interfaces. There are more complex autocorrelation functions that solve this problem described elsewhere \cite{gisaxs_multilayers}.
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{interface_types.pdf_tex}
+	\caption{a) Self-affine interfaces have a fractal behaviour where features are repeated on different length-scales, but do not have a specific characteristic length. b) Mounded interfaces show a long-range periodic behaviour in the form of interface mounds. The interface width is described by $\sigma$, the lateral correlation length by $\xi_{\parallel}$ and the characterstic length of a mounded interface by $\lambda$. The definitions of these parameters are elaborated in more detail in the text.}
+	\label{interface_types}
+\end{figure}
+Another type of interface morphology that is important in this work is that of mounded interfaces. For certain growth conditions, it is possible that mounds form at the interfaces with a long-range periodic behaviour as illustrated in Figure \ref{interface_types} b). For these interfaces, the autocorrelation function described in equation \ref{self_affine_corr} needs to be expanded by a first order Bessel function \cite{zhao2000characterization}, resulting in
+\begin{equation}\label{mounded_corr}
+	C(\vb{r}) = \sigma^2 \exp[-\qty(\frac{r}{\xi_{\parallel}})^{2h}]J_0\qty(\frac{2\pi}{\lambda}r).
+\end{equation}
+Where the parameter $\lambda$ is called the wavelength of the interface, and describes the average spacing between the mounds at the interface as illustrated in Figure \ref{interface_types}. In order to avoid confusion with the wavelength of the radiation source which is also denoted by $\lambda$, we will use the term mound separation in the rest of this work for this parameter. The addition of the Bessel function gives an oscillating contribution in the autocorrelation function, giving rise to a local maximum where the distance $r$ is equal to the mound separation $\lambda$. While a mounded interface does have a clear characteristic length in the form of the mound separation, the description of the lateral correlation length $\xi_{\parallel}$ where the autocorrelation function falls of by a factor of e$^{-1}$ is still perfectly valid for a mounded interface. Like for self-affine interfaces, the lateral correlation length signifies the length-scale where the height of two random points on the interface at this distance are no longer correlated. When we apply this to this kind of interface, it follows that the lateral correlation length for mounded interfaces now represents the typical size of the mounds at the interface.
+
+The description discussed in this subsection so far covers scattering from a single interface. For multilayer however, the scattered intensity will be a contribution from all probed interfaces in the stack. An important factor here is therefore how closely correlated the layer structure is to each other. Similar to the case of Bragg's law, strongly correlated layers with the same interface profile will show constructive interference whenever the Bragg condition is fulfilled. If the interfaces are completely uncorrelated, the distance between the interfaces in the growth-direction will vary on a local level, and the reflected waves will therefore be slightly out-of-phase. This is intuitively illustrated in Figure \ref{correlated_vs_diffuse}. Strongly correlated interfaces will give clear Bragg sheet concentrated around the q$_z$ values where the Bragg condition is fulfilled, while uncorrelated multilayers will scatter diffusely in different directions. The correlation between two interfaces can be represented using a cross-correlation function. A common correlation function that is used for vertical correlation between two layers $j$ and $k$ is given by \cite{thesis_ILL}
+\begin{equation}\label{cross-correlation}
+	G_{j,k}(z) = \sigma_j \sigma_k \exp(-\frac{\abs{z_j-z_k}}{\xi_\perp}).
+\end{equation}
+The interface widths of each layer is described by $\sigma_j$ and $\sigma_k$, while $z_j$ and $z_k$ describes the distance between the two layers. The term $\xi_\perp$, illustrated in Figure \ref{interface_roughnesses}e, describes the vertical correlation length and tells us how correlated the layers are in the growth direction. Just like the lateral correlation length, the cross-correlation length is defined as the distance where the autocorrelation function falls off to a value of e$^{-1}$. It can be shown from this, that the exponential in equation \ref{cross-correlation} approaches unity for large values of $\xi_{\perp}$. This means all layers add up constructively towards the scattered signal for a perfectly correlated multilayer, while the off-specular intensity will disappear for uncorrelated layers.
+
+A long vertical correlation length indicates that deviations from an ideal layer at the interface profile are repeated at each interface. Deviations at the interface that occur during growth are therefore repeated for each subsequent layer, meaning such deviations can get worse over time. This phenomenon is illustrated in Figure \ref{interface_roughnesses}e, and is typically called accumulated roughness. Such accumulation is a particular challenge when depositing multilayers with a large amount of periods such as supermirrors. It should also be noted that the vertical correlation is not necessarily the same for each spatial frequency, and typically is a function of q$_y$. Typically features that are present on a large length-scale, which correspond to a low spatial frequency in q$_y$, are repeated throughout each interface giving rise to a large vertical correlation length. Small details in the interface profile however, which correspond to a high spatial frequency, are typically not replicated as successfully over each interface and therefore have a lower vertical correlation length. This can be studied using GISAS measurements, and is explained in more detail in subsection \ref{GISANS_section}.
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{correlated_vs_diffuse.pdf_tex}
+	\caption{a) Reflection for strongly correlated layers. As the interface imperfections are similar for each layer, scattering will occur in the same direction for each layer. b) The off-specular mapping for neutron reflection with correlated roughness. As the rays are scattered in the same direction, very concentrated Bragg sheets arise around the same q$_\text{z}$ values whenever the specular Bragg condition is fulfilled. c) Reflection for uncorrelated layers. As the interface imperfections are different for each layer, the resulting scattering direction will be different as well. d) The off-specular mapping for neutron reflection with uncorrelated roughness. The uncorrelated layers give rise to a spread-out diffuse signal over q-space.}
+	\label{correlated_vs_diffuse}
+\end{figure}
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{interfaceroughness.pdf_tex}
+	\caption{a) An ideal multilayer with flat and abrupt interfaces. b) Correlated roughness, the roughness profile for each interface is repeated throughout the layer. c) Uncorrelated roughness, the roughness profile is independent for each layer. d) Accumulating roughness, the interface width increases throughout the multilayer. e) The lateral correlation length and the vertical correlation length scale for a multilayer. f) Interfaces with increasing jaggedness throughout the multilayer. Note how a low Hurts parameter corresponds to a more jagged layer with high spatial frequency.}
+	\label{interface_roughnesses}
+\end{figure}
+\clearpage
+\section{Rocking scans}\label{rocking_scan_section}
+Rocking scans are the most common type of measurements that is used to obtain off-specular scattering information. These measurements are so common that they are often used interchangeably with the broader term of off-specular scattering, but as argued previously in subsection \ref{offspec_geometry}, in this work we will use the term rocking scans in order to avoid confusion with other off-specular techniques such as GISAS. 
+
+These scans are easiest to understand by starting from the specular condition as shown in Figure \ref{scattering_geometries} a). From this position, the sample itself is tilted along the x-axis, giving rise to an inequality between the incident angle $\alpha_i$ and the reflected angle $\alpha_f$ as illustrated in Figure \ref{scattering_geometries} b). It may be noted here that for many instruments the sample itself is kept stationary, but the radiation source and detector are tilted to obtain the same geometry conditions as would be obtained by tilting the sample itself. For neutron sources it is common to use position-sensitive detector (PSD) in order to perform off-specular simultaneously while measuring the specular signal. A practical advantage of rocking scans is that they usually can be performed quite easily without significant changes to the setup used for a specular measurement. Due to this, it is generally available for most reflectivity measurements, and easy to perform in conjunction with specular measurements.
+
+From the incident and reflected vectors in Figure \ref{scattering_geometries} b), we can see that by tilting the sample over the x-axis as described above, the resulting scattering vector will also rock over the $q_x$ direction. From the resulting scattering vector, it can be seen that both the q$_x$ and the q$_z$ component will be changed during such a measurement. The resulting vectors can be described as \cite{off-specular_neutrons}:
+\begin{equation}
+q_x = k_0(\cos{\alpha_f} - \cos{\alpha_i}),
+\end{equation}
+\begin{equation}
+q_z = k_0(\sin{\alpha_f} + \sin{\alpha_i}).
+\end{equation}
+For reflectivity measurements used in this work, we typically work with small angles ($<10 \degree$), and we can further approximate this as:
+\begin{equation}
+q_x = 0.5k_0(\alpha_i + \alpha_f)(\alpha_i - \alpha_f),
+\end{equation}
+\begin{equation}
+q_z = k_0(\alpha_i + \alpha_f).
+\end{equation}
+During a rocking scan, the scattering angle, which is equal to $\alpha_f$ + $\alpha_i$ is kept constant. Meaning that within this small angle approximation, the q$_z$ vector is considered constant, and we effectively only scan over q$_x$. 
+
+Similarly to the specular reflectivity of a multilayer described in subsection \ref{multilayer_scattering}, the scattered signal from the interfaces will show constructive interference whenever the Bragg condition is fulfilled. It is for this reason that most rocking curves in this work are performed at the first diffraction peak in q$_z$. The resulting signal that is obtained over q$_x$ then stems from imperfections of the interfaces, such a signal can be observed in Figure \ref{rocking_curve_figure}. From this figure we see a clear peak around q$_x$ = 0 $Å^{-1}$, which stems from the fact that q$_x$ =  0 $Å^{-1}$ corresponds to the specular condition where $\alpha_i$ = $\alpha_f$, meaning the peak in the middle is simply the specular peak. Outside of the specular peak, a clear off-specular signal can be observed in this figure as well. The presence of this off-specular signal around the diffraction peaks of q$_z$ shows how there's rough interfaces present in the multilayers that show a vertical correlation. 
+
+These rocking curves can give a good indication about the nature of the roughness of the multilayer's interfaces, but can be difficult to analyze quantitatively. Features at low-spatial frequencies are obfuscated by the presence of the specular peak around q$_x$ = 0. Furthermore the intensity of the lateral component of the incident wave-vector is relatively low at incidence angles that correspond to the diffraction peaks, giving rise to a much weaker diffraction intensity than the GISAS experiments discussed in the next section.
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{rocking_curve.pdf_tex}
+	\caption{A rocking scan performed using X-ray reflectivity. The peak located at q$_x = 0$ $Å^{-1}$ is the specular peak where the incidence angle is equal to the reflected angle.}
+	\label{rocking_curve_figure}
+\end{figure}
+
+\section{Grazing Incidence Small Angle Scattering}\label{GISANS_section}
+Another powerful technique that can be used to study the interface morphology of thin films is grazing incidence small angle scattering (GISAS). For neutron scattering, the term grazing incidence small angle neutron scattering (GISANS) is used, however the theory described in the chapter is equally applicable for X-rays as well as for neutrons. This subsection is therefore also relevant for grazing incidence small angle X-ray scattering (GISAXS), and the more general term GISAS is used instead, referring to both techniques simultaneously. 
+\subsection{GISAS geometry}
+The geometry used at a GISAS experiment is shown in Figure \ref{scattering_geometries} c). Using this geometry, a 2D detector is used at a fixed incidence angle to obtain the diffuse scattering signal over q$_y$ and q$_z$.
+
+Within this geometry, the scattering vector $\vb{q}$ is given by \cite{GISAXS_santoro}:
+\begin{equation}\label{qvector_gisaxs}
+	\vb{q} =     \begin{pmatrix}
+		q_x \\
+		q_y \\
+		q_z
+	\end{pmatrix}
+= \frac{2\pi}{\lambda}  \begin{pmatrix}
+	\cos{\alpha_f} \cos{\phi_f} - \cos{\alpha_i} \\
+	\cos{\alpha_f} \sin{\phi_f} \\
+	\sin{\alpha_i} + \sin{\alpha_f}
+\end{pmatrix}
+\end{equation}
+Where $\alpha_i$ and $\alpha_f$ are the incidence and reflected angle respectively, and $\phi_f$ is the angle between the x-axis and the scattered vector $\vb{k}_f$ in the in-plane direction as illustrated in Figure \ref{scattering_geometries}c. Note that there are a lot of different conventions being used by literature for the symbols of each angle, in particular the in-plane angle $\phi_f$ if often denoted by $2\theta$ or $\Psi$ as well. In this work we use $\phi$ for this angle to avoid confusion with the scattering angle 2$\theta$ and the wave function $\Psi$. As we typically work with small angles for scattering experiments, the q$_x$ component can be approximated to $q_x \approx 0$ $Å{-1}$ and we don't consider any forward scattering in the GISAS geometry.
+
+From this geometry, some clear advantages can be obtained of this GISAS set-up compared to the conventional rocking curves described in previous section. Due to the small incident angle, even for high $q_z$ values, the intensity of the lateral component of the incident wave vector will be much larger and the resulting intensity will therefore be much higher. Second, at small incidence angles, a much larger area of the sample will be illuminated, and scattering will therefore come from a much larger part of the sample. Therefore a statistically relevant part of the sample will be measured for these kinds of measurements  \cite{GISAXS_santoro}. Furthermore, information from the surface as well as buried structures can be obtained and separated by tuning the incidence angle. Below the critical angle, mostly the surface will be probed, while above the critical angle buried interfaces will be probed as well. This dependency of penetration depth as a function of the incidence angle is further elaborated in section \ref{yoneda_origin}.
+\subsection{The GISAS scattering map}
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{GISAXS_features.pdf_tex}
+	\caption{A GISAXS scattering map obtained during this work. The highlighted features are further elaborated upon in the text.}
+	\label{gisaxs_features}
+\end{figure}
+The scattering signal of a GISAS experiment is typically obtained by a 2D area detector, resulting in an intensity map of the out-of-plane scattering vector $q_z$ and the in-plane scattering vector $q_y$. Such a map for a GISAXS experiment is shown in Figure \ref{gisaxs_features}, where several distinct features are highlighted. The most important features for the analysis of this work are the Bragg sheets, these occur for multilayers with correlated interfaces at $q_z$ positions where the Bragg condition is fulfilled. Another interesting feature in the map is the Yoneda peak, which arises when the incident angle $\alpha_i$ and exit angle $\alpha_f$ are equal to the critical angle $\alpha_c$. At this angle the transmitted and reflected beam interfere to form an evanescent wave that moves in the in-plane direction \cite{matthias_GISAXS}. Unintuitively enough, the total intensity of this wave can be larger than the intensity of the incident beam, which is further explained in section \ref{yoneda_origin}. During GISAS experiments, the incident angle may not always be fixed exactly at the critical angle, but it is typically close enough to still show clear features from this effect when the exit angle $\alpha_f$ equals to critical angle. There are also two intense signals that are blocked out by beam stops. These are the specular peak, where the specular condition $\alpha_i= \alpha_f$ is fulfilled, and the direct beam where the beam penetrates the sample. Experimentally, $q_z = 0$ aligns with the direct beam position, as $\alpha_i = -\alpha_f$ gives a $q_z$ vector that equals to zero. At an angle $\alpha_i$ from the direct beam position, the sample horizon can be found. At $q_z$ position below the horizon, the scattering singal is mainly from scattering through the sample \cite{GISAXS_santoro}. Finally another interesting effect has been observed in the measurements as well. At an angle of $\alpha_f = \alpha_i + \alpha_c$ a sudden doubling of the background intensity can be found. This is likely the consequence of some wave-guide effects that give rise to a virtual horizon. Just like how the Yoneda peak can observed at $\alpha_f$ = $\alpha_c$, a second yoneda peak can be observed at distance of $\alpha_c$ from this virtual horizon at $\alpha_f = \alpha_i + 2\alpha_c$.
+
+\subsection{Obtaining structural parameters using GISAS}
+So far we have talked about how GISAS works, what features are obtained at an experiment and where they are coming from. In this chapter we will specifically elaborate on how we can translate these measurements to structural information that can be used to characterize a multilayer.
+
+A common way to characterize multilayers with scattering data is to simply fit the obtained data to a simulated model. Due to the high intensities present in GISAS experiments, the Distorted Wave Born Approximation (DWBA) is used for such simulations as this model also takes multiple scattering into account, the DWBA will be discussed later in subsection \ref{DWBA_section}. For the multilayers in this work however, appropriate models for an accurate description of the interfaces are not available, and developing these from scratch falls far beyond the scope of this thesis. However, a lot of structural information can be obtained as well without fitting to the parameters directly.
+
+When analyzing a GISAS scattering map, it can be useful to remember that the $q_z$ direction represents information that is present in the growth-direction. Examples of this is how correlated subsequent interface profiles are, the distance between these interfaces and the height of nanoparticles that may be present in the sample. The $q_y$ direction represents information from the in-plane lateral direction, such as density fluctuations in the layers and the morphology of the interfaces themselves. For multilayers in this work, these two directions are analyzed separately by selecting a region of interest (ROI) over the relevant feature, and obtaining the intensity distribution along either direction. This analysis has been performed using the GIScan data reduction tool for GISAXS experiments \cite{giscan}, which was specifically written for this work. There are multiple scans that are quite common for these experiments \cite{matthias_GISAXS}: The detector cut is performed by obtaining the intensity along the $q_z$ direction at $q_y$ = 0. Performing a similar scan at $q_y \neq 0$ is then called the off-detector cut. Horizontal scans along $q_y$ where $q_z$ is fixed are referred to as out-of-plane cuts, as these are out of the reflection plane. These scans are often done at the Yoneda peak and are referred to as Yoneda cuts. In this work however, the out-of-plane cuts are performed over the Bragg sheet corresponding to the first diffraction peak of the multilayer. The reason for using this position is that the diffraction peaks are a consequence of periodicity in the growth-direction, and therefore filtering out information from the top surface.
+
+From the out-of-plane cuts at this first Bragg sheet, we obtain an intensity distribution as shown in Figure \ref{gisaxs_signal} a). While this scan looks very smilar to the rocking curve in Figure \ref{rocking_curve_figure}, it should be emphasized that these do not show the exact same thing. With exception to the single spot at the specular beam shown in Figure \ref{gisaxs_features}, the entire GISAS signal is completely off-specular. The peak in the middle at $q_y$ = 0 therefore does not correspond to a specular peak, but is fully caused by imperfections in the multilayer and follows from the correlation function in equation \ref{self_affine_corr}. The measured out-of-plane cut is the Fourier transform of the autocorrelation function, and will therefore show a maximum when $q_y = 0$. The shape of this peak is determined from the Hurst parameter. It can been seen from the correlation function that the Fourier transform can be solved analytically for the two special cases of $h = 0.5$ and $h = 1.0$ where the resulting signal is a Lorentzian and a Gaussian peak respectively. It has been shown that for $q_y \gg \xi_{\parallel}^{-1}$, the scattering intensity profile of self-affine interfaces can be approximated by \cite{determine_hurst}: 
+\begin{equation}
+	I(q_y) \propto q_y^{-2(h+1)}
+\end{equation}
+Which allows for a relatively simple method to estimate the Hurst parameter from experimental data.
+
+Apart from this peak centered around $q_y = 0$ $Å{-1}$, clear shoulders are observed as well in this particular measurements that cannot be explained by the auto-correlation function in equation \ref{self_affine_corr}. These shoulders are the result of mounded interfaces, and the appropriate autocorrelation function for this particular sample should therefore be expanded by a first order Bessel function as described in equation \ref{mounded_corr}. If the mounds at the interface have a single characteristic distance between each other, it will give rise to a local maximum in these shoulders and this spacing can then be easily obtained by translating the reciprocal coordinate to real space:
+\begin{equation}
+	d_m = \frac{2\pi}{q_{y,m}}
+\end{equation}
+Where $d_m$ is the distance between the mounds, and $q_{y,m}$ is the position of the local maxima in reciprocal space. In actual experiments however it has shown to be quite common that the spacing between these mounds is more randomly distributed is therefore more smeared out without these local maxima, causing these local maxima to disappear \cite{zhao2000characterization}. For such measurements, a characteristic length can still be obtained from the intersections between the tangents on a log-log scale \cite{char_length}. 
+
+Similar scans can be done over the $q_z$ direction. This will result in an intensity profile as a function of $q_z$, where the width of the obtained peak is dependent on the vertical correlation length of the sample. This profile can be interpreted using equation \ref{cross-correlation}, which will result in a Lorentzian profile. One physical interpretation of this, is that a short vertical correlation length means that only few layers will contribute constructively to the scattering signal, and similar to specular reflectivity fewer layers will give rise to broader peaks. While many interpretations assume the vertical correlation length has one defined value, in real systems $\xi_{\perp}$ is a function of the lateral scattering vector $q_y$. This same physical concept can be expresed in the form of the effectively amount of contributing bilayers to the scattered signal. For a multilayer with a period of $\Lambda$, this can be approximated by \cite{salditt_correlated}\cite{effective_bilayers}:
+\begin{equation}
+	N_{\textrm{eff}}(q_y) =\frac{2}{\textrm{FWHM} (q_y) \Lambda}
+\end{equation}
+Where FWHM is the full width at half maximum of the obtained scan. This dependence on the lateral scattered vector $q_y$ can be interpreted by coupling back to real space. The fact that the vertical correlation depends on the value of $q_y$, means that the vertical correlation is not the same for each distance in real space. Generally, multilayers are more strongly correlated for smaller $q_y$ values, and less correlated for larger $q_y$ values. This means that long-range features are typically replicated very well from layer to layer, while tiny details in the interface, which correspond to large $q_y$ values, are generally not carried over as easily between subsequent layers. During this work, this has been investigated by performing scans over $q_z$ at each Bragg sheet for a large number of $q_y$ positions, therefore obtaining a profile of the FWHM of this scan as a function of $q_z$. By determining at which $q_y$ value each multilayer loses the vertical correlation, it can be determined which spatial features are replicated. Such a scan is shown in Figure \ref{gisaxs_signal} b).
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{gisaxs_scans.pdf_tex}
+	\caption{a) An out-of-plane cut over the Bragg sheet of two different multilayers, the clear shoulders in the top measurement are an indication of interface mounds. b) A scan of the FWHM of the GISAXS signal along q$_z$ at different positions in the q$_y$ direction. A higher FWHM means that the sample is less correlated for these spatial frequencies.}
+	\label{gisaxs_signal}
+\end{figure}\clearpage
+\section{Scattering at grazing incidence}\label{yoneda_origin}
+Due to the grazing incidence geometry, some special conditions occur that give rise to some interesting effects that are expanded upon in this subsection. To derive these effects, we will start with the Fresnel equations, which we have already partially derived in subsection \ref{fresneltheory} where we found that the Fresnel coefficient for reflectivity can be described as
+\begin{equation}\label{yoneda_starting_point}
+	\frac{\textrm{A}_{\textrm{i}}-\textrm{A}_{\textrm{r}}}{\textrm{A}_{\textrm{i}}+\textrm{A}_{\textrm{r}}} = \frac{\textrm{n}_1}{\textrm{n}_2} \frac{\sin{\theta_i}}{\sin{\theta_t}}
+\end{equation}
+We can also derive the same coefficient for transmission in a similar way. The transmission coefficient is defined as
+\begin{equation}
+	t = \frac{\textrm{A}_{\textrm{t}}}{\textrm{A}_{\textrm{i}}}
+\end{equation}
+Which we find starting from equation \ref{sincondition}, and applying some algebra in combination with $\textrm{A}_{\textrm{i}} + \textrm{A}_{\textrm{r}} = \textrm{A}_{\textrm{t}}$ from equation \ref{firstboundary} to rewrite this to the above fraction
+\begin{eqnarray}\label{transmitted_wave_number}
+	&&(\textrm{A}_{\textrm{i}} - \textrm{A}_{\textrm{r}})(\textrm{n}_1\textrm{k})\sin{\theta_i} = \textrm{A}_{\textrm{t}}(\textrm{n}_2\textrm{k})\sin{\theta_t}, \\ 
+	&&(2\textrm{A}_{\textrm{i}} - \textrm{A}_{\textrm{t}})\textrm{n}_1\sin{\theta_i} = \textrm{A}_{\textrm{t}}\textrm{n}_2\textrm{k}\sin{\theta_t}.
+\end{eqnarray}
+From which we easily get to the coefficient for transmission:
+\begin{equation}\label{transmission_coefficient_angular}
+t = \frac{\textrm{A}_{\textrm{t}}}{\textrm{A}_{\textrm{i}}} = \frac{2\textrm{n}_1\sin\theta_i}{\textrm{n}_1 \sin\theta_i + \textrm{n}_2 \sin\theta_t} 
+\end{equation}
+For the scattering experiments in this work, the incident beam travels in ambient air where n$_1 \approx 1$ and both the incident angle and the exit angle are small, so we can further approximate this as:
+\begin{equation}
+	t \approx \frac{2\theta_i}{\theta_i + \textrm{n}_2 \theta_t} 
+\end{equation}
+As explained in subsection \ref{neutronscattering}, the refractive index for neutrons is a complex number where the imaginary part describes absorption. Curiously enough, from Snell's law as derived in equation \ref{snells_law}, we find that our angles are complex numbers as well. If the incident wave travels through vacuum, the refractive index is equal to one and does not have an imaginary part, Snell's law then reduces to
+\begin{equation}\label{snells_law_eq}
+ \cos\theta_i = \textrm{n}_2 \cos\theta_t.
+\end{equation}
+As $\textrm{n}_2$ is a complex number, the entire right-hand side will be complex in the general case, meaning the left-hand side $\cos\theta_i$ has to be complex as well giving rise to complex angles \cite{salditt_gisaxs, nielsen_xray}. It is common to characterize the refractive index by it's deviation from vacuum in the real part, denoted as $\delta$ and by its imaginary component denoted by $\beta$. Equation \ref{snells_law_eq} can then be rewritten as:
+\begin{equation}
+	 \cos\theta_i = (1 - \delta + i\beta) \cos\theta_t.
+\end{equation}
+If we expand the cosines for small angles, we get:
+\begin{equation}\label{theta_expansion}
+	\theta_i^2 = \theta_t^2 + 2\delta - 2i\beta.
+\end{equation}
+We can find the critical angle by taking the real component at $\theta_i$ = 0, which yields $\theta_c$ = $\sqrt{2\delta}$ \cite{nielsen_xray}. We can therefore further rewrite our expansion as
+\begin{equation}
+	\theta_i^2 = \theta_t^2 + 2\theta_c - 2i\beta.
+\end{equation}
+ Similar arguments can be made to show that the scattered angle $\theta_t$ has to be complex. We can therefore write the angle as well $\theta_t$ as a complex number:
+\begin{equation}
+\theta_t = \Re(\theta_t) + i\Im(\theta_t)
+\end{equation}
+When we write the component of the transmitted wave, with the wave vector expressed as $\vb{k} = k \textrm{n}_2\sin\theta_i \approx k \textrm{n}_2 \theta_i$, we get:
+\begin{equation}
+	\Psi_t = \textrm{A}_\textrm{t}e^{i k\theta_tz} =  \textrm{A}_\textrm{t}e^{i k \Re(\theta_t)z}  e^{- k \Im(\theta_t)z}
+\end{equation}
+From the minus sign in the exponential, we see how an evanescent wave is formed into increasing depth. As this decay follows this exponential component, we can now easily obtain at which depth the intensity has fallen off with a factor of e$^{-1}$, which we define as the penetration depth $\Lambda$:
+\begin{equation}\label{penetration_depth_angular}
+	\Lambda = \frac{1}{2k \textrm{Im}(\theta_t)}.
+\end{equation} 
+Note that this should not be confused with the period of a multilayer, which is also denoted by $\Lambda$. We can now convert these equations to reciprocal space, which is usually more convenient in scattering theory.We can convert equation \ref{theta_expansion} into q-space using $q = \textrm{2k} \sin{\theta}$, giving us an expression that looks very similar to equation \ref{transmitted_wave} in subsection \ref{fresneltheory}:
+\begin{equation}
+	q^{\prime} = \sqrt{q^2 - q_c^2 + 2i\beta}.
+\end{equation}
+Where we now also have taken the absorption into account using the factor $2i\beta$. This allows us to rewrite equation \ref{transmission_coefficient_angular} into q-space as
+\begin{equation}\label{transmission_coefficient_qspace}
+	t = \frac{2\textrm{n}_1q}{\textrm{n}_1 q + \textrm{n}_2 q^{\prime}} = \frac{2\textrm{n}_1q}{\textrm{n}_1 q + \textrm{n}_2\sqrt{q^2 -  q_c^2 + 2i\beta}}
+\end{equation}
+Where we can approximate for neutrons n$_1$ and n$_2$ to be equal to one, leaving us with
+\begin{equation}\label{transmission_coefficient_qspace_vacuum}
+	t = \frac{2q}{q + \sqrt{q^2 -  q_c^2 + 2i\beta}}.
+\end{equation}
+The reflection coefficient was derived earlier as equation \ref{fresnel_qspace}, and with the same approximation of n$_1$ = n$_2 \approx 1$ this reduces to
+\begin{equation}\label{fresnel_qspace2}
+	r = \frac{q - \sqrt{q^2 - q_c^2 + 2i\beta}}{q + \sqrt{q^2 -  q_c^2 + 2i\beta}}.
+\end{equation}
+We can normalize this to the critical angle to further generalize these expressions, to do this we introduce our normalized wave number Q as
+\begin{equation}
+	Q = \frac{q}{q_c} 
+\end{equation}
+From which we can rewrite our Fresnel coefficients in this generalized form, the reflection and transmission coefficient from equation \ref{fresnel_qspace2} and equation \ref{transmission_coefficient_qspace} respectively then become:
+\begin{equation}\label{fresnel_qspace_qnorm}
+	r = \frac{Q - \sqrt{Q^2 - 1 + 2i\beta}}{Q + \sqrt{Q^2 - 1 + 2i\beta}}.
+\end{equation}
+ \begin{equation}\label{transmission_final_expression}
+	t = \frac{2Q}{Q + \sqrt{Q^2 - 1 + 2i\beta}}.
+\end{equation}
+And finally the penetration depth in equation \ref{penetration_depth_angular} into these coordinates can also be rewritten, which gives us
+\begin{equation}\label{penetration_depth_qspace}
+	\Lambda = \frac{1}{q_c \Im(Q^{\prime})} = \frac{1}{q_c\Im(\sqrt{Q^2 - 1 + 2i\beta})}.
+\end{equation} 
+Where we used $q = \textrm{2k} \sin{\theta}$ to get the the left-hand side of equation \ref{penetration_depth_qspace}. From equation \ref{transmission_final_expression} we can see that the magnitude of the total transmission coefficient reaches $2$ at the critical angle where the normalized wave vector $Q$ = 1. The total intensity is equal to $\abs{t}^2$, from which we can conclude that the intensity of the evanescent wave at the critical angle is four times as large as the incident wave. This unintuitive phenomenon explains the origin of the Yoneda wings, as this wave is traveling in the lateral direction and therefore is sensitive to deviations in the SLD in the lateral direction, which arises in the case of roughness. Features related to roughness, both at the surface and at the interfaces, are therefore enhanced at this specific angle where $\theta_i = \theta_c$. If we evaluate the square of equation \ref{transmission_final_expression} analytically, we can see how the intensity of this wave grows exponentially up to the critical angle. At this position, the incident wave is in phase with the reflected wave so the total amplitude of the evanescent wave approaches twice the ampitude of the incident wave. Above the critical angle, the intensity falls down quickly to finally saturate at a value of one. The result can be seen in Figure \ref{graph} a), where the intensity (which is the squared of the found amplitude above) is plotted as a fraction of the intensity of the incident wave, as a function of the normalized wave vector q. Figure \ref{graph} b) shows the penetration depth of the evanescent wave for the same range in q. As this figure is on a logarithmic scale, it can clearly be observed see how the penetration depth is almost negligible below the critical scattering vector $q_c$, and suddenly increases sharply at $q_c$ and beyond.  
+\begin{figure}
+	\centering
+	\def\svgwidth{\textwidth}
+	\input{grazing_fresnel.pdf_tex}
+	\caption{a) The intensity of the evanescent wave as a function of the normalized scattering vector Q for different magnitudes of the absorption factor $\beta$. b) The penetration length of the wave multiplied by the critical angle as a function of the normalized scattering vector Q for different magnitudes for the absorption factor $\beta$. In both figures, the curves have been calculated for an absorption factor of $\beta$ = 0.001, 0.01, 0.05 and 0.1 from top to bottom.} 
+	\label{graph}
+\end{figure}

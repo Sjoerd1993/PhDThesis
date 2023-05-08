@@ -1,0 +1,70 @@
+%% Creator: Inkscape 1.0.2 (e86c870879, 2021-01-15), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'geometrycoherence.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{738.10278705bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.33731028)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{geometrycoherence.pdf}}%
+    \put(-0.00091044,0.00541932){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a) Longitudonal coherence length\end{tabular}}}}%
+    \put(0.47188361,0.0074483){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b) Transverse coherence length\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{geometrycoherence.pdf}}%
+    \put(0.0568193,0.27533156){\color[rgb]{0.76862745,0.05098039,0.05098039}\transparent{0.91372502}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\lambda$\end{tabular}}}}%
+    \put(0.57159683,0.28885242){\color[rgb]{0.76862745,0.05098039,0.05098039}\transparent{0.91372502}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\lambda$\end{tabular}}}}%
+    \put(0.01634982,0.05915389){\color[rgb]{0.05490196,0.47058824,0.77254902}\transparent{0.917647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\lambda - \Delta \lambda$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{geometrycoherence.pdf}}%
+    \put(0.17049334,0.31673429){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2L$_\textrm{L}$\end{tabular}}}}%
+    \put(0.93907833,0.23298335){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2L$_\textrm{T}$\end{tabular}}}}%
+    \put(0.67986025,0.32453701){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}R\end{tabular}}}}%
+    \put(0.5543812,0.17791866){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Delta \theta$\end{tabular}}}}%
+    \put(0.45806284,0.15675206){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}D\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
