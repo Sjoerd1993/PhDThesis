@@ -17,7 +17,7 @@ The vast majority of the graphs in this work are made using [Graphs](https://git
 
 ## Attribution
 
-Note that this work is all licensed under a CC-BY license, meaning you are free to use, copy, share and edit any of the figures or texts in this work, but attribution is required. The easiest is to simply cite the PhD thesis itself, which depending on the citation format will be something like `Stendahl, S. (2023). Multilayer neutron optics based on isotope-enriched 11B4C. Linköping Studies in Science and Technology. Dissertations. https://doi.org/10.3384/9789180752305`. A BibTeX format can be retrieved from the linked website.
+Note that this work is all licensed under a CC-BY license, meaning you are free to use, copy, share and edit any of the figures or texts in this work, but attribution is required. The easiest is to simply cite the PhD thesis itself, which depending on the citation format will be something like `Stendahl, S. (2023). Multilayer neutron optics based on isotope-enriched 11B4C. Linköping Studies in Science and Technology. Dissertations. https://doi.org/10.3384/9789180752305`. A BibTeX format can be retrieved from the associated page on [DiVA](https://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-193552).
 
 When using any of the figures, attribution may be omitted when explicit permission is granted by me per section 6c in the CC-BY license agreement. If this is required, send me an email at contact@sjoerd.se, and this may be arranged. 
 
