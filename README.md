@@ -1,6 +1,6 @@
 # Multilayer neutron optics based on isotope enriched 11B4C
 This repository contains all raw LaTeX files and figures used to create my PhD dissertation. 
-In the current state this is just a data dump of the raw folder, including all stress-induced chaos, but I intend to clean this up over time. Currently most figures are made such that they compile nicely when saving as .pdf_tex files. I will adept these to more usuable svg, as well as rasterized png versions so that it may be of benefit to others. 
+In the current state this is just a data dump of the raw folder, including all stress-induced chaos, but I intend to clean this up over time. Currently most figures are made such that they compile nicely when saving as .pdf_tex files. I will adapt these to more useable svg, as well as rasterized png versions so that it may be of benefit to others. 
 
 The latest workable PDF of the thesis itself can be found as main.pdf, or on the right-hand side of the webpage under Releases.
 
