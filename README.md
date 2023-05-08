@@ -13,7 +13,7 @@ The first two pages are created using a modified version of Linköping Universit
 
 The figures are all made in [Inkscape](https://inkscape.org/). To open and edit any of these, it is recommended to use Inkscape as well, which is Free and Open Source and available on all major operating systems. Currently, most figures are made such that they compile nicely with a consistent formatting when saved as .pdf_tex files in Inkscape, meaning any of the text in the figure source files are not suitable for most use cases. Proper editions for all figures in svg format, as well as rasterized png versions, will be added on a later date.
 
-The vast majority of the graphs in this work are made using [Graphs](https://github.com/Sjoerd1993/Graphs) before being edited in Inkscape, Graphs can be downloaded on [Flathub](https://flathub.org/apps/se.sjoerd.Graphs) for most Linux distributions.
+The vast majority of the graphs in this work are made using [Graphs](https://github.com/Sjoerd1993/Graphs) before being edited in Inkscape, Graphs can be downloaded on [Flathub](https://flathub.org/apps/se.sjoerd.Graphs) for most Linux distributions. The cover art has been made with an exported a GISAXS measurement in [GIScan](https://github.com/Sjoerd1993/GIScan) (available on [Flathub](https://flathub.org/apps/se.sjoerd.GIScan)), which has been upscaled in [Upscaler](https://gitlab.com/TheEvilSkeleton/Upscaler) (available on [Flathub](https://flathub.org/apps/io.gitlab.theevilskeleton.Upscaler)) and edited and stylized using the [GIMP](https://www.gimp.org/).
 
 ## Attribution
 
