@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 - Flatpak) (preloaded format=pdflatex 2023.4.15)  9 MAY 2023 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 - Flatpak) (preloaded format=pdflatex 2023.4.15)  9 MAY 2023 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3520,27 +3520,27 @@ File: figures_pdftex/supermirror.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures_pdftex/supermirror.pdf , page2 used on input l
 ine 60.
 (pdftex.def)             Requested size: 344.27835pt x 374.87148pt.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 61.
-
 <figures_pdftex/supermirror.pdf, id=1101, page=3, 809.39088pt x 881.3186pt>
 File: figures_pdftex/supermirror.pdf Graphic file (type pdf)
 <use figures_pdftex/supermirror.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/supermirror.pdf , page3 used on input l
-ine 62.
+ine 67.
 (pdftex.def)             Requested size: 344.27835pt x 374.87148pt.
 <figures_pdftex/supermirror.pdf, id=1102, page=4, 809.39088pt x 881.3186pt>
 File: figures_pdftex/supermirror.pdf Graphic file (type pdf)
 <use figures_pdftex/supermirror.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/supermirror.pdf , page4 used on input l
-ine 69.
+ine 71.
 (pdftex.def)             Requested size: 344.27835pt x 374.87148pt.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 87.
+
 <figures_pdftex/supermirror.pdf, id=1103, page=5, 809.39088pt x 881.3186pt>
 File: figures_pdftex/supermirror.pdf Graphic file (type pdf)
 <use figures_pdftex/supermirror.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/supermirror.pdf , page5 used on input l
-ine 73.
+ine 88.
 (pdftex.def)             Requested size: 344.27835pt x 374.87148pt.
 )
 Package cleveref Info: loaded `english' language definitions on input line 93.
@@ -6833,7 +6833,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  56620 strings out of 476025
  1152093 string characters out of 5791510
- 2163084 words of memory out of 5000000
+ 2163088 words of memory out of 5000000
  74634 multiletter control sequences out of 15000+600000
  794920 words of font info for 487 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6876,7 +6876,7 @@ exlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></app/texlive/texmf-dist
 /fonts/type1/public/newtx/txsys.pfb></app/texlive/texmf-dist/fonts/type1/urw/he
 lvetic/uhvb8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
 </app/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (170 pages, 19184606 bytes).
+Output written on main.pdf (170 pages, 19184764 bytes).
 PDF statistics:
  3892 PDF objects out of 4296 (max. 8388607)
  2882 compressed objects within 29 object streams

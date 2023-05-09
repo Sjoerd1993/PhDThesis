@@ -6,7 +6,7 @@
    version="1.1"
    id="svg56776"
    sodipodi:docname="supermirror.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,14 +22,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.37781531"
-     inkscape:cx="434.07452"
-     inkscape:cy="1046.8078"
-     inkscape:window-width="1350"
-     inkscape:window-height="1230"
-     inkscape:window-x="254"
-     inkscape:window-y="509"
-     inkscape:window-maximized="0"
+     inkscape:zoom="4.2744923"
+     inkscape:cx="281.31996"
+     inkscape:cy="685.69547"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="surface34643" />
   <defs
      id="defs56351">
@@ -836,6 +836,25 @@
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path2642-59-8-3-2-1-7-5-6-6" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="marker60462"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path60460" />
+    </marker>
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -1304,7 +1323,7 @@
            id="tspan58581"
            style="stroke-width:1;stroke-dasharray:none"
            x="397.37314"
-           y="9.3002453">q$_{c,\textrm{Ni}} \approx 0.2 Å^{-1}$</tspan></text>
+           y="9.3002453" /></text>
       <path
          style="fill:none;stroke:#010000;stroke-width:0.999997;stroke-linejoin:bevel;stroke-dasharray:0.999997, 0.999997;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
          d="M 330.04689,334.89455 V 9.83917"
@@ -1782,6 +1801,35 @@
            style="stroke-width:2"
            x="890.47192"
            y="-455.78067">Reflected neutrons</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.99998px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;text-anchor:start;fill:#c3eff8;stroke:#85c4c4;stroke-width:0.708661;stroke-linecap:square;stroke-miterlimit:0;paint-order:stroke fill markers"
+         x="341.56738"
+         y="3.237385"
+         id="text5279"><tspan
+           sodipodi:role="line"
+           id="tspan5277"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.708661"
+           x="341.56738"
+           y="3.237385" /></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.99998px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.708661;stroke-linecap:square;stroke-miterlimit:0;paint-order:stroke fill markers"
+         x="362.77496"
+         y="7.763979"
+         id="text6819"><tspan
+           sodipodi:role="line"
+           id="tspan6817"
+           style="stroke-width:0.708661"
+           x="362.77496"
+           y="7.763979">q$_{c,\textrm{Ni}} \approx 0.02$ $Å^{-1}$</tspan></text>
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:1.2;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:11.7;stroke-opacity:0.8;marker-start:url(#marker60462);paint-order:stroke markers fill"
+         d="M 341.34207,5.4889631 358.90437,4.028222"
+         id="path6652"
+         inkscape:transform-center-x="34.43343"
+         inkscape:transform-center-y="6.4732061"
+         sodipodi:nodetypes="cc" />
     </g>
   </g>
 </svg>
