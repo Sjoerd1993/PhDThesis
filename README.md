@@ -26,4 +26,6 @@ When using any of the figures, attribution may be omitted when explicit permissi
 
 While the original thesis was created using a private git repository for version control, the original repository and its commit history has been deleted to avoid potential copyright issues with yet unpublished articles. It is for the same reason that the unpublished articles have been removed from this repository as well. These will be attached in the future if they're published under a compatible license, otherwise feel free to contact me to get a copy of said article at contact@sjoerd.se. Science should be shared and knowledge belongs to all of us, so I would be happy to provide such articles upon reasonable request.
 
- 
+## Errata
+
+With such larger works and a fixed deadline, it is inevitable that minor errors are present in the final result. Any errors that I may notice are updated in this git repository. Changes with regard to the original version in the hard-copy can be found in the  `errata.odt` document. An updated version with these changes may be pushed to DiVA after defence.
