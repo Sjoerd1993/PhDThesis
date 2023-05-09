@@ -67,7 +67,7 @@
     \put(0.15190542,1.24408857){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}x\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{scattering_geometries.pdf}}%
     \put(0.03176135,1.18921509){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a) Specular: $\alpha_f$ = $\textcolor{thesis_red}{\alpha_i}$, $\phi_f$ = $\textcolor{thesis_red}{0}$\end{tabular}}}}%
-    \put(0.02770796,0.59000612){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b) Rocking: $\alpha_f \neq \textcolor{thesis_red}{\alpha_i}$ \end{tabular}}}}%
+    \put(0.02770796,0.59000612){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b) Rocking: $\alpha_f \neq \textcolor{thesis_red}{\alpha_i}$ , $\phi_f = \textcolor{thesis_red}{0}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{scattering_geometries.pdf}}%
     \put(0.0396923,1.65236745){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}q$_z$ = k$_0(\sin{\alpha_i} + \sin{\alpha_f})$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{scattering_geometries.pdf}}%
@@ -84,7 +84,7 @@
     \put(0.5176147,0.32111489){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_f$\end{tabular}}}}%
     \put(0.28954697,0.15473367){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_i$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{scattering_geometries.pdf}}%
-    \put(0.01780926,0.00907653){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}c) GISAS: $\alpha_f \neq \textcolor{red}{0}$\end{tabular}}}}%
+    \put(0.01780926,0.00907653){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}c) GISAS: $\phi_f \neq \textcolor{thesis_red}{0}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{scattering_geometries.pdf}}%
     \put(0.04166118,1.05106277){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}q$_x$ = k$_0(\cos{\alpha_f}\cos{\phi_f} - \cos{\alpha_i})$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{scattering_geometries.pdf}}%
