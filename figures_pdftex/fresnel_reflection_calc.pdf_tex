@@ -62,12 +62,13 @@
     \put(0.08962561,0.30175162){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{-3}$\end{tabular}}}}%
     \put(0.08962561,0.21329316){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{-4}$\end{tabular}}}}%
     \put(0.08962561,0.12995392){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$10^{-5}$\end{tabular}}}}%
-    \put(0.20888131,0.56021798){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\textrm{q}_c$\end{tabular}}}}%
     \put(0.0944589,0.03734729){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
     \put(0.27192894,0.03734729){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.02\end{tabular}}}}%
     \put(0.45144956,0.03734729){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.04\end{tabular}}}}%
     \put(0.62539761,0.03734729){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.06\end{tabular}}}}%
     \put(0.79839183,0.03734729){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.08\end{tabular}}}}%
     \put(0.98222877,0.03734729){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.10\end{tabular}}}}%
+    \put(0.22273997,0.56478859){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\textrm{q}_c$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{fresnel_reflection_calc.pdf}}%
   \end{picture}%
 \endgroup%
