@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 - Flatpak) (preloaded format=pdflatex 2023.4.15)  9 MAY 2023 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 - Flatpak) (preloaded format=pdflatex 2023.4.15)  11 MAY 2023 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2967,7 +2967,7 @@ Package cleveref Info: loaded `english' language definitions on input line 137.
 Package cleveref Info: loaded `english' language definitions on input line 161.
 
  [10] (./figures_pdftex/classic_scattering.pdf_tex
-<figures_pdftex/classic_scattering.pdf, id=686, page=1, 166.60226pt x 80.29962p
+<figures_pdftex/classic_scattering.pdf, id=687, page=1, 166.60226pt x 80.29962p
 t>
 File: figures_pdftex/classic_scattering.pdf Graphic file (type pdf)
 <use figures_pdftex/classic_scattering.pdf, page 1>
@@ -2990,28 +2990,28 @@ Package cleveref Info: loaded `english' language definitions on input line 199.
 
  [12]
 (./figures_pdftex/scattering_cross_section.pdf_tex
-<figures_pdftex/scattering_cross_section.pdf, id=718, page=1, 219.96696pt x 110
+<figures_pdftex/scattering_cross_section.pdf, id=719, page=1, 219.96696pt x 110
 .02846pt>
 File: figures_pdftex/scattering_cross_section.pdf Graphic file (type pdf)
 <use figures_pdftex/scattering_cross_section.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/scattering_cross_section.pdf , page1 us
 ed on input line 56.
 (pdftex.def)             Requested size: 344.27835pt x 172.23131pt.
-<figures_pdftex/scattering_cross_section.pdf, id=719, page=2, 219.96696pt x 110
+<figures_pdftex/scattering_cross_section.pdf, id=720, page=2, 219.96696pt x 110
 .02846pt>
 File: figures_pdftex/scattering_cross_section.pdf Graphic file (type pdf)
 <use figures_pdftex/scattering_cross_section.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/scattering_cross_section.pdf , page2 us
 ed on input line 58.
 (pdftex.def)             Requested size: 344.27835pt x 172.23131pt.
-<figures_pdftex/scattering_cross_section.pdf, id=720, page=3, 219.96696pt x 110
+<figures_pdftex/scattering_cross_section.pdf, id=721, page=3, 219.96696pt x 110
 .02846pt>
 File: figures_pdftex/scattering_cross_section.pdf Graphic file (type pdf)
 <use figures_pdftex/scattering_cross_section.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/scattering_cross_section.pdf , page3 us
 ed on input line 63.
 (pdftex.def)             Requested size: 344.27835pt x 172.23131pt.
-<figures_pdftex/scattering_cross_section.pdf, id=721, page=4, 219.96696pt x 110
+<figures_pdftex/scattering_cross_section.pdf, id=722, page=4, 219.96696pt x 110
 .02846pt>
 File: figures_pdftex/scattering_cross_section.pdf Graphic file (type pdf)
 <use figures_pdftex/scattering_cross_section.pdf, page 4>
@@ -3020,7 +3020,7 @@ ed on input line 65.
 (pdftex.def)             Requested size: 344.27835pt x 172.23131pt.
 )
 (./figures_pdftex/volume_dsigma.pdf_tex
-<figures_pdftex/volume_dsigma.pdf, id=730, page=1, 72.60005pt x 23.46083pt>
+<figures_pdftex/volume_dsigma.pdf, id=731, page=1, 72.60005pt x 23.46083pt>
 File: figures_pdftex/volume_dsigma.pdf Graphic file (type pdf)
 <use figures_pdftex/volume_dsigma.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/volume_dsigma.pdf , page1 used on input
@@ -3055,14 +3055,14 @@ Package cleveref Info: loaded `english' language definitions on input line 280.
 
  [15]
 (./figures_pdftex/neutronscatteringlength.pdf_tex
-<figures_pdftex/neutronscatteringlength.pdf, id=797, page=1, 742.3989pt x 417.4
+<figures_pdftex/neutronscatteringlength.pdf, id=798, page=1, 742.3989pt x 417.4
 133pt>
 File: figures_pdftex/neutronscatteringlength.pdf Graphic file (type pdf)
 <use figures_pdftex/neutronscatteringlength.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/neutronscatteringlength.pdf , page1 use
 d on input line 56.
 (pdftex.def)             Requested size: 344.27835pt x 193.57289pt.
-<figures_pdftex/neutronscatteringlength.pdf, id=798, page=2, 742.3989pt x 417.4
+<figures_pdftex/neutronscatteringlength.pdf, id=799, page=2, 742.3989pt x 417.4
 133pt>
 File: figures_pdftex/neutronscatteringlength.pdf Graphic file (type pdf)
 <use figures_pdftex/neutronscatteringlength.pdf, page 2>
@@ -3082,7 +3082,7 @@ ded in a single page
 Package cleveref Info: loaded `english' language definitions on input line 324.
 
  [17] (./figures_pdftex/SLD.pdf_tex
-<figures_pdftex/SLD.pdf, id=835, page=1, 694.00601pt x 446.58632pt>
+<figures_pdftex/SLD.pdf, id=836, page=1, 694.00601pt x 446.58632pt>
 File: figures_pdftex/SLD.pdf Graphic file (type pdf)
 <use figures_pdftex/SLD.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/SLD.pdf , page1 used on input line 56.
@@ -3101,43 +3101,43 @@ Package cleveref Info: loaded `english' language definitions on input line 345.
 Package cleveref Info: loaded `english' language definitions on input line 345.
 
  [19 <./figures_pdftex/SLD.pdf>] (./figures_pdftex/ewaldsphere.pdf_tex
-<figures_pdftex/ewaldsphere.pdf, id=854, page=1, 817.7552pt x 331.87222pt>
+<figures_pdftex/ewaldsphere.pdf, id=855, page=1, 817.7552pt x 331.87222pt>
 File: figures_pdftex/ewaldsphere.pdf Graphic file (type pdf)
 <use figures_pdftex/ewaldsphere.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/ewaldsphere.pdf , page1 used on input l
 ine 56.
 (pdftex.def)             Requested size: 344.27835pt x 139.7196pt.
-<figures_pdftex/ewaldsphere.pdf, id=855, page=2, 817.7552pt x 331.87222pt>
+<figures_pdftex/ewaldsphere.pdf, id=856, page=2, 817.7552pt x 331.87222pt>
 File: figures_pdftex/ewaldsphere.pdf Graphic file (type pdf)
 <use figures_pdftex/ewaldsphere.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/ewaldsphere.pdf , page2 used on input l
 ine 58.
 (pdftex.def)             Requested size: 344.27835pt x 139.7196pt.
-<figures_pdftex/ewaldsphere.pdf, id=856, page=3, 817.7552pt x 331.87222pt>
+<figures_pdftex/ewaldsphere.pdf, id=857, page=3, 817.7552pt x 331.87222pt>
 File: figures_pdftex/ewaldsphere.pdf Graphic file (type pdf)
 <use figures_pdftex/ewaldsphere.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/ewaldsphere.pdf , page3 used on input l
 ine 61.
 (pdftex.def)             Requested size: 344.27835pt x 139.7196pt.
-<figures_pdftex/ewaldsphere.pdf, id=857, page=4, 817.7552pt x 331.87222pt>
+<figures_pdftex/ewaldsphere.pdf, id=858, page=4, 817.7552pt x 331.87222pt>
 File: figures_pdftex/ewaldsphere.pdf Graphic file (type pdf)
 <use figures_pdftex/ewaldsphere.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/ewaldsphere.pdf , page4 used on input l
 ine 66.
 (pdftex.def)             Requested size: 344.27835pt x 139.7196pt.
-<figures_pdftex/ewaldsphere.pdf, id=858, page=5, 817.7552pt x 331.87222pt>
+<figures_pdftex/ewaldsphere.pdf, id=859, page=5, 817.7552pt x 331.87222pt>
 File: figures_pdftex/ewaldsphere.pdf Graphic file (type pdf)
 <use figures_pdftex/ewaldsphere.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/ewaldsphere.pdf , page5 used on input l
 ine 69.
 (pdftex.def)             Requested size: 344.27835pt x 139.7196pt.
-<figures_pdftex/ewaldsphere.pdf, id=859, page=6, 817.7552pt x 331.87222pt>
+<figures_pdftex/ewaldsphere.pdf, id=860, page=6, 817.7552pt x 331.87222pt>
 File: figures_pdftex/ewaldsphere.pdf Graphic file (type pdf)
 <use figures_pdftex/ewaldsphere.pdf, page 6>
 Package pdftex.def Info: figures_pdftex/ewaldsphere.pdf , page6 used on input l
 ine 74.
 (pdftex.def)             Requested size: 344.27835pt x 139.7196pt.
-<figures_pdftex/ewaldsphere.pdf, id=860, page=7, 817.7552pt x 331.87222pt>
+<figures_pdftex/ewaldsphere.pdf, id=861, page=7, 817.7552pt x 331.87222pt>
 File: figures_pdftex/ewaldsphere.pdf Graphic file (type pdf)
 <use figures_pdftex/ewaldsphere.pdf, page 7>
 Package pdftex.def Info: figures_pdftex/ewaldsphere.pdf , page7 used on input l
@@ -3183,25 +3183,25 @@ gle page
 Package cleveref Info: loaded `english' language definitions on input line 365.
 
  [21] (./figures_pdftex/square_wave.pdf_tex
-<figures_pdftex/square_wave.pdf, id=883, page=1, 667.0521pt x 419.166pt>
+<figures_pdftex/square_wave.pdf, id=884, page=1, 667.0521pt x 419.166pt>
 File: figures_pdftex/square_wave.pdf Graphic file (type pdf)
 <use figures_pdftex/square_wave.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/square_wave.pdf , page1 used on input l
 ine 56.
 (pdftex.def)             Requested size: 344.27835pt x 216.343pt.
-<figures_pdftex/square_wave.pdf, id=884, page=2, 667.0521pt x 419.166pt>
+<figures_pdftex/square_wave.pdf, id=885, page=2, 667.0521pt x 419.166pt>
 File: figures_pdftex/square_wave.pdf Graphic file (type pdf)
 <use figures_pdftex/square_wave.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/square_wave.pdf , page2 used on input l
 ine 74.
 (pdftex.def)             Requested size: 344.27835pt x 216.343pt.
-<figures_pdftex/square_wave.pdf, id=885, page=3, 667.0521pt x 419.166pt>
+<figures_pdftex/square_wave.pdf, id=886, page=3, 667.0521pt x 419.166pt>
 File: figures_pdftex/square_wave.pdf Graphic file (type pdf)
 <use figures_pdftex/square_wave.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/square_wave.pdf , page3 used on input l
 ine 77.
 (pdftex.def)             Requested size: 344.27835pt x 216.343pt.
-<figures_pdftex/square_wave.pdf, id=886, page=4, 667.0521pt x 419.166pt>
+<figures_pdftex/square_wave.pdf, id=887, page=4, 667.0521pt x 419.166pt>
 File: figures_pdftex/square_wave.pdf Graphic file (type pdf)
 <use figures_pdftex/square_wave.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/square_wave.pdf , page4 used on input l
@@ -3228,7 +3228,7 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/s
 quare_wave.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >] (./figures_pdftex/gamma_intensity.pdf_tex
-<figures_pdftex/gamma_intensity.pdf, id=906, page=1, 643.20299pt x 400.37581pt>
+<figures_pdftex/gamma_intensity.pdf, id=907, page=1, 643.20299pt x 400.37581pt>
 
 File: figures_pdftex/gamma_intensity.pdf Graphic file (type pdf)
 <use figures_pdftex/gamma_intensity.pdf, page 1>
@@ -3240,7 +3240,7 @@ Package cleveref Info: loaded `english' language definitions on input line 420.
 
  [23]
 (./figures_pdftex/FourierNiTi.pdf_tex
-<figures_pdftex/FourierNiTi.pdf, id=926, page=1, 643.20299pt x 400.37581pt>
+<figures_pdftex/FourierNiTi.pdf, id=927, page=1, 643.20299pt x 400.37581pt>
 File: figures_pdftex/FourierNiTi.pdf Graphic file (type pdf)
 <use figures_pdftex/FourierNiTi.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/FourierNiTi.pdf , page1 used on input l
@@ -3260,14 +3260,14 @@ Package cleveref Info: loaded `english' language definitions on input line 98.
 
 
 ] (./figures_pdftex/fresnel_reflection_calc.pdf_tex
-<figures_pdftex/fresnel_reflection_calc.pdf, id=971, page=1, 660.26894pt x 395.
+<figures_pdftex/fresnel_reflection_calc.pdf, id=972, page=1, 660.26894pt x 395.
 25505pt>
 File: figures_pdftex/fresnel_reflection_calc.pdf Graphic file (type pdf)
 <use figures_pdftex/fresnel_reflection_calc.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/fresnel_reflection_calc.pdf , page1 use
 d on input line 56.
 (pdftex.def)             Requested size: 344.27835pt x 206.0947pt.
-<figures_pdftex/fresnel_reflection_calc.pdf, id=972, page=2, 660.26894pt x 395.
+<figures_pdftex/fresnel_reflection_calc.pdf, id=973, page=2, 660.26894pt x 395.
 25505pt>
 File: figures_pdftex/fresnel_reflection_calc.pdf Graphic file (type pdf)
 <use figures_pdftex/fresnel_reflection_calc.pdf, page 2>
@@ -3281,42 +3281,42 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/f
 resnel_reflection_calc.pdf): PDF inclusion: multiple pdfs with page group inclu
 ded in a single page
 >] (./figures_pdftex/singlelayersketch.pdf_tex
-<figures_pdftex/singlelayersketch.pdf, id=990, page=1, 785.56671pt x 257.77696p
+<figures_pdftex/singlelayersketch.pdf, id=991, page=1, 785.56671pt x 257.77696p
 t>
 File: figures_pdftex/singlelayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/singlelayersketch.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/singlelayersketch.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 344.27835pt x 112.96986pt.
-<figures_pdftex/singlelayersketch.pdf, id=991, page=2, 785.56671pt x 257.77696p
+<figures_pdftex/singlelayersketch.pdf, id=992, page=2, 785.56671pt x 257.77696p
 t>
 File: figures_pdftex/singlelayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/singlelayersketch.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/singlelayersketch.pdf , page2 used on i
 nput line 58.
 (pdftex.def)             Requested size: 344.27835pt x 112.96986pt.
-<figures_pdftex/singlelayersketch.pdf, id=992, page=3, 785.56671pt x 257.77696p
+<figures_pdftex/singlelayersketch.pdf, id=993, page=3, 785.56671pt x 257.77696p
 t>
 File: figures_pdftex/singlelayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/singlelayersketch.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/singlelayersketch.pdf , page3 used on i
 nput line 64.
 (pdftex.def)             Requested size: 344.27835pt x 112.96986pt.
-<figures_pdftex/singlelayersketch.pdf, id=993, page=4, 785.56671pt x 257.77696p
+<figures_pdftex/singlelayersketch.pdf, id=994, page=4, 785.56671pt x 257.77696p
 t>
 File: figures_pdftex/singlelayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/singlelayersketch.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/singlelayersketch.pdf , page4 used on i
 nput line 66.
 (pdftex.def)             Requested size: 344.27835pt x 112.96986pt.
-<figures_pdftex/singlelayersketch.pdf, id=994, page=5, 785.56671pt x 257.77696p
+<figures_pdftex/singlelayersketch.pdf, id=995, page=5, 785.56671pt x 257.77696p
 t>
 File: figures_pdftex/singlelayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/singlelayersketch.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/singlelayersketch.pdf , page5 used on i
 nput line 68.
 (pdftex.def)             Requested size: 344.27835pt x 112.96986pt.
-<figures_pdftex/singlelayersketch.pdf, id=995, page=6, 785.56671pt x 257.77696p
+<figures_pdftex/singlelayersketch.pdf, id=996, page=6, 785.56671pt x 257.77696p
 t>
 File: figures_pdftex/singlelayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/singlelayersketch.pdf, page 6>
@@ -3352,19 +3352,19 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/s
 inglelayersketch.pdf): PDF inclusion: multiple pdfs with page group included in
  a single page
 >] (./figures_pdftex/single_layer.pdf_tex
-<figures_pdftex/single_layer.pdf, id=1013, page=1, 655.39288pt x 384.97702pt>
+<figures_pdftex/single_layer.pdf, id=1015, page=1, 655.39288pt x 384.97702pt>
 File: figures_pdftex/single_layer.pdf Graphic file (type pdf)
 <use figures_pdftex/single_layer.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/single_layer.pdf , page1 used on input 
 line 56.
 (pdftex.def)             Requested size: 344.27835pt x 202.23344pt.
-<figures_pdftex/single_layer.pdf, id=1014, page=2, 655.39288pt x 384.97702pt>
+<figures_pdftex/single_layer.pdf, id=1016, page=2, 655.39288pt x 384.97702pt>
 File: figures_pdftex/single_layer.pdf Graphic file (type pdf)
 <use figures_pdftex/single_layer.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/single_layer.pdf , page2 used on input 
 line 59.
 (pdftex.def)             Requested size: 344.27835pt x 202.23344pt.
-<figures_pdftex/single_layer.pdf, id=1015, page=3, 655.39288pt x 384.97702pt>
+<figures_pdftex/single_layer.pdf, id=1017, page=3, 655.39288pt x 384.97702pt>
 File: figures_pdftex/single_layer.pdf Graphic file (type pdf)
 <use figures_pdftex/single_layer.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/single_layer.pdf , page3 used on input 
@@ -3382,61 +3382,57 @@ ngle page
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/s
 ingle_layer.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
->]
-Package textcomp Info: Symbol \textasciiacute not provided by
-(textcomp)             font family mlmr in TS1 encoding.
-(textcomp)             Default family used instead on input line 49.
- (./figures_pdftex/multilayersketch.pdf_tex
-<figures_pdftex/multilayersketch.pdf, id=1029, page=1, 800.31113pt x 456.38167p
+>] (./figures_pdftex/multilayersketch.pdf_tex
+<figures_pdftex/multilayersketch.pdf, id=1030, page=1, 800.31113pt x 456.38167p
 t>
 File: figures_pdftex/multilayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayersketch.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/multilayersketch.pdf , page1 used on in
 put line 57.
 (pdftex.def)             Requested size: 344.27835pt x 196.33081pt.
-<figures_pdftex/multilayersketch.pdf, id=1030, page=2, 800.31113pt x 456.38167p
+<figures_pdftex/multilayersketch.pdf, id=1031, page=2, 800.31113pt x 456.38167p
 t>
 File: figures_pdftex/multilayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayersketch.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/multilayersketch.pdf , page2 used on in
 put line 60.
 (pdftex.def)             Requested size: 344.27835pt x 196.33081pt.
-<figures_pdftex/multilayersketch.pdf, id=1031, page=3, 800.31113pt x 456.38167p
+<figures_pdftex/multilayersketch.pdf, id=1032, page=3, 800.31113pt x 456.38167p
 t>
 File: figures_pdftex/multilayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayersketch.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/multilayersketch.pdf , page3 used on in
 put line 62.
 (pdftex.def)             Requested size: 344.27835pt x 196.33081pt.
-<figures_pdftex/multilayersketch.pdf, id=1032, page=4, 800.31113pt x 456.38167p
+<figures_pdftex/multilayersketch.pdf, id=1033, page=4, 800.31113pt x 456.38167p
 t>
 File: figures_pdftex/multilayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayersketch.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/multilayersketch.pdf , page4 used on in
 put line 65.
 (pdftex.def)             Requested size: 344.27835pt x 196.33081pt.
-<figures_pdftex/multilayersketch.pdf, id=1033, page=5, 800.31113pt x 456.38167p
+<figures_pdftex/multilayersketch.pdf, id=1034, page=5, 800.31113pt x 456.38167p
 t>
 File: figures_pdftex/multilayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayersketch.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/multilayersketch.pdf , page5 used on in
 put line 70.
 (pdftex.def)             Requested size: 344.27835pt x 196.33081pt.
-<figures_pdftex/multilayersketch.pdf, id=1034, page=6, 800.31113pt x 456.38167p
+<figures_pdftex/multilayersketch.pdf, id=1035, page=6, 800.31113pt x 456.38167p
 t>
 File: figures_pdftex/multilayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayersketch.pdf, page 6>
 Package pdftex.def Info: figures_pdftex/multilayersketch.pdf , page6 used on in
 put line 72.
 (pdftex.def)             Requested size: 344.27835pt x 196.33081pt.
-<figures_pdftex/multilayersketch.pdf, id=1035, page=7, 800.31113pt x 456.38167p
+<figures_pdftex/multilayersketch.pdf, id=1036, page=7, 800.31113pt x 456.38167p
 t>
 File: figures_pdftex/multilayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayersketch.pdf, page 7>
 Package pdftex.def Info: figures_pdftex/multilayersketch.pdf , page7 used on in
 put line 74.
 (pdftex.def)             Requested size: 344.27835pt x 196.33081pt.
-<figures_pdftex/multilayersketch.pdf, id=1036, page=8, 800.31113pt x 456.38167p
+<figures_pdftex/multilayersketch.pdf, id=1037, page=8, 800.31113pt x 456.38167p
 t>
 File: figures_pdftex/multilayersketch.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayersketch.pdf, page 8>
@@ -3445,14 +3441,14 @@ put line 76.
 (pdftex.def)             Requested size: 344.27835pt x 196.33081pt.
 )
 (./figures_pdftex/multilayer_reflectivity.pdf_tex
-<figures_pdftex/multilayer_reflectivity.pdf, id=1044, page=1, 659.95827pt x 387
+<figures_pdftex/multilayer_reflectivity.pdf, id=1045, page=1, 659.95827pt x 387
 .86719pt>
 File: figures_pdftex/multilayer_reflectivity.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayer_reflectivity.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/multilayer_reflectivity.pdf , page1 use
 d on input line 57.
 (pdftex.def)             Requested size: 344.27835pt x 202.34311pt.
-<figures_pdftex/multilayer_reflectivity.pdf, id=1045, page=2, 659.95827pt x 387
+<figures_pdftex/multilayer_reflectivity.pdf, id=1046, page=2, 659.95827pt x 387
 .86719pt>
 File: figures_pdftex/multilayer_reflectivity.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayer_reflectivity.pdf, page 2>
@@ -3463,8 +3459,8 @@ d on input line 77.
 Package cleveref Info: loaded `english' language definitions on input line 71.
  [30
 
-{/app/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figures_
-pdftex/multilayersketch.pdf> <./figures_pdftex/multilayersketch.pdf
+ <./figures_pdftex/multilayersketch.pdf> <./figures_pdftex/multilayersketch.pdf
+
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/m
 ultilayersketch.pdf): PDF inclusion: multiple pdfs with page group included in 
@@ -3500,6 +3496,8 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/m
 ultilayersketch.pdf): PDF inclusion: multiple pdfs with page group included in 
 a single page
 >]
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
 Package cleveref Info: loaded `english' language definitions on input line 77.
  [31 <./figures_pdftex/multilayer_reflectivity.pdf> <./figures_pdftex/multilaye
 r_reflectivity.pdf
@@ -3574,7 +3572,7 @@ Package pdftex.def Info: figures_pdftex/coherencelength.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 344.27835pt x 55.40863pt.
 )
-Package cleveref Info: loaded `english' language definitions on input line 110.
+Package cleveref Info: loaded `english' language definitions on input line 112.
 
  [34
 
@@ -3602,7 +3600,7 @@ Package pdftex.def Info: figures_pdftex/geometrycoherence.pdf , page3 used on i
 nput line 63.
 (pdftex.def)             Requested size: 344.27835pt x 116.13138pt.
 )
-Package cleveref Info: loaded `english' language definitions on input line 134.
+Package cleveref Info: loaded `english' language definitions on input line 136.
 
  [35 <./figures_pdftex/geometrycoherence.pdf> <./figures_pdftex/geometrycoheren
 ce.pdf
@@ -3638,23 +3636,23 @@ Package pdftex.def Info: figures_pdftex/interfacewidthgradient.pdf , page3 used
  on input line 60.
 (pdftex.def)             Requested size: 344.27835pt x 62.16168pt.
 )
-Package cleveref Info: loaded `english' language definitions on input line 164.
+Package cleveref Info: loaded `english' language definitions on input line 168.
 
  [36]
 (./figures_pdftex/SLD_gaussian.pdf_tex
-<figures_pdftex/SLD_gaussian.pdf, id=1188, page=1, 588.6661pt x 187.16524pt>
+<figures_pdftex/SLD_gaussian.pdf, id=1190, page=1, 588.6661pt x 187.16524pt>
 File: figures_pdftex/SLD_gaussian.pdf Graphic file (type pdf)
 <use figures_pdftex/SLD_gaussian.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/SLD_gaussian.pdf , page1 used on input 
 line 56.
 (pdftex.def)             Requested size: 344.27835pt x 109.46408pt.
-<figures_pdftex/SLD_gaussian.pdf, id=1189, page=2, 588.6661pt x 187.16524pt>
+<figures_pdftex/SLD_gaussian.pdf, id=1191, page=2, 588.6661pt x 187.16524pt>
 File: figures_pdftex/SLD_gaussian.pdf Graphic file (type pdf)
 <use figures_pdftex/SLD_gaussian.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/SLD_gaussian.pdf , page2 used on input 
 line 59.
 (pdftex.def)             Requested size: 344.27835pt x 109.46408pt.
-<figures_pdftex/SLD_gaussian.pdf, id=1190, page=3, 588.6661pt x 187.16524pt>
+<figures_pdftex/SLD_gaussian.pdf, id=1192, page=3, 588.6661pt x 187.16524pt>
 File: figures_pdftex/SLD_gaussian.pdf Graphic file (type pdf)
 <use figures_pdftex/SLD_gaussian.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/SLD_gaussian.pdf , page3 used on input 
@@ -4037,56 +4035,56 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/c
 orrelation_function.pdf): PDF inclusion: multiple pdfs with page group included
  in a single page
 >] (./figures_pdftex/interface_types.pdf_tex
-<figures_pdftex/interface_types.pdf, id=1298, page=1, 442.05627pt x 140.73627pt
+<figures_pdftex/interface_types.pdf, id=1297, page=1, 442.05627pt x 140.73627pt
 >
 File: figures_pdftex/interface_types.pdf Graphic file (type pdf)
 <use figures_pdftex/interface_types.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/interface_types.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 344.27835pt x 109.61278pt.
-<figures_pdftex/interface_types.pdf, id=1299, page=2, 442.05627pt x 140.73627pt
+<figures_pdftex/interface_types.pdf, id=1298, page=2, 442.05627pt x 140.73627pt
 >
 File: figures_pdftex/interface_types.pdf Graphic file (type pdf)
 <use figures_pdftex/interface_types.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/interface_types.pdf , page2 used on inp
 ut line 61.
 (pdftex.def)             Requested size: 344.27835pt x 109.61278pt.
-<figures_pdftex/interface_types.pdf, id=1300, page=3, 442.05627pt x 140.73627pt
+<figures_pdftex/interface_types.pdf, id=1299, page=3, 442.05627pt x 140.73627pt
 >
 File: figures_pdftex/interface_types.pdf Graphic file (type pdf)
 <use figures_pdftex/interface_types.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/interface_types.pdf , page3 used on inp
 ut line 64.
 (pdftex.def)             Requested size: 344.27835pt x 109.61278pt.
-<figures_pdftex/interface_types.pdf, id=1301, page=4, 442.05627pt x 140.73627pt
+<figures_pdftex/interface_types.pdf, id=1300, page=4, 442.05627pt x 140.73627pt
 >
 File: figures_pdftex/interface_types.pdf Graphic file (type pdf)
 <use figures_pdftex/interface_types.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/interface_types.pdf , page4 used on inp
 ut line 66.
 (pdftex.def)             Requested size: 344.27835pt x 109.61278pt.
-<figures_pdftex/interface_types.pdf, id=1302, page=5, 442.05627pt x 140.73627pt
+<figures_pdftex/interface_types.pdf, id=1301, page=5, 442.05627pt x 140.73627pt
 >
 File: figures_pdftex/interface_types.pdf Graphic file (type pdf)
 <use figures_pdftex/interface_types.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/interface_types.pdf , page5 used on inp
 ut line 70.
 (pdftex.def)             Requested size: 344.27835pt x 109.61278pt.
-<figures_pdftex/interface_types.pdf, id=1303, page=6, 442.05627pt x 140.73627pt
+<figures_pdftex/interface_types.pdf, id=1302, page=6, 442.05627pt x 140.73627pt
 >
 File: figures_pdftex/interface_types.pdf Graphic file (type pdf)
 <use figures_pdftex/interface_types.pdf, page 6>
 Package pdftex.def Info: figures_pdftex/interface_types.pdf , page6 used on inp
 ut line 72.
 (pdftex.def)             Requested size: 344.27835pt x 109.61278pt.
-<figures_pdftex/interface_types.pdf, id=1304, page=7, 442.05627pt x 140.73627pt
+<figures_pdftex/interface_types.pdf, id=1303, page=7, 442.05627pt x 140.73627pt
 >
 File: figures_pdftex/interface_types.pdf Graphic file (type pdf)
 <use figures_pdftex/interface_types.pdf, page 7>
 Package pdftex.def Info: figures_pdftex/interface_types.pdf , page7 used on inp
 ut line 74.
 (pdftex.def)             Requested size: 344.27835pt x 109.61278pt.
-<figures_pdftex/interface_types.pdf, id=1305, page=8, 442.05627pt x 140.73627pt
+<figures_pdftex/interface_types.pdf, id=1304, page=8, 442.05627pt x 140.73627pt
 >
 File: figures_pdftex/interface_types.pdf Graphic file (type pdf)
 <use figures_pdftex/interface_types.pdf, page 8>
@@ -4134,70 +4132,70 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/i
 nterface_types.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
 >] (./figures_pdftex/correlated_vs_diffuse.pdf_tex
-<figures_pdftex/correlated_vs_diffuse.pdf, id=1340, page=1, 764.99915pt x 498.5
+<figures_pdftex/correlated_vs_diffuse.pdf, id=1339, page=1, 764.99915pt x 498.5
 3284pt>
 File: figures_pdftex/correlated_vs_diffuse.pdf Graphic file (type pdf)
 <use figures_pdftex/correlated_vs_diffuse.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/correlated_vs_diffuse.pdf , page1 used 
 on input line 56.
 (pdftex.def)             Requested size: 344.27835pt x 224.36052pt.
-<figures_pdftex/correlated_vs_diffuse.pdf, id=1341, page=2, 764.99915pt x 498.5
+<figures_pdftex/correlated_vs_diffuse.pdf, id=1340, page=2, 764.99915pt x 498.5
 3284pt>
 File: figures_pdftex/correlated_vs_diffuse.pdf Graphic file (type pdf)
 <use figures_pdftex/correlated_vs_diffuse.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/correlated_vs_diffuse.pdf , page2 used 
 on input line 58.
 (pdftex.def)             Requested size: 344.27835pt x 224.36052pt.
-<figures_pdftex/correlated_vs_diffuse.pdf, id=1342, page=3, 764.99915pt x 498.5
+<figures_pdftex/correlated_vs_diffuse.pdf, id=1341, page=3, 764.99915pt x 498.5
 3284pt>
 File: figures_pdftex/correlated_vs_diffuse.pdf Graphic file (type pdf)
 <use figures_pdftex/correlated_vs_diffuse.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/correlated_vs_diffuse.pdf , page3 used 
 on input line 61.
 (pdftex.def)             Requested size: 344.27835pt x 224.36052pt.
-<figures_pdftex/correlated_vs_diffuse.pdf, id=1343, page=4, 764.99915pt x 498.5
+<figures_pdftex/correlated_vs_diffuse.pdf, id=1342, page=4, 764.99915pt x 498.5
 3284pt>
 File: figures_pdftex/correlated_vs_diffuse.pdf Graphic file (type pdf)
 <use figures_pdftex/correlated_vs_diffuse.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/correlated_vs_diffuse.pdf , page4 used 
 on input line 63.
 (pdftex.def)             Requested size: 344.27835pt x 224.36052pt.
-<figures_pdftex/correlated_vs_diffuse.pdf, id=1344, page=5, 764.99915pt x 498.5
+<figures_pdftex/correlated_vs_diffuse.pdf, id=1343, page=5, 764.99915pt x 498.5
 3284pt>
 File: figures_pdftex/correlated_vs_diffuse.pdf Graphic file (type pdf)
 <use figures_pdftex/correlated_vs_diffuse.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/correlated_vs_diffuse.pdf , page5 used 
 on input line 66.
 (pdftex.def)             Requested size: 344.27835pt x 224.36052pt.
-<figures_pdftex/correlated_vs_diffuse.pdf, id=1345, page=6, 764.99915pt x 498.5
+<figures_pdftex/correlated_vs_diffuse.pdf, id=1344, page=6, 764.99915pt x 498.5
 3284pt>
 File: figures_pdftex/correlated_vs_diffuse.pdf Graphic file (type pdf)
 <use figures_pdftex/correlated_vs_diffuse.pdf, page 6>
 Package pdftex.def Info: figures_pdftex/correlated_vs_diffuse.pdf , page6 used 
 on input line 68.
 (pdftex.def)             Requested size: 344.27835pt x 224.36052pt.
-<figures_pdftex/correlated_vs_diffuse.pdf, id=1346, page=7, 764.99915pt x 498.5
+<figures_pdftex/correlated_vs_diffuse.pdf, id=1345, page=7, 764.99915pt x 498.5
 3284pt>
 File: figures_pdftex/correlated_vs_diffuse.pdf Graphic file (type pdf)
 <use figures_pdftex/correlated_vs_diffuse.pdf, page 7>
 Package pdftex.def Info: figures_pdftex/correlated_vs_diffuse.pdf , page7 used 
 on input line 75.
 (pdftex.def)             Requested size: 344.27835pt x 224.36052pt.
-<figures_pdftex/correlated_vs_diffuse.pdf, id=1347, page=8, 764.99915pt x 498.5
+<figures_pdftex/correlated_vs_diffuse.pdf, id=1346, page=8, 764.99915pt x 498.5
 3284pt>
 File: figures_pdftex/correlated_vs_diffuse.pdf Graphic file (type pdf)
 <use figures_pdftex/correlated_vs_diffuse.pdf, page 8>
 Package pdftex.def Info: figures_pdftex/correlated_vs_diffuse.pdf , page8 used 
 on input line 77.
 (pdftex.def)             Requested size: 344.27835pt x 224.36052pt.
-<figures_pdftex/correlated_vs_diffuse.pdf, id=1348, page=9, 764.99915pt x 498.5
+<figures_pdftex/correlated_vs_diffuse.pdf, id=1347, page=9, 764.99915pt x 498.5
 3284pt>
 File: figures_pdftex/correlated_vs_diffuse.pdf Graphic file (type pdf)
 <use figures_pdftex/correlated_vs_diffuse.pdf, page 9>
 Package pdftex.def Info: figures_pdftex/correlated_vs_diffuse.pdf , page9 used 
 on input line 79.
 (pdftex.def)             Requested size: 344.27835pt x 224.36052pt.
-<figures_pdftex/correlated_vs_diffuse.pdf, id=1349, page=10, 764.99915pt x 498.
+<figures_pdftex/correlated_vs_diffuse.pdf, id=1348, page=10, 764.99915pt x 498.
 53284pt>
 File: figures_pdftex/correlated_vs_diffuse.pdf Graphic file (type pdf)
 <use figures_pdftex/correlated_vs_diffuse.pdf, page 10>
@@ -4206,42 +4204,42 @@ Package pdftex.def Info: figures_pdftex/correlated_vs_diffuse.pdf , page10 used
 (pdftex.def)             Requested size: 344.27835pt x 224.36052pt.
 )
 (./figures_pdftex/interfaceroughness.pdf_tex
-<figures_pdftex/interfaceroughness.pdf, id=1350, page=1, 926.384pt x 954.85829p
+<figures_pdftex/interfaceroughness.pdf, id=1349, page=1, 926.384pt x 954.85829p
 t>
 File: figures_pdftex/interfaceroughness.pdf Graphic file (type pdf)
 <use figures_pdftex/interfaceroughness.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/interfaceroughness.pdf , page1 used on 
 input line 56.
 (pdftex.def)             Requested size: 344.27835pt x 354.85101pt.
-<figures_pdftex/interfaceroughness.pdf, id=1351, page=2, 926.384pt x 954.85829p
+<figures_pdftex/interfaceroughness.pdf, id=1350, page=2, 926.384pt x 954.85829p
 t>
 File: figures_pdftex/interfaceroughness.pdf Graphic file (type pdf)
 <use figures_pdftex/interfaceroughness.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/interfaceroughness.pdf , page2 used on 
 input line 58.
 (pdftex.def)             Requested size: 344.27835pt x 354.85101pt.
-<figures_pdftex/interfaceroughness.pdf, id=1352, page=3, 926.384pt x 954.85829p
+<figures_pdftex/interfaceroughness.pdf, id=1351, page=3, 926.384pt x 954.85829p
 t>
 File: figures_pdftex/interfaceroughness.pdf Graphic file (type pdf)
 <use figures_pdftex/interfaceroughness.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/interfaceroughness.pdf , page3 used on 
 input line 60.
 (pdftex.def)             Requested size: 344.27835pt x 354.85101pt.
-<figures_pdftex/interfaceroughness.pdf, id=1353, page=4, 926.384pt x 954.85829p
+<figures_pdftex/interfaceroughness.pdf, id=1352, page=4, 926.384pt x 954.85829p
 t>
 File: figures_pdftex/interfaceroughness.pdf Graphic file (type pdf)
 <use figures_pdftex/interfaceroughness.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/interfaceroughness.pdf , page4 used on 
 input line 65.
 (pdftex.def)             Requested size: 344.27835pt x 354.85101pt.
-<figures_pdftex/interfaceroughness.pdf, id=1354, page=5, 926.384pt x 954.85829p
+<figures_pdftex/interfaceroughness.pdf, id=1353, page=5, 926.384pt x 954.85829p
 t>
 File: figures_pdftex/interfaceroughness.pdf Graphic file (type pdf)
 <use figures_pdftex/interfaceroughness.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/interfaceroughness.pdf , page5 used on 
 input line 68.
 (pdftex.def)             Requested size: 344.27835pt x 354.85101pt.
-<figures_pdftex/interfaceroughness.pdf, id=1355, page=6, 926.384pt x 954.85829p
+<figures_pdftex/interfaceroughness.pdf, id=1354, page=6, 926.384pt x 954.85829p
 t>
 File: figures_pdftex/interfaceroughness.pdf Graphic file (type pdf)
 <use figures_pdftex/interfaceroughness.pdf, page 6>
@@ -4339,13 +4337,13 @@ Package cleveref Info: loaded `english' language definitions on input line 104.
 
 {/app/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 (./figures_pdftex/rocking_curve.pdf_tex
-<figures_pdftex/rocking_curve.pdf, id=1393, page=1, 552.0625pt x 332.32996pt>
+<figures_pdftex/rocking_curve.pdf, id=1392, page=1, 552.0625pt x 332.32996pt>
 File: figures_pdftex/rocking_curve.pdf Graphic file (type pdf)
 <use figures_pdftex/rocking_curve.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/rocking_curve.pdf , page1 used on input
  line 56.
 (pdftex.def)             Requested size: 344.27835pt x 207.25946pt.
-<figures_pdftex/rocking_curve.pdf, id=1394, page=2, 552.0625pt x 332.32996pt>
+<figures_pdftex/rocking_curve.pdf, id=1393, page=2, 552.0625pt x 332.32996pt>
 File: figures_pdftex/rocking_curve.pdf Graphic file (type pdf)
 <use figures_pdftex/rocking_curve.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/rocking_curve.pdf , page2 used on input
@@ -4358,7 +4356,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 110.
 
 LaTeX Warning: Command \r invalid in math mode on input line 110.
 
-Package cleveref Info: loaded `english' language definitions on input line 116.
+Package cleveref Info: loaded `english' language definitions on input line 118.
 
 [49 <./figures_pdftex/rocking_curve.pdf> <./figures_pdftex/rocking_curve.pdf
 
@@ -4370,21 +4368,21 @@ ingle page
 LaTeX Warning: Command \r invalid in math mode on input line 132.
 
 (./figures_pdftex/GISAXS_features.pdf_tex
-<figures_pdftex/GISAXS_features.pdf, id=1417, page=1, 869.18127pt x 759.97482pt
+<figures_pdftex/GISAXS_features.pdf, id=1416, page=1, 869.18127pt x 759.97482pt
 >
 File: figures_pdftex/GISAXS_features.pdf Graphic file (type pdf)
 <use figures_pdftex/GISAXS_features.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/GISAXS_features.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 344.27835pt x 301.0275pt.
-<figures_pdftex/GISAXS_features.pdf, id=1418, page=2, 869.18127pt x 759.97482pt
+<figures_pdftex/GISAXS_features.pdf, id=1417, page=2, 869.18127pt x 759.97482pt
 >
 File: figures_pdftex/GISAXS_features.pdf Graphic file (type pdf)
 <use figures_pdftex/GISAXS_features.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/GISAXS_features.pdf , page2 used on inp
 ut line 64.
 (pdftex.def)             Requested size: 344.27835pt x 301.0275pt.
-<figures_pdftex/GISAXS_features.pdf, id=1419, page=3, 869.18127pt x 759.97482pt
+<figures_pdftex/GISAXS_features.pdf, id=1418, page=3, 869.18127pt x 759.97482pt
 >
 File: figures_pdftex/GISAXS_features.pdf Graphic file (type pdf)
 <use figures_pdftex/GISAXS_features.pdf, page 3>
@@ -4395,9 +4393,7 @@ ut line 75.
 Package cleveref Info: loaded `english' language definitions on input line 144.
 
  [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `english' language definitions on input line 144.
+Package cleveref Info: loaded `english' language definitions on input line 145.
 
  [51 <./figures_pdftex/GISAXS_features.pdf> <./figures_pdftex/GISAXS_features.p
 df
@@ -4417,28 +4413,29 @@ Package cleveref Info: loaded `english' language definitions on input line 153.
 
 LaTeX Warning: Command \r invalid in math mode on input line 158.
 
-Package cleveref Info: loaded `english' language definitions on input line 167.
-
-[53] (./figures_pdftex/gisaxs_scans.pdf_tex
-<figures_pdftex/gisaxs_scans.pdf, id=1479, page=1, 897.15677pt x 959.89598pt>
+(./figures_pdftex/gisaxs_scans.pdf_tex
+<figures_pdftex/gisaxs_scans.pdf, id=1470, page=1, 897.15677pt x 959.89598pt>
 File: figures_pdftex/gisaxs_scans.pdf Graphic file (type pdf)
 <use figures_pdftex/gisaxs_scans.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/gisaxs_scans.pdf , page1 used on input 
 line 56.
 (pdftex.def)             Requested size: 344.27835pt x 368.35274pt.
-<figures_pdftex/gisaxs_scans.pdf, id=1480, page=2, 897.15677pt x 959.89598pt>
+<figures_pdftex/gisaxs_scans.pdf, id=1471, page=2, 897.15677pt x 959.89598pt>
 File: figures_pdftex/gisaxs_scans.pdf Graphic file (type pdf)
 <use figures_pdftex/gisaxs_scans.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/gisaxs_scans.pdf , page2 used on input 
 line 91.
 (pdftex.def)             Requested size: 344.27835pt x 368.35274pt.
-<figures_pdftex/gisaxs_scans.pdf, id=1481, page=3, 897.15677pt x 959.89598pt>
+<figures_pdftex/gisaxs_scans.pdf, id=1472, page=3, 897.15677pt x 959.89598pt>
 File: figures_pdftex/gisaxs_scans.pdf Graphic file (type pdf)
 <use figures_pdftex/gisaxs_scans.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/gisaxs_scans.pdf , page3 used on input 
 line 93.
 (pdftex.def)             Requested size: 344.27835pt x 368.35274pt.
 )
+Package cleveref Info: loaded `english' language definitions on input line 175.
+
+ [53]
 Package cleveref Info: loaded `english' language definitions on input line 175.
 
  [54]
@@ -4463,32 +4460,28 @@ Package cleveref Info: loaded `english' language definitions on input line 209.
 Package cleveref Info: loaded `english' language definitions on input line 245.
 
  [57] (./figures_pdftex/grazing_fresnel.pdf_tex
-<figures_pdftex/grazing_fresnel.pdf, id=1562, page=1, 2654.29066pt x 3611.96938
+<figures_pdftex/grazing_fresnel.pdf, id=1561, page=1, 2654.29066pt x 3611.96938
 pt>
 File: figures_pdftex/grazing_fresnel.pdf Graphic file (type pdf)
 <use figures_pdftex/grazing_fresnel.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/grazing_fresnel.pdf , page1 used on inp
 ut line 87.
 (pdftex.def)             Requested size: 344.27835pt x 468.47023pt.
-<figures_pdftex/grazing_fresnel.pdf, id=1563, page=2, 2654.29066pt x 3611.96938
+<figures_pdftex/grazing_fresnel.pdf, id=1562, page=2, 2654.29066pt x 3611.96938
 pt>
 File: figures_pdftex/grazing_fresnel.pdf Graphic file (type pdf)
 <use figures_pdftex/grazing_fresnel.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/grazing_fresnel.pdf , page2 used on inp
 ut line 92.
 (pdftex.def)             Requested size: 344.27835pt x 468.47023pt.
-<figures_pdftex/grazing_fresnel.pdf, id=1564, page=3, 2654.29066pt x 3611.96938
+<figures_pdftex/grazing_fresnel.pdf, id=1563, page=3, 2654.29066pt x 3611.96938
 pt>
 File: figures_pdftex/grazing_fresnel.pdf Graphic file (type pdf)
 <use figures_pdftex/grazing_fresnel.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/grazing_fresnel.pdf , page3 used on inp
 ut line 97.
 (pdftex.def)             Requested size: 344.27835pt x 468.47023pt.
-)
-
-LaTeX Warning: Float too large for page by 5.8948pt on input line 264.
-
-)
+))
 Package cleveref Info: loaded `english' language definitions on input line 100.
 
  [58]
@@ -4515,70 +4508,70 @@ razing_fresnel.pdf): PDF inclusion: multiple pdfs with page group included in a
 
 ]
 (./figures_pdftex/magnetronsputtering.pdf_tex
-<figures_pdftex/magnetronsputtering.pdf, id=1610, page=1, 931.65993pt x 516.377
+<figures_pdftex/magnetronsputtering.pdf, id=1609, page=1, 931.65993pt x 516.377
 67pt>
 File: figures_pdftex/magnetronsputtering.pdf Graphic file (type pdf)
 <use figures_pdftex/magnetronsputtering.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/magnetronsputtering.pdf , page1 used on
  input line 56.
 (pdftex.def)             Requested size: 344.27835pt x 190.81248pt.
-<figures_pdftex/magnetronsputtering.pdf, id=1611, page=2, 931.65993pt x 516.377
+<figures_pdftex/magnetronsputtering.pdf, id=1610, page=2, 931.65993pt x 516.377
 67pt>
 File: figures_pdftex/magnetronsputtering.pdf Graphic file (type pdf)
 <use figures_pdftex/magnetronsputtering.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/magnetronsputtering.pdf , page2 used on
  input line 58.
 (pdftex.def)             Requested size: 344.27835pt x 190.81248pt.
-<figures_pdftex/magnetronsputtering.pdf, id=1612, page=3, 931.65993pt x 516.377
+<figures_pdftex/magnetronsputtering.pdf, id=1611, page=3, 931.65993pt x 516.377
 67pt>
 File: figures_pdftex/magnetronsputtering.pdf Graphic file (type pdf)
 <use figures_pdftex/magnetronsputtering.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/magnetronsputtering.pdf , page3 used on
  input line 60.
 (pdftex.def)             Requested size: 344.27835pt x 190.81248pt.
-<figures_pdftex/magnetronsputtering.pdf, id=1613, page=4, 931.65993pt x 516.377
+<figures_pdftex/magnetronsputtering.pdf, id=1612, page=4, 931.65993pt x 516.377
 67pt>
 File: figures_pdftex/magnetronsputtering.pdf Graphic file (type pdf)
 <use figures_pdftex/magnetronsputtering.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/magnetronsputtering.pdf , page4 used on
  input line 66.
 (pdftex.def)             Requested size: 344.27835pt x 190.81248pt.
-<figures_pdftex/magnetronsputtering.pdf, id=1614, page=5, 931.65993pt x 516.377
+<figures_pdftex/magnetronsputtering.pdf, id=1613, page=5, 931.65993pt x 516.377
 67pt>
 File: figures_pdftex/magnetronsputtering.pdf Graphic file (type pdf)
 <use figures_pdftex/magnetronsputtering.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/magnetronsputtering.pdf , page5 used on
  input line 70.
 (pdftex.def)             Requested size: 344.27835pt x 190.81248pt.
-<figures_pdftex/magnetronsputtering.pdf, id=1615, page=6, 931.65993pt x 516.377
+<figures_pdftex/magnetronsputtering.pdf, id=1614, page=6, 931.65993pt x 516.377
 67pt>
 File: figures_pdftex/magnetronsputtering.pdf Graphic file (type pdf)
 <use figures_pdftex/magnetronsputtering.pdf, page 6>
 Package pdftex.def Info: figures_pdftex/magnetronsputtering.pdf , page6 used on
  input line 74.
 (pdftex.def)             Requested size: 344.27835pt x 190.81248pt.
-<figures_pdftex/magnetronsputtering.pdf, id=1616, page=7, 931.65993pt x 516.377
+<figures_pdftex/magnetronsputtering.pdf, id=1615, page=7, 931.65993pt x 516.377
 67pt>
 File: figures_pdftex/magnetronsputtering.pdf Graphic file (type pdf)
 <use figures_pdftex/magnetronsputtering.pdf, page 7>
 Package pdftex.def Info: figures_pdftex/magnetronsputtering.pdf , page7 used on
  input line 76.
 (pdftex.def)             Requested size: 344.27835pt x 190.81248pt.
-<figures_pdftex/magnetronsputtering.pdf, id=1617, page=8, 931.65993pt x 516.377
+<figures_pdftex/magnetronsputtering.pdf, id=1616, page=8, 931.65993pt x 516.377
 67pt>
 File: figures_pdftex/magnetronsputtering.pdf Graphic file (type pdf)
 <use figures_pdftex/magnetronsputtering.pdf, page 8>
 Package pdftex.def Info: figures_pdftex/magnetronsputtering.pdf , page8 used on
  input line 79.
 (pdftex.def)             Requested size: 344.27835pt x 190.81248pt.
-<figures_pdftex/magnetronsputtering.pdf, id=1618, page=9, 931.65993pt x 516.377
+<figures_pdftex/magnetronsputtering.pdf, id=1617, page=9, 931.65993pt x 516.377
 67pt>
 File: figures_pdftex/magnetronsputtering.pdf Graphic file (type pdf)
 <use figures_pdftex/magnetronsputtering.pdf, page 9>
 Package pdftex.def Info: figures_pdftex/magnetronsputtering.pdf , page9 used on
  input line 82.
 (pdftex.def)             Requested size: 344.27835pt x 190.81248pt.
-<figures_pdftex/magnetronsputtering.pdf, id=1619, page=10, 931.65993pt x 516.37
+<figures_pdftex/magnetronsputtering.pdf, id=1618, page=10, 931.65993pt x 516.37
 767pt>
 File: figures_pdftex/magnetronsputtering.pdf Graphic file (type pdf)
 <use figures_pdftex/magnetronsputtering.pdf, page 10>
@@ -4591,7 +4584,7 @@ LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 (Font)              using `U/stmry/m/n' instead on input line 22.
 
 [61] (./figures_pdftex/layer_growth.pdf_tex
-<figures_pdftex/layer_growth.pdf, id=1639, page=1, 756.4857pt x 206.04318pt>
+<figures_pdftex/layer_growth.pdf, id=1638, page=1, 756.4857pt x 206.04318pt>
 File: figures_pdftex/layer_growth.pdf Graphic file (type pdf)
 <use figures_pdftex/layer_growth.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/layer_growth.pdf , page1 used on input 
@@ -4599,13 +4592,13 @@ line 56.
 (pdftex.def)             Requested size: 344.27835pt x 93.77179pt.
 )
 (./figures_pdftex/splitbias.pdf_tex
-<figures_pdftex/splitbias.pdf, id=1644, page=1, 756.44539pt x 255.88507pt>
+<figures_pdftex/splitbias.pdf, id=1643, page=1, 756.44539pt x 255.88507pt>
 File: figures_pdftex/splitbias.pdf Graphic file (type pdf)
 <use figures_pdftex/splitbias.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/splitbias.pdf , page1 used on input lin
 e 56.
 (pdftex.def)             Requested size: 344.27835pt x 116.45912pt.
-<figures_pdftex/splitbias.pdf, id=1645, page=2, 756.44539pt x 255.88507pt>
+<figures_pdftex/splitbias.pdf, id=1644, page=2, 756.44539pt x 255.88507pt>
 File: figures_pdftex/splitbias.pdf Graphic file (type pdf)
 <use figures_pdftex/splitbias.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/splitbias.pdf , page2 used on input lin
@@ -4660,6 +4653,8 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/m
 agnetronsputtering.pdf): PDF inclusion: multiple pdfs with page group included 
 in a single page
 >]
+Underfull \vbox (badness 5985) has occurred while \output is active []
+
 Package cleveref Info: loaded `english' language definitions on input line 46.
  [63 <./figures_pdftex/layer_growth.pdf>]
 LaTeX Font Info:    External font `mlmex10' loaded for size
@@ -4727,91 +4722,91 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [69]
 (./figures_pdftex/footprint_effect.pdf_tex
-<figures_pdftex/footprint_effect.pdf, id=1738, page=1, 236.546pt x 264.27637pt>
+<figures_pdftex/footprint_effect.pdf, id=1737, page=1, 236.546pt x 264.27637pt>
 
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1739, page=2, 236.546pt x 264.27637pt>
+<figures_pdftex/footprint_effect.pdf, id=1738, page=2, 236.546pt x 264.27637pt>
 
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page2 used on in
 put line 58.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1740, page=3, 236.546pt x 264.27637pt>
+<figures_pdftex/footprint_effect.pdf, id=1739, page=3, 236.546pt x 264.27637pt>
 
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page3 used on in
 put line 60.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1741, page=4, 236.546pt x 264.27637pt>
+<figures_pdftex/footprint_effect.pdf, id=1740, page=4, 236.546pt x 264.27637pt>
 
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page4 used on in
 put line 62.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1742, page=5, 236.546pt x 264.27637pt>
+<figures_pdftex/footprint_effect.pdf, id=1741, page=5, 236.546pt x 264.27637pt>
 
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page5 used on in
 put line 66.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1743, page=6, 236.546pt x 264.27637pt>
+<figures_pdftex/footprint_effect.pdf, id=1742, page=6, 236.546pt x 264.27637pt>
 
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 6>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page6 used on in
 put line 68.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1744, page=7, 236.546pt x 264.27637pt>
+<figures_pdftex/footprint_effect.pdf, id=1743, page=7, 236.546pt x 264.27637pt>
 
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 7>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page7 used on in
 put line 70.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1745, page=8, 236.546pt x 264.27637pt>
+<figures_pdftex/footprint_effect.pdf, id=1744, page=8, 236.546pt x 264.27637pt>
 
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 8>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page8 used on in
 put line 72.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1746, page=9, 236.546pt x 264.27637pt>
+<figures_pdftex/footprint_effect.pdf, id=1745, page=9, 236.546pt x 264.27637pt>
 
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 9>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page9 used on in
 put line 74.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1747, page=10, 236.546pt x 264.27637pt
+<figures_pdftex/footprint_effect.pdf, id=1746, page=10, 236.546pt x 264.27637pt
 >
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 10>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page10 used on i
 nput line 76.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1748, page=11, 236.546pt x 264.27637pt
+<figures_pdftex/footprint_effect.pdf, id=1747, page=11, 236.546pt x 264.27637pt
 >
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 11>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page11 used on i
 nput line 78.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1749, page=12, 236.546pt x 264.27637pt
+<figures_pdftex/footprint_effect.pdf, id=1748, page=12, 236.546pt x 264.27637pt
 >
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 12>
 Package pdftex.def Info: figures_pdftex/footprint_effect.pdf , page12 used on i
 nput line 80.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
-<figures_pdftex/footprint_effect.pdf, id=1750, page=13, 236.546pt x 264.27637pt
+<figures_pdftex/footprint_effect.pdf, id=1749, page=13, 236.546pt x 264.27637pt
 >
 File: figures_pdftex/footprint_effect.pdf Graphic file (type pdf)
 <use figures_pdftex/footprint_effect.pdf, page 13>
@@ -4820,42 +4815,42 @@ nput line 82.
 (pdftex.def)             Requested size: 344.27835pt x 384.65874pt.
 )
 (./figures_pdftex/raw_measurement.pdf_tex
-<figures_pdftex/raw_measurement.pdf, id=1751, page=1, 231.69865pt x 253.19762pt
+<figures_pdftex/raw_measurement.pdf, id=1750, page=1, 231.69865pt x 253.19762pt
 >
 File: figures_pdftex/raw_measurement.pdf Graphic file (type pdf)
 <use figures_pdftex/raw_measurement.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/raw_measurement.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 344.27835pt x 376.23721pt.
-<figures_pdftex/raw_measurement.pdf, id=1752, page=2, 231.69865pt x 253.19762pt
+<figures_pdftex/raw_measurement.pdf, id=1751, page=2, 231.69865pt x 253.19762pt
 >
 File: figures_pdftex/raw_measurement.pdf Graphic file (type pdf)
 <use figures_pdftex/raw_measurement.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/raw_measurement.pdf , page2 used on inp
 ut line 65.
 (pdftex.def)             Requested size: 344.27835pt x 376.23721pt.
-<figures_pdftex/raw_measurement.pdf, id=1753, page=3, 231.69865pt x 253.19762pt
+<figures_pdftex/raw_measurement.pdf, id=1752, page=3, 231.69865pt x 253.19762pt
 >
 File: figures_pdftex/raw_measurement.pdf Graphic file (type pdf)
 <use figures_pdftex/raw_measurement.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/raw_measurement.pdf , page3 used on inp
 ut line 71.
 (pdftex.def)             Requested size: 344.27835pt x 376.23721pt.
-<figures_pdftex/raw_measurement.pdf, id=1754, page=4, 231.69865pt x 253.19762pt
+<figures_pdftex/raw_measurement.pdf, id=1753, page=4, 231.69865pt x 253.19762pt
 >
 File: figures_pdftex/raw_measurement.pdf Graphic file (type pdf)
 <use figures_pdftex/raw_measurement.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/raw_measurement.pdf , page4 used on inp
 ut line 80.
 (pdftex.def)             Requested size: 344.27835pt x 376.23721pt.
-<figures_pdftex/raw_measurement.pdf, id=1755, page=5, 231.69865pt x 253.19762pt
+<figures_pdftex/raw_measurement.pdf, id=1754, page=5, 231.69865pt x 253.19762pt
 >
 File: figures_pdftex/raw_measurement.pdf Graphic file (type pdf)
 <use figures_pdftex/raw_measurement.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/raw_measurement.pdf , page5 used on inp
 ut line 86.
 (pdftex.def)             Requested size: 344.27835pt x 376.23721pt.
-<figures_pdftex/raw_measurement.pdf, id=1756, page=6, 231.69865pt x 253.19762pt
+<figures_pdftex/raw_measurement.pdf, id=1755, page=6, 231.69865pt x 253.19762pt
 >
 File: figures_pdftex/raw_measurement.pdf Graphic file (type pdf)
 <use figures_pdftex/raw_measurement.pdf, page 6>
@@ -4956,25 +4951,25 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/r
 aw_measurement.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
 >] (./figures_pdftex/superadam.pdf_tex
-<figures_pdftex/superadam.pdf, id=1800, page=1, 996.04599pt x 377.69307pt>
+<figures_pdftex/superadam.pdf, id=1799, page=1, 996.04599pt x 377.69307pt>
 File: figures_pdftex/superadam.pdf Graphic file (type pdf)
 <use figures_pdftex/superadam.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/superadam.pdf , page1 used on input lin
 e 57.
 (pdftex.def)             Requested size: 344.27835pt x 130.5463pt.
-<figures_pdftex/superadam.pdf, id=1801, page=2, 996.04599pt x 377.69307pt>
+<figures_pdftex/superadam.pdf, id=1800, page=2, 996.04599pt x 377.69307pt>
 File: figures_pdftex/superadam.pdf Graphic file (type pdf)
 <use figures_pdftex/superadam.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/superadam.pdf , page2 used on input lin
 e 65.
 (pdftex.def)             Requested size: 344.27835pt x 130.5463pt.
-<figures_pdftex/superadam.pdf, id=1802, page=3, 996.04599pt x 377.69307pt>
+<figures_pdftex/superadam.pdf, id=1801, page=3, 996.04599pt x 377.69307pt>
 File: figures_pdftex/superadam.pdf Graphic file (type pdf)
 <use figures_pdftex/superadam.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/superadam.pdf , page3 used on input lin
 e 67.
 (pdftex.def)             Requested size: 344.27835pt x 130.5463pt.
-<figures_pdftex/superadam.pdf, id=1803, page=4, 996.04599pt x 377.69307pt>
+<figures_pdftex/superadam.pdf, id=1802, page=4, 996.04599pt x 377.69307pt>
 File: figures_pdftex/superadam.pdf Graphic file (type pdf)
 <use figures_pdftex/superadam.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/superadam.pdf , page4 used on input lin
@@ -5000,37 +4995,37 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/s
 uperadam.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
 >] (./figures_pdftex/BraggBrentano.pdf_tex
-<figures_pdftex/BraggBrentano.pdf, id=1853, page=1, 716.01328pt x 277.5804pt>
+<figures_pdftex/BraggBrentano.pdf, id=1852, page=1, 716.01328pt x 277.5804pt>
 File: figures_pdftex/BraggBrentano.pdf Graphic file (type pdf)
 <use figures_pdftex/BraggBrentano.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/BraggBrentano.pdf , page1 used on input
  line 56.
 (pdftex.def)             Requested size: 344.27835pt x 133.47002pt.
-<figures_pdftex/BraggBrentano.pdf, id=1854, page=2, 716.01328pt x 277.5804pt>
+<figures_pdftex/BraggBrentano.pdf, id=1853, page=2, 716.01328pt x 277.5804pt>
 File: figures_pdftex/BraggBrentano.pdf Graphic file (type pdf)
 <use figures_pdftex/BraggBrentano.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/BraggBrentano.pdf , page2 used on input
  line 61.
 (pdftex.def)             Requested size: 344.27835pt x 133.47002pt.
-<figures_pdftex/BraggBrentano.pdf, id=1855, page=3, 716.01328pt x 277.5804pt>
+<figures_pdftex/BraggBrentano.pdf, id=1854, page=3, 716.01328pt x 277.5804pt>
 File: figures_pdftex/BraggBrentano.pdf Graphic file (type pdf)
 <use figures_pdftex/BraggBrentano.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/BraggBrentano.pdf , page3 used on input
  line 63.
 (pdftex.def)             Requested size: 344.27835pt x 133.47002pt.
-<figures_pdftex/BraggBrentano.pdf, id=1856, page=4, 716.01328pt x 277.5804pt>
+<figures_pdftex/BraggBrentano.pdf, id=1855, page=4, 716.01328pt x 277.5804pt>
 File: figures_pdftex/BraggBrentano.pdf Graphic file (type pdf)
 <use figures_pdftex/BraggBrentano.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/BraggBrentano.pdf , page4 used on input
  line 65.
 (pdftex.def)             Requested size: 344.27835pt x 133.47002pt.
-<figures_pdftex/BraggBrentano.pdf, id=1857, page=5, 716.01328pt x 277.5804pt>
+<figures_pdftex/BraggBrentano.pdf, id=1856, page=5, 716.01328pt x 277.5804pt>
 File: figures_pdftex/BraggBrentano.pdf Graphic file (type pdf)
 <use figures_pdftex/BraggBrentano.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/BraggBrentano.pdf , page5 used on input
  line 67.
 (pdftex.def)             Requested size: 344.27835pt x 133.47002pt.
-<figures_pdftex/BraggBrentano.pdf, id=1858, page=6, 716.01328pt x 277.5804pt>
+<figures_pdftex/BraggBrentano.pdf, id=1857, page=6, 716.01328pt x 277.5804pt>
 File: figures_pdftex/BraggBrentano.pdf Graphic file (type pdf)
 <use figures_pdftex/BraggBrentano.pdf, page 6>
 Package pdftex.def Info: figures_pdftex/BraggBrentano.pdf , page6 used on input
@@ -5076,13 +5071,13 @@ Package cleveref Info: loaded `english' language definitions on input line 102.
 
 ] [77]
 (./figures_pdftex/vector_math.pdf_tex
-<figures_pdftex/vector_math.pdf, id=1907, page=1, 323.25232pt x 167.23894pt>
+<figures_pdftex/vector_math.pdf, id=1906, page=1, 323.25232pt x 167.23894pt>
 File: figures_pdftex/vector_math.pdf Graphic file (type pdf)
 <use figures_pdftex/vector_math.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/vector_math.pdf , page1 used on input l
 ine 56.
 (pdftex.def)             Requested size: 344.27835pt x 178.11707pt.
-<figures_pdftex/vector_math.pdf, id=1908, page=2, 323.25232pt x 167.23894pt>
+<figures_pdftex/vector_math.pdf, id=1907, page=2, 323.25232pt x 167.23894pt>
 File: figures_pdftex/vector_math.pdf Graphic file (type pdf)
 <use figures_pdftex/vector_math.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/vector_math.pdf , page2 used on input l
@@ -5098,13 +5093,13 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/v
 ector_math.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >] (./figures_pdftex/dwba_terms.pdf_tex
-<figures_pdftex/dwba_terms.pdf, id=1946, page=1, 424.77014pt x 78.21663pt>
+<figures_pdftex/dwba_terms.pdf, id=1945, page=1, 424.77014pt x 78.21663pt>
 File: figures_pdftex/dwba_terms.pdf Graphic file (type pdf)
 <use figures_pdftex/dwba_terms.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/dwba_terms.pdf , page1 used on input li
 ne 56.
 (pdftex.def)             Requested size: 344.27835pt x 63.39687pt.
-<figures_pdftex/dwba_terms.pdf, id=1947, page=2, 424.77014pt x 78.21663pt>
+<figures_pdftex/dwba_terms.pdf, id=1946, page=2, 424.77014pt x 78.21663pt>
 File: figures_pdftex/dwba_terms.pdf Graphic file (type pdf)
 <use figures_pdftex/dwba_terms.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/dwba_terms.pdf , page2 used on input li
@@ -5121,28 +5116,28 @@ le page
 Package cleveref Info: loaded `english' language definitions on input line 110.
 
  [81] (./figures_pdftex/multilayer_model.pdf_tex
-<figures_pdftex/multilayer_model.pdf, id=1975, page=1, 875.019pt x 440.70209pt>
+<figures_pdftex/multilayer_model.pdf, id=1974, page=1, 875.019pt x 440.70209pt>
 
 File: figures_pdftex/multilayer_model.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayer_model.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/multilayer_model.pdf , page1 used on in
 put line 56.
 (pdftex.def)             Requested size: 344.27835pt x 173.39287pt.
-<figures_pdftex/multilayer_model.pdf, id=1976, page=2, 875.019pt x 440.70209pt>
+<figures_pdftex/multilayer_model.pdf, id=1975, page=2, 875.019pt x 440.70209pt>
 
 File: figures_pdftex/multilayer_model.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayer_model.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/multilayer_model.pdf , page2 used on in
 put line 59.
 (pdftex.def)             Requested size: 344.27835pt x 173.39287pt.
-<figures_pdftex/multilayer_model.pdf, id=1977, page=3, 875.019pt x 440.70209pt>
+<figures_pdftex/multilayer_model.pdf, id=1976, page=3, 875.019pt x 440.70209pt>
 
 File: figures_pdftex/multilayer_model.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayer_model.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/multilayer_model.pdf , page3 used on in
 put line 61.
 (pdftex.def)             Requested size: 344.27835pt x 173.39287pt.
-<figures_pdftex/multilayer_model.pdf, id=1978, page=4, 875.019pt x 440.70209pt>
+<figures_pdftex/multilayer_model.pdf, id=1977, page=4, 875.019pt x 440.70209pt>
 
 File: figures_pdftex/multilayer_model.pdf Graphic file (type pdf)
 <use figures_pdftex/multilayer_model.pdf, page 4>
@@ -5172,28 +5167,26 @@ a single page
 \openout2 = `sections/Multilayercharacterization.aux'.
 
  (./sections/Multilayercharacterization.tex (./figures_pdftex/ERDA.pdf_tex
-<figures_pdftex/ERDA.pdf, id=1986, page=1, 730.06247pt x 426.04468pt>
+<figures_pdftex/ERDA.pdf, id=1985, page=1, 730.06247pt x 426.04468pt>
 File: figures_pdftex/ERDA.pdf Graphic file (type pdf)
 <use figures_pdftex/ERDA.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/ERDA.pdf , page1 used on input line 56.
 
 (pdftex.def)             Requested size: 344.27835pt x 200.91711pt.
-<figures_pdftex/ERDA.pdf, id=1987, page=2, 730.06247pt x 426.04468pt>
+<figures_pdftex/ERDA.pdf, id=1986, page=2, 730.06247pt x 426.04468pt>
 File: figures_pdftex/ERDA.pdf Graphic file (type pdf)
 <use figures_pdftex/ERDA.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/ERDA.pdf , page2 used on input line 77.
 
 (pdftex.def)             Requested size: 344.27835pt x 200.91711pt.
-<figures_pdftex/ERDA.pdf, id=1988, page=3, 730.06247pt x 426.04468pt>
+<figures_pdftex/ERDA.pdf, id=1987, page=3, 730.06247pt x 426.04468pt>
 File: figures_pdftex/ERDA.pdf Graphic file (type pdf)
 <use figures_pdftex/ERDA.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/ERDA.pdf , page3 used on input line 79.
 
 (pdftex.def)             Requested size: 344.27835pt x 200.91711pt.
 )
-Underfull \vbox (badness 3417) has occurred while \output is active []
-
- [83
+[83
 
 
 
@@ -5209,149 +5202,149 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/E
 RDA.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
 e
 >] (./figures_pdftex/XPS.pdf_tex
-<figures_pdftex/XPS.pdf, id=2018, page=1, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2017, page=1, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2019, page=2, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2018, page=2, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page2 used on input line 62.
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2020, page=3, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2019, page=3, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page3 used on input line 70.
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2021, page=4, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2020, page=4, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page4 used on input line 72.
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2022, page=5, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2021, page=5, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page5 used on input line 76.
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2023, page=6, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2022, page=6, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 6>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page6 used on input line 78.
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2024, page=7, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2023, page=7, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 7>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page7 used on input line 80.
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2025, page=8, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2024, page=8, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 8>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page8 used on input line 82.
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2026, page=9, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2025, page=9, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 9>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page9 used on input line 84.
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2027, page=10, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2026, page=10, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 10>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page10 used on input line 86.
 
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2028, page=11, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2027, page=11, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 11>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page11 used on input line 88.
 
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2029, page=12, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2028, page=12, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 12>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page12 used on input line 90.
 
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2030, page=13, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2029, page=13, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 13>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page13 used on input line 92.
 
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2031, page=14, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2030, page=14, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 14>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page14 used on input line 94.
 
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2032, page=15, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2031, page=15, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 15>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page15 used on input line 100
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2033, page=16, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2032, page=16, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 16>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page16 used on input line 102
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2034, page=17, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2033, page=17, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 17>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page17 used on input line 104
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2035, page=18, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2034, page=18, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 18>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page18 used on input line 106
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2036, page=19, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2035, page=19, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 19>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page19 used on input line 108
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2037, page=20, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2036, page=20, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 20>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page20 used on input line 110
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2038, page=21, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2037, page=21, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 21>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page21 used on input line 112
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2039, page=22, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2038, page=22, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 22>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page22 used on input line 114
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2040, page=23, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2039, page=23, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 23>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page23 used on input line 116
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2041, page=24, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2040, page=24, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 24>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page24 used on input line 121
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
-<figures_pdftex/XPS.pdf, id=2042, page=25, 312.1556pt x 120.55524pt>
+<figures_pdftex/XPS.pdf, id=2041, page=25, 312.1556pt x 120.55524pt>
 File: figures_pdftex/XPS.pdf Graphic file (type pdf)
 <use figures_pdftex/XPS.pdf, page 25>
 Package pdftex.def Info: figures_pdftex/XPS.pdf , page25 used on input line 123
 .
 (pdftex.def)             Requested size: 344.27835pt x 132.97353pt.
 )
-<figures_pdftex/TEM.png, id=2046, 1428.33624pt x 801.99625pt>
+<figures_pdftex/TEM.png, id=2045, 1428.33624pt x 801.99625pt>
 File: figures_pdftex/TEM.png Graphic file (type png)
 <use figures_pdftex/TEM.png>
 Package pdftex.def Info: figures_pdftex/TEM.png  used on input line 29.
@@ -5505,68 +5498,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 LaTeX Font Info:    External font `mlmex10' loaded for size
 (Font)              <10.95> on input line 4.
 (./figures_pdftex/petra_results.pdf_tex
-<figures_pdftex/petra_results.pdf, id=2102, page=1, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2101, page=1, 241.84843pt x 326.65755pt>
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/petra_results.pdf , page1 used on input
  line 56.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
-<figures_pdftex/petra_results.pdf, id=2103, page=2, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2102, page=2, 241.84843pt x 326.65755pt>
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/petra_results.pdf , page2 used on input
  line 63.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
-<figures_pdftex/petra_results.pdf, id=2104, page=3, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2103, page=3, 241.84843pt x 326.65755pt>
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/petra_results.pdf , page3 used on input
  line 66.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
-<figures_pdftex/petra_results.pdf, id=2105, page=4, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2104, page=4, 241.84843pt x 326.65755pt>
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/petra_results.pdf , page4 used on input
  line 68.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
-<figures_pdftex/petra_results.pdf, id=2106, page=5, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2105, page=5, 241.84843pt x 326.65755pt>
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 5>
 Package pdftex.def Info: figures_pdftex/petra_results.pdf , page5 used on input
  line 75.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
-<figures_pdftex/petra_results.pdf, id=2107, page=6, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2106, page=6, 241.84843pt x 326.65755pt>
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 6>
 Package pdftex.def Info: figures_pdftex/petra_results.pdf , page6 used on input
  line 77.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
-<figures_pdftex/petra_results.pdf, id=2108, page=7, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2107, page=7, 241.84843pt x 326.65755pt>
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 7>
 Package pdftex.def Info: figures_pdftex/petra_results.pdf , page7 used on input
  line 79.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
-<figures_pdftex/petra_results.pdf, id=2109, page=8, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2108, page=8, 241.84843pt x 326.65755pt>
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 8>
 Package pdftex.def Info: figures_pdftex/petra_results.pdf , page8 used on input
  line 118.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
-<figures_pdftex/petra_results.pdf, id=2110, page=9, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2109, page=9, 241.84843pt x 326.65755pt>
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 9>
 Package pdftex.def Info: figures_pdftex/petra_results.pdf , page9 used on input
  line 120.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
-<figures_pdftex/petra_results.pdf, id=2111, page=10, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2110, page=10, 241.84843pt x 326.65755pt>
 
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 10>
 Package pdftex.def Info: figures_pdftex/petra_results.pdf , page10 used on inpu
 t line 124.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
-<figures_pdftex/petra_results.pdf, id=2112, page=11, 241.84843pt x 326.65755pt>
+<figures_pdftex/petra_results.pdf, id=2111, page=11, 241.84843pt x 326.65755pt>
 
 File: figures_pdftex/petra_results.pdf Graphic file (type pdf)
 <use figures_pdftex/petra_results.pdf, page 11>
@@ -5574,10 +5567,6 @@ Package pdftex.def Info: figures_pdftex/petra_results.pdf , page11 used on inpu
 t line 126.
 (pdftex.def)             Requested size: 344.27835pt x 465.01332pt.
 )
-
-LaTeX Warning: Float too large for page by 14.40665pt on input line 20.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 8--21
 
  []
@@ -5642,23 +5631,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
  []
 
 (./figures_pdftex/genx_fits.pdf_tex
-<figures_pdftex/genx_fits.pdf, id=2845, page=1, 176.6091pt x 257.72221pt>
+<figures_pdftex/genx_fits.pdf, id=2844, page=1, 176.6091pt x 257.72221pt>
 File: figures_pdftex/genx_fits.pdf Graphic file (type pdf)
 <use figures_pdftex/genx_fits.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/genx_fits.pdf , page1 used on input lin
 e 64.
 (pdftex.def)             Requested size: 344.27835pt x 502.43832pt.
-<figures_pdftex/genx_fits.pdf, id=2846, page=2, 176.6091pt x 257.72221pt>
+<figures_pdftex/genx_fits.pdf, id=2845, page=2, 176.6091pt x 257.72221pt>
 File: figures_pdftex/genx_fits.pdf Graphic file (type pdf)
 <use figures_pdftex/genx_fits.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/genx_fits.pdf , page2 used on input lin
 e 67.
 (pdftex.def)             Requested size: 344.27835pt x 502.43832pt.
 )
-
-LaTeX Warning: Float too large for page by 3.79417pt on input line 33.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 26--35
 
  []
@@ -5674,21 +5659,21 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./figures_pdftex/g
 enx_fits.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
 >] (./figures_pdftex/GISAXS_summaries.pdf_tex
-<figures_pdftex/GISAXS_summaries.pdf, id=2861, page=1, 384.19977pt x 135.20647p
+<figures_pdftex/GISAXS_summaries.pdf, id=2860, page=1, 384.19977pt x 135.20647p
 t>
 File: figures_pdftex/GISAXS_summaries.pdf Graphic file (type pdf)
 <use figures_pdftex/GISAXS_summaries.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/GISAXS_summaries.pdf , page1 used on in
 put line 69.
 (pdftex.def)             Requested size: 344.27835pt x 121.16066pt.
-<figures_pdftex/GISAXS_summaries.pdf, id=2862, page=2, 384.19977pt x 135.20647p
+<figures_pdftex/GISAXS_summaries.pdf, id=2861, page=2, 384.19977pt x 135.20647p
 t>
 File: figures_pdftex/GISAXS_summaries.pdf Graphic file (type pdf)
 <use figures_pdftex/GISAXS_summaries.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/GISAXS_summaries.pdf , page2 used on in
 put line 76.
 (pdftex.def)             Requested size: 344.27835pt x 121.16066pt.
-<figures_pdftex/GISAXS_summaries.pdf, id=2863, page=3, 384.19977pt x 135.20647p
+<figures_pdftex/GISAXS_summaries.pdf, id=2862, page=3, 384.19977pt x 135.20647p
 t>
 File: figures_pdftex/GISAXS_summaries.pdf Graphic file (type pdf)
 <use figures_pdftex/GISAXS_summaries.pdf, page 3>
@@ -5721,7 +5706,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 43.
 
 
-Underfull \vbox (badness 6658) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `english' language definitions on input line 49.
  [94
@@ -5751,25 +5736,25 @@ Package cleveref Info: loaded `english' language definitions on input line 105.
 \openout2 = `sections/Outlook.aux'.
 
  (./sections/Outlook.tex (./figures_pdftex/outlook.pdf_tex
-<figures_pdftex/outlook.pdf, id=2887, page=1, 458.54749pt x 288.6258pt>
+<figures_pdftex/outlook.pdf, id=2886, page=1, 458.54749pt x 288.6258pt>
 File: figures_pdftex/outlook.pdf Graphic file (type pdf)
 <use figures_pdftex/outlook.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/outlook.pdf , page1 used on input line 
 56.
 (pdftex.def)             Requested size: 344.27835pt x 216.70662pt.
-<figures_pdftex/outlook.pdf, id=2888, page=2, 458.54749pt x 288.6258pt>
+<figures_pdftex/outlook.pdf, id=2887, page=2, 458.54749pt x 288.6258pt>
 File: figures_pdftex/outlook.pdf Graphic file (type pdf)
 <use figures_pdftex/outlook.pdf, page 2>
 Package pdftex.def Info: figures_pdftex/outlook.pdf , page2 used on input line 
 64.
 (pdftex.def)             Requested size: 344.27835pt x 216.70662pt.
-<figures_pdftex/outlook.pdf, id=2889, page=3, 458.54749pt x 288.6258pt>
+<figures_pdftex/outlook.pdf, id=2888, page=3, 458.54749pt x 288.6258pt>
 File: figures_pdftex/outlook.pdf Graphic file (type pdf)
 <use figures_pdftex/outlook.pdf, page 3>
 Package pdftex.def Info: figures_pdftex/outlook.pdf , page3 used on input line 
 67.
 (pdftex.def)             Requested size: 344.27835pt x 216.70662pt.
-<figures_pdftex/outlook.pdf, id=2890, page=4, 458.54749pt x 288.6258pt>
+<figures_pdftex/outlook.pdf, id=2889, page=4, 458.54749pt x 288.6258pt>
 File: figures_pdftex/outlook.pdf Graphic file (type pdf)
 <use figures_pdftex/outlook.pdf, page 4>
 Package pdftex.def Info: figures_pdftex/outlook.pdf , page4 used on input line 
@@ -5880,7 +5865,7 @@ Package cleveref Info: loaded `english' language definitions on input line 117.
 \openout2 = `sections/publications.aux'.
 
  (./sections/publications.tex
-<figures_pdftex/emptypage.pdf, id=3125, 469.47046pt x 682.86612pt>
+<figures_pdftex/emptypage.pdf, id=3124, 469.47046pt x 682.86612pt>
 File: figures_pdftex/emptypage.pdf Graphic file (type pdf)
 <use figures_pdftex/emptypage.pdf>
 Package pdftex.def Info: figures_pdftex/emptypage.pdf  used on input line 3.
@@ -5889,7 +5874,7 @@ File: figures_pdftex/emptypage.pdf Graphic file (type pdf)
 <use figures_pdftex/emptypage.pdf>
 Package pdftex.def Info: figures_pdftex/emptypage.pdf  used on input line 3.
 (pdftex.def)             Requested size: 469.4693pt x 682.86444pt.
-<figures_pdftex/emptypage.pdf, id=3128, page=1, 469.47046pt x 682.86612pt>
+<figures_pdftex/emptypage.pdf, id=3127, page=1, 469.47046pt x 682.86612pt>
 File: figures_pdftex/emptypage.pdf Graphic file (type pdf)
 <use figures_pdftex/emptypage.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/emptypage.pdf , page1 used on input lin
@@ -5923,7 +5908,7 @@ e 3.
 \openout2 = `sections/Papers.aux'.
 
  (./sections/Papers.tex
-<figures_pdftex/paper1intro.pdf, id=3139, 469.47046pt x 682.86612pt>
+<figures_pdftex/paper1intro.pdf, id=3138, 469.47046pt x 682.86612pt>
 File: figures_pdftex/paper1intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper1intro.pdf>
 Package pdftex.def Info: figures_pdftex/paper1intro.pdf  used on input line 1.
@@ -5932,7 +5917,7 @@ File: figures_pdftex/paper1intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper1intro.pdf>
 Package pdftex.def Info: figures_pdftex/paper1intro.pdf  used on input line 1.
 (pdftex.def)             Requested size: 469.4693pt x 682.86444pt.
-<figures_pdftex/paper1intro.pdf, id=3142, page=1, 469.47046pt x 682.86612pt>
+<figures_pdftex/paper1intro.pdf, id=3141, page=1, 469.47046pt x 682.86612pt>
 File: figures_pdftex/paper1intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper1intro.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/paper1intro.pdf , page1 used on input l
@@ -5998,7 +5983,7 @@ e 2.
 (pdftex.def)             Requested size: 469.93492pt x 683.54172pt.
 
 [118]
-<article1.pdf, id=3156, 614.295pt x 794.97pt>
+<article1.pdf, id=3155, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf>
 Package pdftex.def Info: article1.pdf  used on input line 3.
@@ -6007,7 +5992,7 @@ File: article1.pdf Graphic file (type pdf)
 <use article1.pdf>
 Package pdftex.def Info: article1.pdf  used on input line 3.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<article1.pdf, id=3159, page=1, 614.295pt x 794.97pt>
+<article1.pdf, id=3158, page=1, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 1>
 Package pdftex.def Info: article1.pdf , page1 used on input line 3.
@@ -6029,7 +6014,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [119 <./article1.pdf>]
-<article1.pdf, id=3218, page=2, 614.295pt x 794.97pt>
+<article1.pdf, id=3217, page=2, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 2>
 Package pdftex.def Info: article1.pdf , page2 used on input line 3.
@@ -6043,7 +6028,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page2 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [120 <./article1.pdf>]
-<article1.pdf, id=3245, page=3, 614.295pt x 794.97pt>
+<article1.pdf, id=3244, page=3, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 3>
 Package pdftex.def Info: article1.pdf , page3 used on input line 3.
@@ -6057,7 +6042,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page3 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [121 <./article1.pdf>]
-<article1.pdf, id=3256, page=4, 614.295pt x 794.97pt>
+<article1.pdf, id=3255, page=4, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 4>
 Package pdftex.def Info: article1.pdf , page4 used on input line 3.
@@ -6072,7 +6057,7 @@ Package pdftex.def Info: article1.pdf , page4 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
 
 [122 <./article1.pdf>]
-<article1.pdf, id=3261, page=5, 614.295pt x 794.97pt>
+<article1.pdf, id=3260, page=5, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 5>
 Package pdftex.def Info: article1.pdf , page5 used on input line 3.
@@ -6086,7 +6071,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page5 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [123 <./article1.pdf>]
-<article1.pdf, id=3272, page=6, 614.295pt x 794.97pt>
+<article1.pdf, id=3271, page=6, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 6>
 Package pdftex.def Info: article1.pdf , page6 used on input line 3.
@@ -6100,7 +6085,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page6 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [124 <./article1.pdf>]
-<article1.pdf, id=3287, page=7, 614.295pt x 794.97pt>
+<article1.pdf, id=3286, page=7, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 7>
 Package pdftex.def Info: article1.pdf , page7 used on input line 3.
@@ -6114,7 +6099,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page7 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [125 <./article1.pdf>]
-<article1.pdf, id=3292, page=8, 614.295pt x 794.97pt>
+<article1.pdf, id=3291, page=8, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 8>
 Package pdftex.def Info: article1.pdf , page8 used on input line 3.
@@ -6128,7 +6113,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page8 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [126 <./article1.pdf>]
-<article1.pdf, id=3301, page=9, 614.295pt x 794.97pt>
+<article1.pdf, id=3300, page=9, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 9>
 Package pdftex.def Info: article1.pdf , page9 used on input line 3.
@@ -6142,7 +6127,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page9 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [127 <./article1.pdf>]
-<article1.pdf, id=3310, page=10, 614.295pt x 794.97pt>
+<article1.pdf, id=3309, page=10, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 10>
 Package pdftex.def Info: article1.pdf , page10 used on input line 3.
@@ -6156,7 +6141,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page10 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [128 <./article1.pdf>]
-<article1.pdf, id=3315, page=11, 614.295pt x 794.97pt>
+<article1.pdf, id=3314, page=11, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 11>
 Package pdftex.def Info: article1.pdf , page11 used on input line 3.
@@ -6170,7 +6155,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page11 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [129 <./article1.pdf>]
-<article1.pdf, id=3326, page=12, 614.295pt x 794.97pt>
+<article1.pdf, id=3325, page=12, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 12>
 Package pdftex.def Info: article1.pdf , page12 used on input line 3.
@@ -6184,7 +6169,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page12 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [130 <./article1.pdf>]
-<article1.pdf, id=3336, page=13, 614.295pt x 794.97pt>
+<article1.pdf, id=3335, page=13, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 13>
 Package pdftex.def Info: article1.pdf , page13 used on input line 3.
@@ -6198,7 +6183,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page13 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [131 <./article1.pdf>]
-<article1.pdf, id=3345, page=14, 614.295pt x 794.97pt>
+<article1.pdf, id=3344, page=14, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 14>
 Package pdftex.def Info: article1.pdf , page14 used on input line 3.
@@ -6213,7 +6198,7 @@ Package pdftex.def Info: article1.pdf , page14 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
 
 [132 <./article1.pdf>]
-<article1.pdf, id=3350, page=15, 614.295pt x 794.97pt>
+<article1.pdf, id=3349, page=15, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 15>
 Package pdftex.def Info: article1.pdf , page15 used on input line 3.
@@ -6227,7 +6212,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page15 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [133 <./article1.pdf>]
-<article1.pdf, id=3361, page=16, 614.295pt x 794.97pt>
+<article1.pdf, id=3360, page=16, 614.295pt x 794.97pt>
 File: article1.pdf Graphic file (type pdf)
 <use article1.pdf, page 16>
 Package pdftex.def Info: article1.pdf , page16 used on input line 3.
@@ -6241,7 +6226,7 @@ File: article1.pdf Graphic file (type pdf)
 Package pdftex.def Info: article1.pdf , page16 used on input line 3.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
  [134 <./article1.pdf>]
-<figures_pdftex/paper2intro.pdf, id=3367, 469.47046pt x 682.86612pt>
+<figures_pdftex/paper2intro.pdf, id=3366, 469.47046pt x 682.86612pt>
 File: figures_pdftex/paper2intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper2intro.pdf>
 Package pdftex.def Info: figures_pdftex/paper2intro.pdf  used on input line 4.
@@ -6250,7 +6235,7 @@ File: figures_pdftex/paper2intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper2intro.pdf>
 Package pdftex.def Info: figures_pdftex/paper2intro.pdf  used on input line 4.
 (pdftex.def)             Requested size: 469.4693pt x 682.86444pt.
-<figures_pdftex/paper2intro.pdf, id=3370, page=1, 469.47046pt x 682.86612pt>
+<figures_pdftex/paper2intro.pdf, id=3369, page=1, 469.47046pt x 682.86612pt>
 File: figures_pdftex/paper2intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper2intro.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/paper2intro.pdf , page1 used on input l
@@ -6314,7 +6299,7 @@ e 5.
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3384, 614.295pt x 794.97pt>
+<article2.pdf, id=3383, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf>
 Package pdftex.def Info: article2.pdf  used on input line 6.
@@ -6335,7 +6320,7 @@ DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3387, page=1, 614.295pt x 794.97pt>
+<article2.pdf, id=3386, page=1, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf, page 1>
 Package pdftex.def Info: article2.pdf , page1 used on input line 6.
@@ -6360,7 +6345,7 @@ Package pdftex.def Info: article2.pdf , page1 used on input line 6.
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3411, page=2, 614.295pt x 794.97pt>
+<article2.pdf, id=3410, page=2, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf, page 2>
 Package pdftex.def Info: article2.pdf , page2 used on input line 6.
@@ -6377,7 +6362,7 @@ Package pdftex.def Info: article2.pdf , page2 used on input line 6.
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3429, page=3, 614.295pt x 794.97pt>
+<article2.pdf, id=3428, page=3, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf, page 3>
 Package pdftex.def Info: article2.pdf , page3 used on input line 6.
@@ -6394,7 +6379,7 @@ Package pdftex.def Info: article2.pdf , page3 used on input line 6.
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3435, page=4, 614.295pt x 794.97pt>
+<article2.pdf, id=3434, page=4, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf, page 4>
 Package pdftex.def Info: article2.pdf , page4 used on input line 6.
@@ -6411,7 +6396,7 @@ Package pdftex.def Info: article2.pdf , page4 used on input line 6.
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3441, page=5, 614.295pt x 794.97pt>
+<article2.pdf, id=3440, page=5, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf, page 5>
 Package pdftex.def Info: article2.pdf , page5 used on input line 6.
@@ -6428,7 +6413,7 @@ Package pdftex.def Info: article2.pdf , page5 used on input line 6.
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3450, page=6, 614.295pt x 794.97pt>
+<article2.pdf, id=3449, page=6, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf, page 6>
 Package pdftex.def Info: article2.pdf , page6 used on input line 6.
@@ -6445,7 +6430,7 @@ Package pdftex.def Info: article2.pdf , page6 used on input line 6.
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3458, page=7, 614.295pt x 794.97pt>
+<article2.pdf, id=3457, page=7, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf, page 7>
 Package pdftex.def Info: article2.pdf , page7 used on input line 6.
@@ -6462,7 +6447,7 @@ Package pdftex.def Info: article2.pdf , page7 used on input line 6.
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3472, page=8, 614.295pt x 794.97pt>
+<article2.pdf, id=3471, page=8, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf, page 8>
 Package pdftex.def Info: article2.pdf , page8 used on input line 6.
@@ -6479,7 +6464,7 @@ Package pdftex.def Info: article2.pdf , page8 used on input line 6.
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3486, page=9, 614.295pt x 794.97pt>
+<article2.pdf, id=3485, page=9, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf, page 9>
 Package pdftex.def Info: article2.pdf , page9 used on input line 6.
@@ -6496,7 +6481,7 @@ Package pdftex.def Info: article2.pdf , page9 used on input line 6.
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./article2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<article2.pdf, id=3498, page=10, 614.295pt x 794.97pt>
+<article2.pdf, id=3497, page=10, 614.295pt x 794.97pt>
 File: article2.pdf Graphic file (type pdf)
 <use article2.pdf, page 10>
 Package pdftex.def Info: article2.pdf , page10 used on input line 6.
@@ -6510,7 +6495,7 @@ File: article2.pdf Graphic file (type pdf)
 Package pdftex.def Info: article2.pdf , page10 used on input line 6.
 (pdftex.def)             Requested size: 614.90276pt x 795.75652pt.
 [146 <./article2.pdf>]
-<figures_pdftex/paper3intro.pdf, id=3504, 469.47046pt x 682.86612pt>
+<figures_pdftex/paper3intro.pdf, id=3503, 469.47046pt x 682.86612pt>
 File: figures_pdftex/paper3intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper3intro.pdf>
 Package pdftex.def Info: figures_pdftex/paper3intro.pdf  used on input line 7.
@@ -6519,7 +6504,7 @@ File: figures_pdftex/paper3intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper3intro.pdf>
 Package pdftex.def Info: figures_pdftex/paper3intro.pdf  used on input line 7.
 (pdftex.def)             Requested size: 469.4693pt x 682.86444pt.
-<figures_pdftex/paper3intro.pdf, id=3507, page=1, 469.47046pt x 682.86612pt>
+<figures_pdftex/paper3intro.pdf, id=3506, page=1, 469.47046pt x 682.86612pt>
 File: figures_pdftex/paper3intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper3intro.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/paper3intro.pdf , page1 used on input l
@@ -6580,7 +6565,7 @@ Package pdftex.def Info: figures_pdftex/emptypage.pdf , page1 used on input lin
 e 8.
 (pdftex.def)             Requested size: 469.93492pt x 683.54172pt.
  [148]
-<figures_pdftex/paper4intro.pdf, id=3521, 469.47046pt x 682.86612pt>
+<figures_pdftex/paper4intro.pdf, id=3520, 469.47046pt x 682.86612pt>
 File: figures_pdftex/paper4intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper4intro.pdf>
 Package pdftex.def Info: figures_pdftex/paper4intro.pdf  used on input line 10.
@@ -6591,7 +6576,7 @@ File: figures_pdftex/paper4intro.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures_pdftex/paper4intro.pdf  used on input line 10.
 
 (pdftex.def)             Requested size: 469.4693pt x 682.86444pt.
-<figures_pdftex/paper4intro.pdf, id=3524, page=1, 469.47046pt x 682.86612pt>
+<figures_pdftex/paper4intro.pdf, id=3523, page=1, 469.47046pt x 682.86612pt>
 File: figures_pdftex/paper4intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper4intro.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/paper4intro.pdf , page1 used on input l
@@ -6652,7 +6637,7 @@ Package pdftex.def Info: figures_pdftex/emptypage.pdf , page1 used on input lin
 e 12.
 (pdftex.def)             Requested size: 469.93492pt x 683.54172pt.
  [150]
-<figures_pdftex/paper5intro.pdf, id=3537, 469.47046pt x 682.86612pt>
+<figures_pdftex/paper5intro.pdf, id=3536, 469.47046pt x 682.86612pt>
 File: figures_pdftex/paper5intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper5intro.pdf>
 Package pdftex.def Info: figures_pdftex/paper5intro.pdf  used on input line 13.
@@ -6663,7 +6648,7 @@ File: figures_pdftex/paper5intro.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures_pdftex/paper5intro.pdf  used on input line 13.
 
 (pdftex.def)             Requested size: 469.4693pt x 682.86444pt.
-<figures_pdftex/paper5intro.pdf, id=3540, page=1, 469.47046pt x 682.86612pt>
+<figures_pdftex/paper5intro.pdf, id=3539, page=1, 469.47046pt x 682.86612pt>
 File: figures_pdftex/paper5intro.pdf Graphic file (type pdf)
 <use figures_pdftex/paper5intro.pdf, page 1>
 Package pdftex.def Info: figures_pdftex/paper5intro.pdf , page1 used on input l
@@ -6779,7 +6764,7 @@ pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./FULLTEXT01.pdf):
 
 pdfTeX warning: /app/texlive/bin/x86_64-linux/pdflatex (file ./FULLTEXT01.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<FULLTEXT01.pdf, id=3562, page=134, 474.21065pt x 682.4439pt>
+<FULLTEXT01.pdf, id=3561, page=134, 474.21065pt x 682.4439pt>
 File: FULLTEXT01.pdf Graphic file (type pdf)
 <use FULLTEXT01.pdf, page 134>
 Package pdftex.def Info: FULLTEXT01.pdf , page134 used on input line 119.
@@ -6831,55 +6816,54 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56620 strings out of 476025
- 1152093 string characters out of 5791510
- 2163088 words of memory out of 5000000
- 74634 multiletter control sequences out of 15000+600000
- 794920 words of font info for 487 fonts, out of 8000000 for 9000
+ 56634 strings out of 476025
+ 1152109 string characters out of 5791510
+ 2163082 words of memory out of 5000000
+ 74621 multiletter control sequences out of 15000+600000
+ 785067 words of font info for 496 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,19n,117p,4891b,3100s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></app/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></app/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy6.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
-.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></app/te
-xlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></app/texlive/texmf-dist/fonts
-/type1/public/lm/lmss10.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmss
-8.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></app/texlive
-/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></app/texlive/texmf-dist/fonts/ty
-pe1/public/lm/lmsso8.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/m
-lmbsy10.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmbx10.pfb></
-app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmbx7.pfb></app/texlive/tex
-mf-dist/fonts/type1/public/mlmodern/mlmbx8.pfb></app/texlive/texmf-dist/fonts/t
-ype1/public/mlmodern/mlmcsc10.pfb></app/texlive/texmf-dist/fonts/type1/public/m
-lmodern/mlmex10.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmmi1
-0.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmmi5.pfb></app/tex
-live/texmf-dist/fonts/type1/public/mlmodern/mlmmi7.pfb></app/texlive/texmf-dist
-/fonts/type1/public/mlmodern/mlmr10.pfb></app/texlive/texmf-dist/fonts/type1/pu
-blic/mlmodern/mlmr5.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/ml
-mr6.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmr7.pfb></app/te
-xlive/texmf-dist/fonts/type1/public/mlmodern/mlmr8.pfb></app/texlive/texmf-dist
-/fonts/type1/public/mlmodern/mlmr9.pfb></app/texlive/texmf-dist/fonts/type1/pub
-lic/mlmodern/mlmri10.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/m
-lmss10.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmss8.pfb></ap
-p/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmssbx10.pfb></app/texlive/te
-xmf-dist/fonts/type1/public/mlmodern/mlmsy10.pfb></app/texlive/texmf-dist/fonts
-/type1/public/mlmodern/mlmsy5.pfb></app/texlive/texmf-dist/fonts/type1/public/m
-lmodern/mlmsy7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb></app/texlive/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></app
-/texlive/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></app/texlive/texmf-di
-st/fonts/type1/public/tex-gyre/qtmri.pfb></app/texlive/texmf-dist/fonts/type1/p
-ublic/txfonts/rtxmi.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/rtx
-r.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></app/t
-exlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></app/texlive/texmf-dist
-/fonts/type1/public/newtx/txsys.pfb></app/texlive/texmf-dist/fonts/type1/urw/he
-lvetic/uhvb8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-</app/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (170 pages, 19184764 bytes).
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></app/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></app/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi9.pfb></app/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.p
+fb></app/texlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></app/texlive/texmf
+-dist/fonts/type1/public/lm/lmss8.pfb></app/texlive/texmf-dist/fonts/type1/publ
+ic/lm/lmss9.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></a
+pp/texlive/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></app/texlive/texmf-dist
+/fonts/type1/public/lm/lmsso9.pfb></app/texlive/texmf-dist/fonts/type1/public/m
+lmodern/mlmbsy10.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmbx
+10.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmbx7.pfb></app/te
+xlive/texmf-dist/fonts/type1/public/mlmodern/mlmbx8.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/mlmodern/mlmcsc10.pfb></app/texlive/texmf-dist/fonts/type1
+/public/mlmodern/mlmex10.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmode
+rn/mlmmi10.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmmi5.pfb>
+</app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmmi7.pfb></app/texlive/t
+exmf-dist/fonts/type1/public/mlmodern/mlmr10.pfb></app/texlive/texmf-dist/fonts
+/type1/public/mlmodern/mlmr5.pfb></app/texlive/texmf-dist/fonts/type1/public/ml
+modern/mlmr6.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmr7.pfb
+></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmr8.pfb></app/texlive/t
+exmf-dist/fonts/type1/public/mlmodern/mlmr9.pfb></app/texlive/texmf-dist/fonts/
+type1/public/mlmodern/mlmri10.pfb></app/texlive/texmf-dist/fonts/type1/public/m
+lmodern/mlmss10.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmss8
+.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmodern/mlmss9.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/mlmodern/mlmssbx10.pfb></app/texlive/texmf-di
+st/fonts/type1/public/mlmodern/mlmsy10.pfb></app/texlive/texmf-dist/fonts/type1
+/public/mlmodern/mlmsy5.pfb></app/texlive/texmf-dist/fonts/type1/public/mlmoder
+n/mlmsy7.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb></app/texlive/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></app/texli
+ve/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></app/texlive/texmf-dist/fon
+ts/type1/public/tex-gyre/qtmri.pfb></app/texlive/texmf-dist/fonts/type1/public/
+txfonts/rtxmi.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb>
+</app/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></app/texlive/tex
+mf-dist/fonts/type1/public/newtx/txsys.pfb></app/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvb8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr
+8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (170 pages, 19189101 bytes).
 PDF statistics:
- 3892 PDF objects out of 4296 (max. 8388607)
- 2882 compressed objects within 29 object streams
+ 3886 PDF objects out of 4296 (max. 8388607)
+ 2878 compressed objects within 29 object streams
  596 named destinations out of 1000 (max. 500000)
- 135149 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 134637 words of extra memory for PDF output out of 154059 (max. 10000000)
 
