@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 - Flatpak) (preloaded format=pdflatex 2023.4.15)  15 MAY 2023 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 - Flatpak) (preloaded format=pdflatex 2023.4.15)  15 MAY 2023 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6826,11 +6826,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56641 strings out of 476025
- 1152397 string characters out of 5791510
+ 56639 strings out of 476025
+ 1152369 string characters out of 5791510
  2163082 words of memory out of 5000000
  74627 multiletter control sequences out of 15000+600000
- 785067 words of font info for 496 fonts, out of 8000000 for 9000
+ 784966 words of font info for 495 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,19n,117p,4891b,3100s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></app/texli
@@ -6870,7 +6870,7 @@ txfonts/rtxmi.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb>
 mf-dist/fonts/type1/public/newtx/txsys.pfb></app/texlive/texmf-dist/fonts/type1
 /urw/helvetic/uhvb8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr
 8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (170 pages, 18929664 bytes).
+Output written on main.pdf (170 pages, 18929665 bytes).
 PDF statistics:
  3889 PDF objects out of 4296 (max. 8388607)
  2880 compressed objects within 29 object streams
