@@ -45,7 +45,7 @@
 \contentsline {section}{\numberline {4.5}Scattering at grazing incidence}{56}{section.4.5}%
 \contentsline {chapter}{\chapternumberline {5}Multilayer depositions}{61}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Magnetron sputter deposition}{61}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Ion Assistance}{62}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Ion assistance}{62}{section.5.2}%
 \contentsline {section}{\numberline {5.3}$^{11}$B$_4$C co-deposition}{64}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Growing high-performance neutron multilayers}{65}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Reducing interface width}{65}{subsection.5.4.1}%

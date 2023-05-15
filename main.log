@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 - Flatpak) (preloaded format=pdflatex 2023.4.15)  15 MAY 2023 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 - Flatpak) (preloaded format=pdflatex 2023.4.15)  15 MAY 2023 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6820,7 +6820,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A9BD0E86FECEE4658341A20333AC74FE;10815.
+(rerunfilecheck)             Checksum: F8AFE30ED53A7D34C858D6E10240DF89;10815.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -6870,7 +6870,7 @@ txfonts/rtxmi.pfb></app/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb>
 mf-dist/fonts/type1/public/newtx/txsys.pfb></app/texlive/texmf-dist/fonts/type1
 /urw/helvetic/uhvb8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr
 8a.pfb></app/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (170 pages, 18929696 bytes).
+Output written on main.pdf (170 pages, 18929664 bytes).
 PDF statistics:
  3889 PDF objects out of 4296 (max. 8388607)
  2880 compressed objects within 29 object streams
