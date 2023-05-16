@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'splitbias.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{753.61933136bp}%
+    \setlength{\unitlength}{867.1034317bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,12 +50,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.33827303)%
+  \begin{picture}(1,0.30265028)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{splitbias.pdf}}%
-    \put(0.52566087,0.00597119){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b) Final layer growth with ion assistance\end{tabular}}}}%
-    \put(-0.00070781,0.00619355){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a) Initial buffer layer growth at grounded bias\end{tabular}}}}%
+    \put(0.51848346,0.00518969){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b) Final layer growth at higher bias\end{tabular}}}}%
+    \put(0.06100446,0.00538295){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a) Buffer layer growth at grounded bias\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{splitbias.pdf}}%
+    \put(0.03955113,0.1548072){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-0 V\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{splitbias.pdf}}%
+    \put(0.95028234,0.15334057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0 V\end{tabular}}}}%
+    \put(0.95028234,0.22945604){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-30 V\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{splitbias.pdf}}%
   \end{picture}%
 \endgroup%

@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'interfacewidthgradient.pdf' (pdf, eps, ps)
 %%
@@ -54,11 +54,12 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{interfacewidthgradient.pdf}}%
-    \put(0.40021693,0.08587515){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}%
+    \put(0.40021693,0.08878011){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{interfacewidthgradient.pdf}}%
-    \put(0.83232963,0.08587515){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}%
+    \put(0.83232963,0.08878011){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{interfacewidthgradient.pdf}}%
     \put(0.94044558,0.1038472){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}SLD\end{tabular}}}}%
     \put(0.88443989,0.00589802){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}z\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{interfacewidthgradient.pdf}}%
   \end{picture}%
 \endgroup%

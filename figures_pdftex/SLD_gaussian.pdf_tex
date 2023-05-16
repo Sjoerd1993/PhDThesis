@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2.2 (732a01da63, 2022-12-09), www.inkscape.org
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'SLD_gaussian.pdf' (pdf, eps, ps)
 %%
@@ -54,11 +54,11 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{SLD_gaussian.pdf}}%
-    \put(0.7027975,0.15197934){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}%
     \put(0.87336237,0.1691161){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{SLD_gaussian.pdf}}%
-    \put(0.79731204,-0.00212361){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}z \end{tabular}}}}%
-    \put(0.94500517,0.18478414){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}SLD/z\end{tabular}}}}%
+    \put(0.79731204,-0.00207312){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}z \end{tabular}}}}%
+    \put(0.94500517,0.18478414){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Delta$SLD\end{tabular}}}}%
+    \put(0.69996162,0.15933872){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{SLD_gaussian.pdf}}%
   \end{picture}%
 \endgroup%

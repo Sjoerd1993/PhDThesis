@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="SLD_gaussian.svg"
    id="svg8"
    version="1.1"
@@ -63,6 +63,44 @@
        width="9.260417"
        y="15.874991"
        x="-117.73959" />
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="4"
+       markerHeight="4.8000002"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker26523-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="4"
+       markerHeight="4.6242776"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path26521-5" />
+    </marker>
   </defs>
   <sodipodi:namedview
      fit-margin-bottom="0"
@@ -73,17 +111,17 @@
      width="110mm"
      units="in"
      inkscape:window-maximized="0"
-     inkscape:window-y="226"
-     inkscape:window-x="405"
+     inkscape:window-y="32"
+     inkscape:window-x="35"
      inkscape:window-height="1230"
      inkscape:window-width="1350"
      showgrid="true"
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="174.5"
-     inkscape:cx="358"
-     inkscape:zoom="0.99999999"
+     inkscape:cy="53.386563"
+     inkscape:cx="377.24147"
+     inkscape:zoom="1.4142135"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -2446,14 +2484,14 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179164;stroke-miterlimit:4;stroke-dasharray:none"
        x="-123.10479"
-       y="-9.7154608"
+       y="-10.773793"
        id="text5905-2"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan5903-7"
          x="-123.10479"
-         y="-9.7154608"
+         y="-10.773793"
          style="font-size:5.64444px;stroke-width:0.179164;stroke-miterlimit:4;stroke-dasharray:none">$\sigma$</tspan></text>
     <text
        xml:space="preserve"
@@ -2691,8 +2729,8 @@
        id="text11540"
        xml:space="preserve"><tspan
          x="-117.74023"
-         y="25.530465"
-         id="tspan64184">z </tspan></text>
+         y="25.504482"
+         id="tspan1087">z </tspan></text>
     <text
        id="text11548"
        y="-16.502527"
@@ -2720,6 +2758,10 @@
        style="fill:#000000;stroke:#001926;stroke-width:0.5;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleStart);marker-end:url(#marker26523);paint-order:stroke markers fill"
        d="m -88.635371,-18.030721 v 9.8870504"
        id="path26291" />
+    <path
+       style="fill:#000000;stroke:#001926;stroke-width:0.5;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleStart-3);marker-end:url(#marker26523-7);paint-order:stroke markers fill"
+       d="m -126.69371,-17.279715 v 9.3825254"
+       id="path26291-3" />
     <path
        style="fill:none;stroke:#bf1926;stroke-width:0.8;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
        d="m -105.20956,-40.630214 v 8.20208 c 0,7.421957 7.959206,10.177927 15.51586,12.319789 6.944971,1.968487 13.549921,3.418263 13.323718,7.494753 -0.172164,7.1206255 -28.461418,2.6464955 -29.104158,25.958377 -0.065,2.35781 0,3.96875 0,7.9375"
