@@ -58,26 +58,30 @@ We can simplify this for the case where the potential is more localized and $\ab
 	k \abs{\vb{r} - \vb{r}'} = kr - k \vb{r}\cdot\vb{r}' = kr - \vb{k}_f \cdot \vb{r}'.
 \end{equation}
 Furthermore, we can fill in $\Psi_0$, which can be written as a planar wave \cite{born_detailed}
-\begin{equation}\label{planar_wave},
+\begin{equation}\label{planar_wave}
 	\Psi_0(\vb{r})  = e^{i\vb{k}\cdot \vb{r}}.
 \end{equation}
 From which we can rewrite equation \ref{bornscatteredwave} as
 \begin{equation}\label{born_equation_almost}
 	\Psi(\vb{r}) = e^{i\vb{k}\cdot \vb{r}} -  \frac{m}{2 \pi \hbar^2} \frac{e^{ikr}}{r} \int e^{-i\vb{k}_f\cdot \vb{r'}}V(\vb{r}')\Psi(\vb{r}')\dd^3 \vb{r}'.
 \end{equation}
-This can be solved using a so-called Born series \cite{born_detailed}, where we can find the first-order Born Approximation by putting the solution $\Psi$ of a planar wave from equation \ref{planar_wave} in to equation \ref{born_equation_almost}:
+This can be solved using a so-called Born series \cite{born_detailed}, where we can find the first-order Born Approximation by putting the solution $\Psi_0$ for a planar wave from equation \ref{planar_wave} in to $\Psi$ in equation \ref{born_equation_almost}:
 \begin{equation}\label{born_equation_first_order}
-	\Psi_1(\vb{r}) = e^{i\vb{k}\cdot \vb{r}} -  \frac{m}{2 \pi \hbar^2} \frac{e^{ikr}}{r} \int e^{-i\vb{k}_f\cdot \vb{r'}}V(\vb{r}')e^{i\vb{k}\cdot\vb{r}-\vb{k}_f\cdot \vb{r}}\dd^3 \vb{r}'.
+	\Psi_1(\vb{r}) = e^{i\vb{k}\cdot \vb{r}} -  \frac{m}{2 \pi \hbar^2} \frac{e^{ikr}}{r} \int e^{-i\vb{k}_f\cdot \vb{r'}}V(\vb{r}')e^{i\vb{k}\cdot\vb{r}'}\dd^3 \vb{r}'.
 \end{equation}
 This equation corresponds to the first-order Born approximation. The second order can then be found by inserting this first order solution into equation \ref{bornscatteredwave}. By continuing this way, any order can be obtained, but for most cases only the first order approximation is actually used. The Born approximation is most useful in order to calculate the scattering amplitude, which can be defined using the asymptotic wave function \cite{Griffiths_QM}:
 \begin{equation}
-	\Psi(\vb{r}) = e^{i\vb{k}\cdot \vb{r}} + f(\theta,\phi) \frac{e^{ikr}}{r}.
+	\Psi(\vb{r}) = e^{i\vb{k}\cdot \vb{r}} + f(\theta) \frac{e^{ikr}}{r}.
 \end{equation}
-where $f(\theta,\phi)$ is  the total scattering amplitude. In the Born approximation, we can see using equation \ref{born_equation_first_order} that this equals:
+where $f(\theta)$ is  the total scattering amplitude. In the Born approximation, we can see using equation \ref{born_equation_first_order} that this equals
 \begin{equation}\label{scattering_amplitude}
-	 f(\theta,\phi) = -  \frac{m}{2 \pi \hbar^2} \int e^{-i\vb{k}_f\cdot \vb{r'}}V(\vb{r}')e^{i\vb{k}\cdot\vb{r}-\vb{k}_f\cdot \vb{r}}\dd^3 \vb{r}'
+	 f(\theta) = -  \frac{m}{2 \pi \hbar^2} \int V(\vb{r}')e^{i(\vb{k}- \vb{k_f})\cdot\vb{r}'}\dd^3 \vb{r}'.
 \end{equation}
-From which we can see how the integral in equation corresponds to the Fourier transform of the potential. The scattering amplitude determines the probability of scattering in a given direction $\theta$, and is therefore directly related to the differential scattering cross-section which is equal to the absolute square of the scattering amplitude \cite{Griffiths_QM}. A common use of the Born approximation is therefore also to obtain the form of the potential after finding the differential cross section experimentally \cite{born_detailed}.
+Where we can use the momentum transfer $\vb{q} = \vb{k}_f - \vb{k}$  to rewrite this to
+\begin{equation}\label{scattering_amplitudeq}
+f(\theta)  = -  \frac{m}{2 \pi \hbar^2} \int  V(\vb{r}') e^{-i\vb{q} \cdot \vb{r}'} \dd^3 \vb{r}'.
+\end{equation}
+From equation \ref{scattering_amplitudeq} we can clearly see how the the integral corresponds to the Fourier transform of the potential. The scattering amplitude determines the probability of scattering in a given direction $\theta$, and is therefore directly related to the differential scattering cross-section which is equal to the absolute square of the scattering amplitude \cite{Griffiths_QM}. A common use of the Born approximation is therefore also to obtain the form of the potential after finding the differential cross section experimentally \cite{born_detailed}.
 \subsection{The Distorted Wave Born Approximation}\label{DWBA_section}
 \begin{figure}[b]
 	\centering
